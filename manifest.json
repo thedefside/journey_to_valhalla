@@ -1,0 +1,26 @@
+{
+    "name": "journey_to_valhalla",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/thedefside/journey_to_valhalla",
+    "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
+    "dependencies": [
+        "DasSauerkraut-Terraheim-2.2.0",
+        "OdinPlus-Digitalroots_GoldBars-1.2.0",
+        "Zhaok-Forgotten_Biomes-0.0.12",
+        "MonsterLabZ-MonsterLabZ-1.7.0",
+        "GoldenJude-Blacksmiths_tools-2.0.1",
+        "AeehyehssReeper-ChaosArmor-6.0.5",
+        "Horem-DoOrDieMonsters-0.3.5",
+        "Huntardys-EpicValheimsAdditions-1.2.7",
+        "ValheimModding-Jotunn-2.3.7",
+        "GoldenJude-Judes_Equipment-1.2.1",
+        "neurodr0me-RRRCore-2.10.0",
+        "neurodr0me-RRRMonsters-2.2.1",
+        "neurodr0me-RRRNpcs-0.2.3",
+        "Fantu-SageRobes-1.0.0",
+        "ASharpPen-Custom_Raids-1.4.0",
+        "ASharpPen-Drop_That-2.1.0",
+        "ASharpPen-Spawn_That-0.11.3",
+        "Fantu-PopVillages-1.0.0"
+    ]
+}
