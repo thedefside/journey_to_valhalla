@@ -1,0 +1,12 @@
+{
+    "name": "BattleaxeFlametal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flametal:20:10:False",
+        "LoxPelt:2:1:False",
+        "WorldTreeFragment:5:3:False"
+    ]
+}

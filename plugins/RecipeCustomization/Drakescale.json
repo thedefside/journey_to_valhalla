@@ -1,0 +1,11 @@
+{
+    "name": "Drakescale",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Silver:1:0:False",
+        "PrimordialIce:2:0:False"
+    ]
+}

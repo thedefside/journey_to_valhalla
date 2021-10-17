@@ -1,0 +1,13 @@
+{
+    "name": "BowFrometal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FrometalBar_DoD:15:7:False",
+        "PrimordialIce:10:5:False",
+        "LoxPelt:2:1:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

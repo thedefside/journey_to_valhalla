@@ -1,0 +1,12 @@
+{
+    "name": "BattleaxeHeavymetal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:16:6:False",
+        "WorldTreeFragment:30:7:False",
+        "LinenThread:12:6:False"
+    ]
+}

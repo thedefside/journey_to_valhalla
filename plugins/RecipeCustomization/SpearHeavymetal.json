@@ -1,0 +1,12 @@
+{
+    "name": "SpearHeavymetal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:8:3:False",
+        "WorldTreeFragment:16:4:False",
+        "LinenThread:6:3:False"
+    ]
+}

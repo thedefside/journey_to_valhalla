@@ -1,0 +1,12 @@
+{
+    "name": "CursedEffigy",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "HeavymetalBar:20:0:False",
+        "AncientSeed:10:0:False",
+        "WorldTreeFragment:30:0:False"
+    ]
+}

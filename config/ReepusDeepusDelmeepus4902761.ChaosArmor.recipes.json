@@ -1,0 +1,267 @@
+[
+	{
+		"Item": "T1ChaosPlateArmor",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_armor_t1pchaosbody",
+		"Requirements": [
+			{
+				"Item": "SteelBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 15
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "SpiderChitin_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			}
+		]
+	},
+	{
+		"Item": "T1ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_helmet_t1pchaosplate",
+		"Requirements": [
+			{
+				"Item": "SteelBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "SpiderChitin_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			}
+		]
+	},
+	{
+		"Item": "T1ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_legs_t1pchaoslegs",
+		"Requirements": [
+			{
+				"Item": "SteelBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "SpiderChitin_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateArmor",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_armor_t2pchaosbody",
+		"Requirements": [
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T1ChaosPlateArmor",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_helmet_t2pchaosplate",
+		"Requirements": [
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T1ChaosPlateHelm",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_legs_t2pchaoslegs",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T1ChaosPlateLegs",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateArmorBody",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_armor_pchaosbodytwo",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T2ChaosPlateArmor",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_helmet_pchaosplate",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T2ChaosPlateHelm",
+				"Amount": 1,
+				"AmountPerLevel": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_legs_pchaoslegs",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 20,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "VoidlingCore_DoD",
+				"Amount": 5,
+				"AmountPerLevel": 1
+			},
+			{
+				"Item": "T2ChaosPlateLegs",
+				"Amount": 1
+			}
+		]
+	}
+]

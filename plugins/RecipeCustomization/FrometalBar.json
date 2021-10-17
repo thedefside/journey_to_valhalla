@@ -1,0 +1,11 @@
+{
+    "name": "FrometalBar",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Silver:2:0:False",
+        "Drakescale:1:0:False"
+    ]
+}

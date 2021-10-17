@@ -1,0 +1,187 @@
+{
+   "sOriginalPrefabName":"TreeSpider",
+   "sNewPrefabName":"SmallDarkSpider",
+   "Category_Appearance":{
+      "vScale":{
+         "fX":0.5,
+         "fY":0.5,
+         "fZ":0.5
+      },
+      "cTintColor":null,
+      "cTintItems":null,
+      "cBodySmoke":null,
+      "cBodyFlames":null,
+      "sCustomTexture":"Spider"
+   },
+   "Category_Character":{
+      "sName":"Small DarkSpider",
+      "sFaction" : "ForestMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti":1.2,
+      "bToleratesWater":true,
+      "bToleratesFire":false,
+      "bToleratesSmoke":false,
+      "fHealth":60,
+      "dDamageTaken":{
+         "m_blunt":"Normal",
+         "m_slash":"Normal",
+         "m_pierce":"Normal",
+         "m_chop":"Ignore",
+         "m_pickaxe":"Ignore",
+         "m_fire":"Weak",
+         "m_frost":"Normal",
+         "m_lightning":"Normal",
+         "m_poison":"Immune",
+         "m_spirit":"Immune"
+      }
+   },
+   "Category_Humanoid":{
+      "dtAttackDamageOverride":null,
+      "fAttackDamageTotalOverride":null,
+      "sAttackProjectileOverride":null,
+      "aDefaultItems":[
+         "@1",
+         "@2"
+      ],
+      "aRandomWeapon":[
+         
+      ],
+      "aRandomArmor":[
+         
+      ],
+      "aRandomShield":[
+         
+      ],
+      "aaRandomSets":[
+         
+      ],
+      "aAdvancedCustomAttacks":[
+         {
+            "sOriginalPrefabName":"Greydwarf_attack",
+            "sTargetAnim":"attack",
+            "fAIAttackInterval":4,
+            "bAIPrioritized":true,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":40,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "sfx_leech_attack"
+            ],
+            "aHitEffects":[
+               "vfx_BloodHit",
+               "sfx_leech_hit"
+            ],
+            "aTriggerEffects":null
+         },
+{
+            "sOriginalPrefabName":"Greydwarf_attack",
+            "sTargetAnim":"attack1",
+            "fAIAttackInterval":4,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":40,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "sfx_leech_attack"
+            ],
+            "aHitEffects":[
+               "vfx_BloodHit",
+               "sfx_leech_hit"
+            ],
+            "aTriggerEffects":null
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle":180,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "HumanoidAvoidWater",
+      "fRandomCircleInterval" : 5,
+      "fRandomMoveInterval" : 5,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : true,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 30,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 2,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange":2,
+      "fConsumeSearchRange":5,
+      "fConsumeSearchInterval":10,
+      "fConsumeHeal":0
+   },
+   "Category_CharacterDrop":{
+      "bReplaceOriginalDrops":true,
+      "drDrops":[
+         {
+            "sPrefabName":"SpiderChitin_Dod",
+            "iAmountMin":1,
+            "iAmountMax":1,
+            "fChance":0.25,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":false
+         }
+
+      ]
+   },
+   "Category_Special":{
+      "bCanTame":false,
+      "bAlwaysTame":false,
+      "bCommandableWhenTame":false,
+      "bCanProcreateWhenTame":false,
+      "bFxNoTame":false,
+      "bSfxNoAlert":false,
+      "bSfxNoIdle":false,
+      "bSfxNoHit":false,
+      "bSfxNoDeath":false
+   },
+   "Category_NpcOnly":null,
+   "sConfigFormatVersion":"0.2.0"
+}

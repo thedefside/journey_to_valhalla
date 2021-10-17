@@ -1,0 +1,12 @@
+{
+    "name": "SpearFrometal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FrometalBar_DoD:10:5:False",
+        "PrimordialIce:10:5:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

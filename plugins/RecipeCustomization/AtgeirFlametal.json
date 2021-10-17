@@ -1,0 +1,12 @@
+{
+    "name": "AtgeirFlametal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flametal:20:10:False",
+        "LoxPelt:4:2:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

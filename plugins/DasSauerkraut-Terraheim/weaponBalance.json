@@ -1,0 +1,1317 @@
+{
+    "GreatswordStartAnimationSpeedAdjust": 1.6,
+    "GreatswordAnimationSpeedAdjust": 1.2,
+    "ThrowingAxeAnimationSpeedAdjust": 3,
+    "FlametalWeaponSpecialDurabilityDrain": 10,
+    "FlametalWeaponsSpecialEffectsEnabled": true,
+    "AtgeirSilver": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 85
+            },
+            {
+                "type": "spirit",
+                "value": 30
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Iron",
+                "amount": 5,
+                "perLevel": 3
+            },
+            {
+                "item": "Silver",
+                "amount": 50,
+                "perLevel": 20
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "AtgeirFire": {
+        "enabled": false,
+        "effectVal": 0.10,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 85
+            },
+            {
+                "type": "fire",
+                "value": 40
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 10,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ArrowGreatFire": {
+        "enabled": true,
+        "effectVal": 0.10,
+        "station": "forge",
+        "amountCrafted": 20,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 62
+            },
+            {
+                "type": "fire",
+                "value": 20
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 1,
+                "perLevel": 0
+            },
+            {
+                "item": "Flametal",
+                "amount": 1,
+                "perLevel": 0
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 1,
+                "perLevel": 0
+            },
+            {
+                "item": "Wood",
+                "amount": 8,
+                "perLevel": 0
+            }
+        ]
+    },
+    "AxehammerBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "blunt",
+                "value": 40
+            },
+            {
+                "type": "slash",
+                "value": 75
+            },
+            {
+                "type": "chop",
+                "value": 30
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 6,
+                "perLevel": 0
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 30,
+                "perLevel": 25
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "AxeForstasca": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 75
+            },
+            {
+                "type": "chop",
+                "value": 50
+            },
+            {
+                "type": "frost",
+                "value": 30
+            },
+            {
+                "type": "spirit",
+                "value": 10
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "YmirRemains",
+                "amount": 5,
+                "perLevel": 0
+            },
+            {
+                "item": "Silver",
+                "amount": 40,
+                "perLevel": 15
+            },
+            {
+                "item": "FreezeGland",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    },
+    "AxeFire": {
+        "enabled": false,
+        "effectVal": 0.50,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 75
+            },
+            {
+                "type": "chop",
+                "value": 70
+            },
+            {
+                "type": "fire",
+                "value": 40
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "AxeSerpent": {
+        "enabled": true,
+        "effectVal": 40,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 20
+            },
+            {
+                "type": "chop",
+                "value": 70
+            },
+            {
+                "type": "lightning",
+                "value": 90
+            }
+        ],
+        "recipe": [
+            {
+                "item": "SalamanderFur",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "Copper",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "SerpentScale",
+                "amount": 8,
+                "perLevel": 1
+            }
+        ]
+    },
+    "BattleaxeBronze": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 55
+            },
+            {
+                "type": "chop",
+                "value": 20
+            }
+        ],
+        "recipe": [
+            {
+                "item": "RoundLog",
+                "amount": 20,
+                "perLevel": 1
+            },
+            {
+                "item": "Bronze",
+                "amount": 15,
+                "perLevel": 5
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 4,
+                "perLevel": 1
+            }
+        ]
+    },
+    "BattleaxeBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 115
+            },
+            {
+                "type": "chop",
+                "value": 100
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 6,
+                "perLevel": 0
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 30,
+                "perLevel": 25
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "BattleaxeSilver": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 70
+            },
+            {
+                "type": "chop",
+                "value": 50
+            },
+            {
+                "type": "spirit",
+                "value": 80
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 10,
+                "perLevel": 1
+            },
+            {
+                "item": "Silver",
+                "amount": 30,
+                "perLevel": 10
+            },
+            {
+                "item": "Iron",
+                "amount": 5,
+                "perLevel": 3
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 4,
+                "perLevel": 1
+            }
+        ]
+    },
+    "BattleaxeFire": {
+        "enabled": false,
+        "effectVal": 15,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 90
+            },
+            {
+                "type": "fire",
+                "value": 45
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 28,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 28,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 10,
+                "perLevel": 1
+            }
+        ]
+    },
+    "BattleaxeFlint": {
+        "enabled": true,
+        "station": "piece_workbench",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "blunt",
+                "value": 32
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 20,
+                "perLevel": 5
+            },
+            {
+                "item": "Flint",
+                "amount": 4,
+                "perLevel": 2
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    },
+    "BowBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 40
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 40,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "BowFire": {
+        "enabled": false,
+        "effectVal": 45,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 120
+            },
+            {
+                "type": "fire",
+                "value": 15
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 25,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 25,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 6,
+                "perLevel": 1
+            }
+        ]
+    },
+    "GreatswordBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 110
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 6,
+                "perLevel": 0
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "GreatswordChitin": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 55
+            },
+            {
+                "type": "blunt",
+                "value": 15
+            }
+        ],
+        "recipe": [
+            {
+                "item": "ElderBark",
+                "amount": 20,
+                "perLevel": 10
+            },
+            {
+                "item": "Iron",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Chitin",
+                "amount": 30,
+                "perLevel": 5
+            }
+        ]
+    },
+    "GreatswordIron": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 70
+            }
+        ],
+        "recipe": [
+            {
+                "item": "ElderBark",
+                "amount": 5,
+                "perLevel": 15
+            },
+            {
+                "item": "Iron",
+                "amount": 35,
+                "perLevel": 10
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 4,
+                "perLevel": 1
+            }
+        ]
+    },
+    "GreatswordFolcbrand": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 85
+            },
+            {
+                "type": "spirit",
+                "value": 35
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Bronze",
+                "amount": 5,
+                "perLevel": 3
+            },
+            {
+                "item": "Silver",
+                "amount": 60,
+                "perLevel": 20
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "GreatswordFire": {
+        "enabled": false,
+        "effectVal": 65,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 65
+            },
+            {
+                "type": "fire",
+                "value": 65
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 3,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 30,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 30,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 6,
+                "perLevel": 1
+            }
+        ]
+    },
+    "KnifeIron": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 12
+            },
+            {
+                "type": "pierce",
+                "value": 10
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "Iron",
+                "amount": 15,
+                "perLevel": 4
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 2,
+                "perLevel": 1
+            }
+        ]
+    },
+    "KnifeSilver": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 15
+            },
+            {
+                "type": "pierce",
+                "value": 15
+            },
+            {
+                "type": "fire",
+                "value": 15
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Silver",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Obsidian",
+                "amount": 15,
+                "perLevel": 4
+            }
+        ]
+    },
+    "KnifeFire": {
+        "enabled": false,
+        "effectVal": 2.0,
+        "effectDur": 1,
+        "effectThreshold": 1,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 10
+            },
+            {
+                "type": "pierce",
+                "value": 10
+            },
+            {
+                "type": "fire",
+                "value": 20
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 10,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 10,
+                "perLevel": 15
+            }
+        ]
+    },
+    "ParryingDagger": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
+                "item": "Bronze",
+                "amount": 1,
+                "perLevel": 1
+            },
+            {
+                "item": "Silver",
+                "amount": 6,
+                "perLevel": 4
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 2,
+                "perLevel": 1
+            }
+        ]
+    },
+    "PickaxeBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 50
+            },
+            {
+                "type": "pickaxe",
+                "value": 50
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 6,
+                "perLevel": 0
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 20,
+                "perLevel": 10
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "SpearBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 95
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 5,
+                "perLevel": 2
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 20,
+                "perLevel": 10
+            },
+            {
+                "item": "LinenThread",
+                "amount": 5,
+                "perLevel": 5
+            }
+        ]
+    },
+    "SpearFire": {
+        "enabled": false,
+        "effectVal": 20,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 55
+            },
+            {
+                "type": "fire",
+                "value": 60
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 15,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 15,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 10,
+                "perLevel": 1
+            }
+        ]
+    },
+    "SledgeFire": {
+        "enabled": true,
+        "effectVal": 20,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "blunt",
+                "value": 90
+            },
+            {
+                "type": "fire",
+                "value": 45
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 30,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 30,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 6,
+                "perLevel": 1
+            }
+        ]
+    },
+    "SwordFire": {
+        "enabled": true,
+        "effectVal": 60,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 55
+            },
+            {
+                "type": "fire",
+                "value": 60
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ShieldFire": {
+        "enabled": true,
+        "effectVal": 0.10,
+        "effectDur": 45,
+        "effectCooldown": 60,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Bronze",
+                "amount": 2,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 12,
+                "perLevel": 10
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 12,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 2,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ShieldFireTower": {
+        "enabled": false,
+        "effectVal": 4,
+        "projProtection": 0.10,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+        ],
+        "recipe": [
+            {
+                "item": "Bronze",
+                "amount": 3,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 15,
+                "perLevel": 10
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 15,
+                "perLevel": 10
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            }
+        ]
+    },
+    "ThrowingAxeFlint": {
+        "enabled": true,
+        "station": "piece_workbench",
+        "amountCrafted": 5,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 20
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "Flint",
+                "amount": 3,
+                "perLevel": 0
+            }
+        ]
+    },
+    "ThrowingAxeBronze": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 5,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 35
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "Bronze",
+                "amount": 4,
+                "perLevel": 0
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 1,
+                "perLevel": 0
+            }
+        ]
+    },
+    "ThrowingAxeIron": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 5,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 30
+            },
+            {
+                "type": "poison",
+                "value": 20
+            }
+        ],
+        "recipe": [
+            {
+                "item": "ElderBark",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "Iron",
+                "amount": 10,
+                "perLevel": 0
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 1,
+                "perLevel": 0
+            },
+            {
+                "item": "Ooze",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    },
+    "ThrowingAxeSilver": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 5,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 75
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 2,
+                "perLevel": 0
+            },
+            {
+                "item": "Silver",
+                "amount": 15,
+                "perLevel": 0
+            },
+            {
+                "item": "Obsidian",
+                "amount": 10,
+                "perLevel": 0
+            }
+        ]
+    },
+    "ThrowingAxeBlackmetal": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 5,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 90
+            }
+        ],
+        "recipe": [
+            {
+                "item": "FineWood",
+                "amount": 3,
+                "perLevel": 0
+            },
+            {
+                "item": "BlackMetal",
+                "amount": 10,
+                "perLevel": 0
+            },
+            {
+                "item": "LinenThread",
+                "amount": 3,
+                "perLevel": 0
+            }
+        ]
+    },
+    "ThrowingAxeFire": {
+        "enabled": true,
+        "effectVal": 20,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "slash",
+                "value": 65
+            },
+            {
+                "type": "chop",
+                "value": 30
+            },
+            {
+                "type": "fire",
+                "value": 30
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 5,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 15,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 15,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 10,
+                "perLevel": 1
+            }
+        ]
+    },
+    "TorchOlympia": {
+        "enabled": true
+    },
+    "MaceFire": {
+        "enabled": false,
+        "effectVal": 8,
+        "cooldownVal": 17,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "blunt",
+                "value": 55
+            },
+            {
+                "type": "fire",
+                "value": 60
+            }
+        ],
+        "recipe": [
+            {
+                "item": "BlackMetal",
+                "amount": 3,
+                "perLevel": 1
+            },
+            {
+                "item": "Flametal",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "SurtlingCore",
+                "amount": 20,
+                "perLevel": 15
+            },
+            {
+                "item": "LeatherScraps",
+                "amount": 6,
+                "perLevel": 1
+            }
+        ]
+    },
+    "JavelinFlint": {
+        "enabled": true,
+        "station": "piece_workbench",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 35
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    },
+    "JavelinBronze": {
+        "enabled": true,
+        "station": "forge",
+        "amountCrafted": 1,
+        "damages": [
+            {
+                "type": "pierce",
+                "value": 55
+            }
+        ],
+        "recipe": [
+            {
+                "item": "Wood",
+                "amount": 5,
+                "perLevel": 0
+            }
+        ]
+    }
+}

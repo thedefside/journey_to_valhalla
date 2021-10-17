@@ -1,0 +1,12 @@
+{
+    "name": "MaceFlametal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flametal:10:5:False",
+        "LoxPelt:3:2:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

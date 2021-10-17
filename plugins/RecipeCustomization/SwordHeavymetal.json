@@ -1,0 +1,12 @@
+{
+    "name": "SwordHeavymetal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:10:4:False",
+        "WorldTreeFragment:15:5:False",
+        "LinenThread:12:4:False"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "ShieldFlametal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flametal:8:4:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

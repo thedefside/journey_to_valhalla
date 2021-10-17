@@ -1,0 +1,12 @@
+{
+    "name": "PickaxeFrometal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FrometalBar_DoD:20:10:False",
+        "PrimordialIce:3:2:False",
+        "WorldTreeFragment:2:1:False"
+    ]
+}

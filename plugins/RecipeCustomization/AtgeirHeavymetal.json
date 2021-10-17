@@ -1,0 +1,12 @@
+{
+    "name": "AtgeirHeavymetal",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HeavymetalBar:14:5:False",
+        "WorldTreeFragment:24:5:False",
+        "LinenThread:14:4:False"
+    ]
+}
