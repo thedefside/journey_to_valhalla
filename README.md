@@ -1,5 +1,5 @@
 # Description
-I know there are already a lot of mod packs out there. The goal of this set up is to simply complete the game without straying too far from vanilla.
+The goal of this set up is to simply complete the game without straying too far from vanilla.
 
 # Nexus Requirements
 [Recipe Customization](https://www.nexusmods.com/valheim/mods/1245?tab=files) is required to be installed from Nexus Mods. If you don't install this, you won't see the new weapons!
@@ -9,7 +9,7 @@ I know there are already a lot of mod packs out there. The goal of this set up i
  - 5 New metals and 3 complete weapon sets for unfinished biomes
  - Elemental swords
  - Boss altars for Mistlands, Ashlands, and Deep North
- - 6 top tier armor sets
+ - 6 top tier armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
 
 # Biomes
@@ -27,7 +27,7 @@ Swamp:
 ```
 ```
 Mountains:
- - Add Obsidian Golem (DoDMonsters)
+ - Add Obsidian Golem (MonsterLabZ)
 ```
 ```
 Plains:
@@ -73,6 +73,23 @@ There are 6 new sets of armor. All are top-tier with identical armor stats, but 
  - Chaos Warrior Armor: Increased health and stamina regen, slow movement
 ```
 
+# ValheimPlus Changes
+ - Increase capacity on Kiln/Furnace/Windmill/Spinning Wheel
+ - Increase stamina regen 10%
+ - Decrease stamina regen dleay 50%
+ - Increase Blocking and Swimming XP gained
+ - Craft from Containers
+ - Area Repair
+ - Sleep in any bed
+ - Double sized stacks
+ - Auto repair, auto-equip shield, re-equip weapon after swimming
+ - Increase comfort range
+ - **Disable Server password**
+ - Increase inventory space for containers
+
+# Known issues
+ - The boss altars don't seem to work
+
 # Roadmap
 
  - Balance the weapons and enemies in Mistlands/Deep North/Ashlands
@@ -80,7 +97,7 @@ There are 6 new sets of armor. All are top-tier with identical armor stats, but 
 
 # Change log
 v0.0.1
- - Combined DoD, MonsterLabz, and Monsternomicon files together under the IVE (Illegitimate Valheim Experience) folder
+ - Combined DoD, MonsterLabz, and Monsternomicon files together under the JTV (Journey To Valhalla) folder
  - Add Gold Bars mod. 
  - Jude's Equipment:
    - fixed the forge levels
