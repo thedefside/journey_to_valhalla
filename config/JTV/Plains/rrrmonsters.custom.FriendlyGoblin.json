@@ -1,11 +1,11 @@
 {
-   "sOriginalPrefabName" : "ObsidianGolem",
-   "sNewPrefabName" : "ObsidianGolem_IVE",
+   "sOriginalPrefabName" : "GoblinBase",
+   "sNewPrefabName" : "FriendlyGoblin",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 0.75,
-         "fY" : 0.75,
-         "fZ" : 0.75
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
       },
       "cTintColor" : null,
       "cTintItems" : null,
@@ -14,26 +14,26 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Obsidian Golem",
-      "sFaction" : "ForestMonsters",
+      "sName" : "Goblin",
+      "sFaction" : "Boss",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
       "fMoveSpeedMulti" : 1,
       "bToleratesWater" : true,
-      "bToleratesFire" : true,
-      "bToleratesSmoke" : true,
-      "fHealth" : 800,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 200,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
-         "m_slash" : "Resistant",
-         "m_pierce" : "Resistant",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
          "m_chop" : "Ignore",
-         "m_pickaxe" : "VeryWeak",
-         "m_fire" : "Immune",
-         "m_frost" : "Immune",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
          "m_lightning" : "Normal",
-         "m_poison" : "Immune",
+         "m_poison" : "Normal",
          "m_spirit" : "Immune"
       }
    },
@@ -60,9 +60,7 @@
          
       ],
       "aRandomArmor" : [
-         "ObsidianGolem_hat",
-         "",
-         ""
+         
       ],
       "aRandomShield" : [
          
@@ -70,27 +68,19 @@
       "aaRandomSets" : [
          {
             "aSetItems" : [
-               "stonegolem_attack1_spike",
-               "stonegolem_attack3_spikesweep",
-               "ObsidianGolem_spikes"
-            ]
-         },
-         {
-            "aSetItems" : [
-               "stonegolem_attack2_left_groundslam",
-               "stonegolem_attack_doublesmash",
-               "ObsidianGolem_clubs"
+               "NewGoblinArmorLeather",
+               "NewGoblinShoulderPadLeather"
             ]
          }
       ],
       "aHitEffects" : [
-         "vfx_stonegolem_hurt",
-         "sfx_stonegolem_hurt"
+         "vfx_goblin_hit",
+         "sfx_goblin_hit"
       ],
       "aDeathEffects" : [
-         "sfx_stonegolem_death",
-         "ObsidianGolem_ragdoll",
-         "vfx_obsidiangolem_death"
+         "vfx_goblin_death",
+         "sfx_goblin_death",
+         "GoblinBase_ragdoll"
       ],
       "aConsumeItemEffects" : [
          
@@ -102,16 +92,16 @@
       "fViewAngle" : 90,
       "fHearRange" : 9999,
       "aAlertedEffects" : [
-         "sfx_stonegolem_alerted"
+         "sfx_goblin_alerted"
       ],
       "aIdleEffects" : [
-         "sfx_stonegolem_idle"
+         "sfx_goblin_idle"
       ],
-      "fIdleEffectsInterval" : 3,
-      "fIdleEffectsChance" : 0.25,
-      "sPathAgentType" : "TrollSize",
+      "fIdleEffectsInterval" : 10,
+      "fIdleEffectsChance" : 0.5,
+      "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 10,
+      "fRandomMoveInterval" : 20,
       "fRandomMoveRange" : 10,
       "bRandomFly" : false,
       "fChanceToTakeoff" : 1,
@@ -124,34 +114,33 @@
       "fTakeoffTime" : 5,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
-      "bAvoidWater" : true,
+      "bAvoidWater" : false,
       "sSpawnMessage" : "",
       "sDeathMessage" : ""
    },
    "Category_MonsterAI" : {
-      "fAlertRange" : 20,
-      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "fAlertRange" : 0,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
       "bCirculateWhileCharging" : true,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
-      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjects" : false,
       "bAttackPlayerObjectsWhenAlerted" : null,
-      "fInterceptTimeMax" : 0,
+      "fInterceptTimeMax" : 2,
       "fInterceptTimeMin" : 0,
-      "fMaxChaseDistance" : 0,
+      "fMaxChaseDistance" : 300,
       "fMinAttackInterval" : 0,
-      "fCircleTargetInterval" : 0,
-      "fCircleTargetDuration" : 5,
-      "fCircleTargetDistance" : 10,
-      "bSleeping" : true,
-      "bNoiseWakeup" : true,
-      "fNoiseRangeScale" : 0.5,
-      "fWakeupRange" : 2,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
       "aWakeupEffects" : [
-         "sfx_stonegolem_wakeup",
-         "vfx_obsidiangolem_wakeup"
+         
       ],
       "bAvoidLand" : false,
       "aConsumeItems" : [
@@ -166,35 +155,19 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "TrophyOGolem_DoD",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.05,
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 5,
+            "iAmountMax" : 10,
+            "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : false
-         },
-         {
-            "sPrefabName" : "Obsidian",
-            "iAmountMin" : 10,
-            "iAmountMax" : 15,
-            "fChance" : 1,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
-            "sPrefabName" : "Crystal",
-            "iAmountMin" : 3,
-            "iAmountMax" : 6,
-            "fChance" : 1,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
          }
       ]
    },
    "Category_Special" : {
-      "bCanTame" : false,
-      "bAlwaysTame" : false,
-      "bCommandableWhenTame" : false,
+      "bCanTame" : true,
+      "bAlwaysTame" : true,
+      "bCommandableWhenTame" : true,
       "bCanProcreateWhenTame" : false,
       "bFxNoTame" : false,
       "bSfxNoAlert" : false,

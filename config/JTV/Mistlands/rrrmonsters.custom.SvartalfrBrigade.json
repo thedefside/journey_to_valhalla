@@ -566,10 +566,10 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"BlackSoup",
+            "sPrefabName":"CursedEffigy",
             "iAmountMin":1,
-            "iAmountMax":3,
-            "fChance":0.3,
+            "iAmountMax":1,
+            "fChance":0.05,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
          },

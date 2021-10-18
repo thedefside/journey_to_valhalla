@@ -16,6 +16,7 @@ The goal of this set up is to simply complete the game without straying too far 
 ```
 Meadows:
  - Add butterflies (MonsterLabZ)
+ - Add Chickens (ChickenBoo)
 ```
 ```
 Black Forest:

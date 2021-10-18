@@ -14,7 +14,7 @@
    },
    "Category_Character" : {
       "sName" : "Ghost",
-      "sFaction" : "Undead",
+      "sFaction" : "Boss",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
@@ -22,7 +22,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : true,
-      "fHealth" : 40,
+      "fHealth" : 400,
       "dDamageTaken" : {
          "m_blunt" : "Resistant",
          "m_slash" : "Resistant",
@@ -121,13 +121,13 @@
       ]
    },
    "Category_Special" : {
-      "bCanTame" : false,
-      "bAlwaysTame" : false,
-      "bCommandableWhenTame" : false,
+      "bCanTame" : true,
+      "bAlwaysTame" : true,
+      "bCommandableWhenTame" : true,
       "bCanProcreateWhenTame" : false,
       "bFxNoTame" : false,
       "bSfxNoAlert" : false,
-      "bSfxNoIdle" : false,
+      "bSfxNoIdle" : true,
       "bSfxNoHit" : false,
       "bSfxNoDeath" : false
    },

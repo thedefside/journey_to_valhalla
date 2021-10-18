@@ -18,7 +18,7 @@
       "sCustomTexture":null
    },
    "Category_Character":{
-      "sName":"Mourning Queen",
+      "sName":"The Mourning Queen",
       "sFaction":"ForestMonsters",
       "bBoss":true,
       "sBossEvent":"SvartalfarCourt",
@@ -163,7 +163,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"FelmetalOre_DoD",
+            "sPrefabName":"HeavyScale",
             "iAmountMin":3,
             "iAmountMax":6,
             "fChance":1,

@@ -1,11 +1,11 @@
 {
-   "sOriginalPrefabName" : "Molluscan",
-   "sNewPrefabName" : "Molluscan_JTV",
+   "sOriginalPrefabName" : "ObsidianGolem",
+   "sNewPrefabName" : "ObsidianGolem_JTV",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1,
-         "fY" : 1,
-         "fZ" : 1
+         "fX" : 0.75,
+         "fY" : 0.75,
+         "fZ" : 0.75
       },
       "cTintColor" : null,
       "cTintItems" : null,
@@ -14,26 +14,26 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Molluscan",
-      "sFaction" : "Undead",
+      "sName" : "Obsidian Golem",
+      "sFaction" : "ForestMonsters",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
       "fMoveSpeedMulti" : 1,
       "bToleratesWater" : true,
-      "bToleratesFire" : false,
+      "bToleratesFire" : true,
       "bToleratesSmoke" : true,
-      "fHealth" : 240,
+      "fHealth" : 800,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
-         "m_slash" : "Normal",
-         "m_pierce" : "Normal",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
          "m_chop" : "Ignore",
-         "m_pickaxe" : "Ignore",
-         "m_fire" : "VeryWeak",
-         "m_frost" : "Normal",
+         "m_pickaxe" : "VeryWeak",
+         "m_fire" : "Immune",
+         "m_frost" : "Immune",
          "m_lightning" : "Normal",
-         "m_poison" : "Resistant",
+         "m_poison" : "Immune",
          "m_spirit" : "Immune"
       }
    },
@@ -54,21 +54,45 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "Molluscan_attack",
-         "Molluscan_attack2",
-         "Molluscan_attack3",
-         "Molluscan_taunt"
+         
       ],
       "aRandomWeapon" : [
          
       ],
       "aRandomArmor" : [
-         
+         "ObsidianGolem_hat",
+         "",
+         ""
       ],
       "aRandomShield" : [
          
       ],
       "aaRandomSets" : [
+         {
+            "aSetItems" : [
+               "stonegolem_attack1_spike",
+               "stonegolem_attack3_spikesweep",
+               "ObsidianGolem_spikes"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "stonegolem_attack2_left_groundslam",
+               "stonegolem_attack_doublesmash",
+               "ObsidianGolem_clubs"
+            ]
+         }
+      ],
+      "aHitEffects" : [
+         "vfx_stonegolem_hurt",
+         "sfx_stonegolem_hurt"
+      ],
+      "aDeathEffects" : [
+         "sfx_stonegolem_death",
+         "ObsidianGolem_ragdoll",
+         "vfx_obsidiangolem_death"
+      ],
+      "aConsumeItemEffects" : [
          
       ],
       "aAdvancedCustomAttacks" : null
@@ -77,13 +101,30 @@
       "fViewRange" : 30,
       "fViewAngle" : 90,
       "fHearRange" : 9999,
-      "sPathAgentType" : "HumanoidAvoidWater",
+      "aAlertedEffects" : [
+         "sfx_stonegolem_alerted"
+      ],
+      "aIdleEffects" : [
+         "sfx_stonegolem_idle"
+      ],
+      "fIdleEffectsInterval" : 3,
+      "fIdleEffectsChance" : 0.25,
+      "sPathAgentType" : "TrollSize",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 20,
+      "fRandomMoveInterval" : 10,
       "fRandomMoveRange" : 10,
+      "bRandomFly" : false,
+      "fChanceToTakeoff" : 1,
+      "fChanceToLand" : 1,
+      "fGroundDuration" : 10,
+      "fAirDuration" : 10,
+      "fMaxLandAltitude" : 5,
+      "fFlyAltitudeMin" : 3,
+      "fFlyAltitudeMax" : 10,
+      "fTakeoffTime" : 5,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
-      "bAvoidWater" : false,
+      "bAvoidWater" : true,
       "sSpawnMessage" : "",
       "sDeathMessage" : ""
    },
@@ -92,18 +133,27 @@
       "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
-      "bCirculateWhileCharging" : false,
+      "bCirculateWhileCharging" : true,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
-      "bAttackPlayerObjectsWhenAlerted" : true,
-      "fInterceptTimeMax" : 2,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 0,
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 0,
       "fMinAttackInterval" : 0,
-      "fCircleTargetInterval" : 6,
-      "fCircleTargetDuration" : 3,
-      "fCircleTargetDistance" : 4,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "bSleeping" : true,
+      "bNoiseWakeup" : true,
+      "fNoiseRangeScale" : 0.5,
+      "fWakeupRange" : 2,
+      "aWakeupEffects" : [
+         "sfx_stonegolem_wakeup",
+         "vfx_obsidiangolem_wakeup"
+      ],
+      "bAvoidLand" : false,
       "aConsumeItems" : [
          
       ],
@@ -116,17 +166,25 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "FishRaw",
+            "sPrefabName" : "TrophyOGolem_DoD",
             "iAmountMin" : 1,
-            "iAmountMax" : 2,
-            "fChance" : 0.6,
+            "iAmountMax" : 1,
+            "fChance" : 0.05,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "Obsidian",
+            "iAmountMin" : 10,
+            "iAmountMax" : 15,
+            "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "Chitin",
-            "iAmountMin" : 2,
-            "iAmountMax" : 4,
+            "sPrefabName" : "Crystal",
+            "iAmountMin" : 3,
+            "iAmountMax" : 6,
             "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
