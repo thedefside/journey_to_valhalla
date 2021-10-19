@@ -1,5 +1,5 @@
 # Description
-The goal of this set up is to simply complete the game without straying too far from vanilla.
+The goal of this set up is to simply complete the game without straying too far from vanilla. It is based off of monsternomicon, with weapons from Huntardy's Valheim Additions, and some new enemies and metals from DoDMonsters.
 
 # Nexus Requirements
 [Recipe Customization](https://www.nexusmods.com/valheim/mods/1245?tab=files) is required to be installed from Nexus Mods. If you don't install this, you won't see the new weapons!
