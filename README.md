@@ -43,7 +43,7 @@ Mistlands:
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
  - Heavymetal Scale drops (Huntadry)
  - Mother Darkspider miniboss (Monsternomicon)
- - Randomly spawning boss altar (NOT CURRENTLY WORKING) (HundardysValheimAdditions) 
+ - Randomly spawning boss altar (HundardysValheimAdditions) 
 ```
 ```
 Deep North:
@@ -73,20 +73,6 @@ There are 6 new sets of armor. All are top-tier with identical armor stats, but 
  - Mistlands Armor: frost resistance
  - Chaos Warrior Armor: Increased health and stamina regen, slow movement
 ```
-
-# ValheimPlus Changes
- - Increase capacity on Kiln/Furnace/Windmill/Spinning Wheel
- - Increase stamina regen 10%
- - Decrease stamina regen dleay 50%
- - Increase Blocking and Swimming XP gained
- - Craft from Containers
- - Area Repair
- - Sleep in any bed
- - Double sized stacks
- - Auto repair, auto-equip shield, re-equip weapon after swimming
- - Increase comfort range
- - **Disable Server password**
- - Increase inventory space for containers
 
 # Known issues
  - The boss altars don't seem to work

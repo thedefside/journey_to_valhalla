@@ -1,6 +1,6 @@
 {
-   "sOriginalPrefabName" : "GoblinBase",
-   "sNewPrefabName" : "FriendlyGoblin",
+   "sOriginalPrefabName" : "GoblinShamanNew",
+   "sNewPrefabName" : "GoblinShamanNewTame",
    "Category_Appearance" : {
       "vScale" : {
          "fX" : 1,
@@ -14,7 +14,7 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Goblin",
+      "sName" : "Goblin Shaman",
       "sFaction" : "Boss",
       "bBoss" : false,
       "sBossEvent" : "",
@@ -23,7 +23,7 @@
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
-      "fHealth" : 200,
+      "fHealth" : 150,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
@@ -54,7 +54,7 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         
+         "GoblinShaman_attack_protect"         
       ],
       "aRandomWeapon" : [
          
@@ -68,19 +68,26 @@
       "aaRandomSets" : [
          {
             "aSetItems" : [
-               "NewGoblinArmorLeather",
-               "NewGoblinShoulderPadLeather"
+               "NewGoblinShamanStaffBones",
+               "NewGoblinHelmetSkull"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "NewGoblinShamanStaffFeathers",
+               "NewGoblinArmorFeathers",
+               "NewGoblinArmBandFeathers"
             ]
          }
       ],
       "aHitEffects" : [
          "vfx_goblin_hit",
-         "sfx_goblin_hit"
+         "sfx_GoblinShaman_hurt"
       ],
       "aDeathEffects" : [
          "vfx_goblin_death",
-         "sfx_goblin_death",
-         "GoblinBase_ragdoll"
+         "sfx_GoblinShaman_death",
+         "GoblinShamannew_ragdoll"
       ],
       "aConsumeItemEffects" : [
          
@@ -88,21 +95,21 @@
       "aAdvancedCustomAttacks" : null
    },
    "Category_BaseAI" : {
-      "fViewRange" : 30,
+      "fViewRange" : 40,
       "fViewAngle" : 90,
-      "fHearRange" : 9999,
+      "fHearRange" : 40,
       "aAlertedEffects" : [
-         "sfx_goblin_alerted"
+         "sfx_GoblinShaman_alerted"
       ],
       "aIdleEffects" : [
-         "sfx_goblin_idle"
+         "sfx_GoblinShaman_idle"
       ],
       "fIdleEffectsInterval" : 10,
       "fIdleEffectsChance" : 0.5,
       "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 20,
-      "fRandomMoveRange" : 10,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 3,
       "bRandomFly" : false,
       "fChanceToTakeoff" : 1,
       "fChanceToLand" : 1,
@@ -114,27 +121,27 @@
       "fTakeoffTime" : 5,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
-      "bAvoidWater" : false,
+      "bAvoidWater" : true,
       "sSpawnMessage" : "",
       "sDeathMessage" : ""
    },
    "Category_MonsterAI" : {
-      "fAlertRange" : 0,
-      "bFleeIfHurtWhenTargetCantBeReached" : false,
+      "fAlertRange" : 1,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
       "bCirculateWhileCharging" : true,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
-      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjects" : true,
       "bAttackPlayerObjectsWhenAlerted" : null,
       "fInterceptTimeMax" : 2,
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 300,
       "fMinAttackInterval" : 0,
-      "fCircleTargetInterval" : 10,
-      "fCircleTargetDuration" : 3,
-      "fCircleTargetDistance" : 5,
+      "fCircleTargetInterval" : 15,
+      "fCircleTargetDuration" : 6,
+      "fCircleTargetDistance" : 20,
       "bSleeping" : false,
       "bNoiseWakeup" : false,
       "fNoiseRangeScale" : 1,
@@ -156,9 +163,25 @@
       "drDrops" : [
          {
             "sPrefabName" : "Coins",
-            "iAmountMin" : 5,
-            "iAmountMax" : 10,
+            "iAmountMin" : 20,
+            "iAmountMax" : 40,
+            "fChance" : 0.25,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "BlackMetalScrap",
+            "iAmountMin" : 1,
+            "iAmountMax" : 2,
             "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "TrophyGoblinShaman",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : false
          }
