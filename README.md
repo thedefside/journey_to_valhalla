@@ -83,6 +83,9 @@ There are 6 new sets of armor. All are top-tier with identical armor stats, but 
  - Add enemy NPCs with unique weapon drops
 
 # Change log
+v0.0.2
+ - Update Jude's equipment configs to include new DragonSlayer Armor
+ - 
 v0.0.1
  - Combined DoD, MonsterLabz, and Monsternomicon files together under the JTV (Journey To Valhalla) folder
  - Add Gold Bars mod. 
