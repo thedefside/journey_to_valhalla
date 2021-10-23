@@ -9,7 +9,7 @@ The goal of this set up is to simply complete the game without straying too far 
  - 5 New metals and 3 complete weapon sets for unfinished biomes
  - Elemental swords
  - Boss altars for Mistlands, Ashlands, and Deep North
- - 6 top tier armor sets each with special characteristics
+ - 7 top tier armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
 
 # Biomes
@@ -64,13 +64,14 @@ Ashlands:
 ```
 
 # Armor
-There are 6 new sets of armor. All are top-tier with identical armor stats, but each provides different strengths and weaknesses
+There are 7 new sets of armor. All are top-tier with identical armor stats, but each provides different strengths and weaknesses
 ```
+ - Plate Armor: Mistlands - resistent to poison damage
+ - Dragon Slayer Armor: Deep North - resistent to frost damage
+ - Mistlands Armor: Ashlands - resistent to fire damage
  - Barbarian Armor: Faster movement speed, weak to frost and fire
- - Plate Armor: resistant to slash and pierce damage, slow movement, higher weight
- - Nomad Armor: Weight carry bonus, resist fire
- - Wanderer's Armor: poison/frost/lightning/fire resistance
- - Mistlands Armor: frost resistance
+ - Nomad Armor: Weight carry bonus
+ - Wanderer's Armor: resistent to lightning, frost damage; weak to fire
  - Chaos Warrior Armor: Increased health and stamina regen, slow movement
 ```
 
@@ -81,11 +82,17 @@ There are 6 new sets of armor. All are top-tier with identical armor stats, but 
 
  - Balance the weapons and enemies in Mistlands/Deep North/Ashlands
  - Add enemy NPCs with unique weapon drops
+ - Add new minibosses
 
 # Change log
+
 v0.0.2
- - Update Jude's equipment configs to include new DragonSlayer Armor
- - 
+ - Update Jude's equipment
+ - Rework armor recipes
+ - Increase Voidling Core drop rate
+ - Made Growths re-spawn
+ - Decrease Mother Darkspider spawn rate
+
 v0.0.1
  - Combined DoD, MonsterLabz, and Monsternomicon files together under the JTV (Journey To Valhalla) folder
  - Add Gold Bars mod. 

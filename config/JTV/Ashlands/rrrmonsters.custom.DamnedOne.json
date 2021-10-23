@@ -299,7 +299,7 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"BoneFragments",
+            "sPrefabName":"CharredBone_DoD",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,

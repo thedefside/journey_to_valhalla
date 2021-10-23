@@ -8,24 +8,17 @@
 		"Name": "$item_armor_t1pchaosbody",
 		"Requirements": [
 			{
-				"Item": "SteelBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 15
+				"Item": "Bronze",
+				"Amount": 20,
+				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 10
+				"Item": "TrophyFrostTroll",
+				"Amount": 1
 			},
 			{
-				"Item": "SpiderChitin_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
-			},
-			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "LeatherScraps",
+				"Amount": 9
 			}
 		]
 	},
@@ -38,24 +31,13 @@
 		"Name": "$item_helmet_t1pchaosplate",
 		"Requirements": [
 			{
-				"Item": "SteelBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 10
+				"Item": "Bronze",
+				"Amount": 10,
+				"AmountPerLevel": 3
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 10
-			},
-			{
-				"Item": "SpiderChitin_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
-			},
-			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "TrophyBoar",
+				"Amount": 1
 			}
 		]
 	},
@@ -68,24 +50,18 @@
 		"Name": "$item_legs_t1pchaoslegs",
 		"Requirements": [
 			{
-				"Item": "SteelBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 10
+				"Item": "Bronze",
+				"Amount": 15,
+				"AmountPerLevel": 3
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 10
-			},
-			{
-				"Item": "SpiderChitin_DoD",
+				"Item": "TrollHide",
 				"Amount": 5,
-				"AmountPerLevel": 1
+				"AmountPerLevel": 5
 			},
 			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "LeatherScraps",
+				"Amount": 4
 			}
 		]
 	},
@@ -98,19 +74,18 @@
 		"Name": "$item_armor_t2pchaosbody",
 		"Requirements": [
 			{
-				"Item": "FrometalBar_DoD",
-				"Amount": 30,
-				"AmountPerLevel": 5
+				"Item": "Iron",
+				"Amount": 50,
+				"AmountPerLevel": 10
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
-				"AmountPerLevel": 5
+				"Item": "TrophyDraugrElite",
+				"Amount": 1
 			},
 			{
-				"Item": "VoidlingCore_DoD",
+				"Item": "FreezeGland",
 				"Amount": 5,
-				"AmountPerLevel": 1
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T1ChaosPlateArmor",
@@ -127,19 +102,14 @@
 		"Name": "$item_helmet_t2pchaosplate",
 		"Requirements": [
 			{
-				"Item": "FrometalBar_DoD",
+				"Item": "Iron",
 				"Amount": 30,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
-				"AmountPerLevel": 5
-			},
-			{
-				"Item": "VoidlingCore_DoD",
+				"Item": "FreezeGland",
 				"Amount": 5,
-				"AmountPerLevel": 1
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T1ChaosPlateHelm",
@@ -156,19 +126,14 @@
 		"RepairStation": "forge",
 		"Requirements": [
 			{
-				"Item": "FrometalBar_DoD",
+				"Item": "Iron",
 				"Amount": 30,
-				"AmountPerLevel": 5
+				"AmountPerLevel": 8
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
-				"AmountPerLevel": 5
-			},
-			{
-				"Item": "VoidlingCore_DoD",
+				"Item": "FreezeGland",
 				"Amount": 5,
-				"AmountPerLevel": 1
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T1ChaosPlateLegs",
@@ -186,18 +151,18 @@
 		"Requirements": [
 			{
 				"Item": "Flametal",
-				"Amount": 30,
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
+				"Item": "HeavymetalBar",
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T2ChaosPlateArmor",
@@ -215,23 +180,22 @@
 		"Requirements": [
 			{
 				"Item": "Flametal",
-				"Amount": 30,
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
+				"Item": "HeavymetalBar",
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T2ChaosPlateHelm",
-				"Amount": 1,
-				"AmountPerLevel": 1
+				"Amount": 1
 			}
 		]
 	},
@@ -245,18 +209,18 @@
 		"Requirements": [
 			{
 				"Item": "Flametal",
-				"Amount": 30,
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FelmetalBar_DoD",
-				"Amount": 20,
+				"Item": "HeavymetalBar",
+				"Amount": 10,
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "VoidlingCore_DoD",
-				"Amount": 5,
-				"AmountPerLevel": 1
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
 			},
 			{
 				"Item": "T2ChaosPlateLegs",
