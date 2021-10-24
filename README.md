@@ -4,6 +4,9 @@ The goal of this set up is to simply complete the game without straying too far 
 # Nexus Requirements
 [Recipe Customization](https://www.nexusmods.com/valheim/mods/1245?tab=files) is required to be installed from Nexus Mods. If you don't install this, you won't see the new weapons!
 
+# Click the image for a short video preview
+[![Journey To Valhalla](https://img.youtube.com/vi/nzWcYK7BIyQ/0.jpg)](https://www.youtube.com/watch?v=nzWcYK7BIyQ)
+
 # Features
  - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, and some new weapons
  - 5 New metals and 3 complete weapon sets for unfinished biomes
@@ -34,6 +37,7 @@ Mountains:
 Plains:
  - Add Berserker random spawns
  - Add New Fulings (MonsterLabZ)
+ - Add Groozer (Tar Oozer)
 ```
 ```
 Mistlands:
@@ -85,7 +89,11 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - Add new minibosses
 
 # Change log
-
+v0.0.3
+ - removed OdinPlus-Digitalroots_GoldBars-1.2.0 dependancy
+ - update ChickenBoo
+ - Add Groozer (Tar Oozer) to Plains
+  
 v0.0.2
  - Update Jude's equipment
  - Rework armor recipes
