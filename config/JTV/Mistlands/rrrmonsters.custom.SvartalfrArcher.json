@@ -172,7 +172,7 @@
             "sPrefabName":"HeavyScale",
             "iAmountMin":1,
             "iAmountMax":1,
-            "fChance":0.5,
+            "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
          },
