@@ -5,7 +5,7 @@
     "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
     "dependencies": [
         "DasSauerkraut-Terraheim-2.2.0",
-        "Zhaok-Forgotten_Biomes-0.0.12",
+        "KiwisMods-Forgotten_Biomes-0.0.12",
         "MonsterLabZ-MonsterLabZ-1.7.0",
         "GoldenJude-Blacksmiths_tools-2.0.1",
         "AeehyehssReeper-ChaosArmor-6.0.5",

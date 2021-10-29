@@ -89,8 +89,13 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - Add new minibosses
 
 # Change log
+v0.0.4
+ - Dark Elves always drop Heavyscale
+ - Update Forgotten Biomes dependency
+ - Storm enemies no longer spawn in the mountains
+
 v0.0.3
- - removed OdinPlus-Digitalroots_GoldBars-1.2.0 dependancy
+ - removed OdinPlus-Digitalroots_GoldBars-1.2.0 dependency
  - update ChickenBoo
  - Add Groozer (Tar Oozer) to Plains
   

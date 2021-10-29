@@ -10,7 +10,8 @@
       "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":null
+      "cBodyFlames":null,
+      "sCustomTexture":"Mother"
    },
    "Category_Character":{
       "sName":"Mother DarkSpider",
