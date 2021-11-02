@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"TreeSpider",
+   "sOriginalPrefabName":"MotherDarkSpider",
    "sNewPrefabName":"MotherDarkSpider",
    "Category_Appearance":{
       "vScale":{
@@ -10,8 +10,7 @@
       "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":null,
-      "sCustomTexture":"Mother"
+      "cBodyFlames":null
    },
    "Category_Character":{
       "sName":"Mother DarkSpider",

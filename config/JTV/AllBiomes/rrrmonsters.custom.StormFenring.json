@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Fenring",
+   "sOriginalPrefabName":"StormFenring",
    "sNewPrefabName":"StormFenring",
    "Category_Appearance":{
       "vScale":{
@@ -14,8 +14,7 @@
          "fGreen":0.1,
          "fBlue":0.1
       },
-      "cBodyFlames":null,
-      "sCustomTexture":"StormFenring"
+      "cBodyFlames":null
    },
    "Category_Character":{
       "sName":"Storm Fenring",

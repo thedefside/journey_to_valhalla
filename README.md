@@ -14,6 +14,15 @@ The goal of this set up is to simply complete the game without straying too far 
  - Boss altars for Mistlands, Ashlands, and Deep North
  - 7 top tier armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
+ - Goblin ships that patrol the Oceans
+
+# Manual Installation (Recommended)
+ 1. Download all dependencies first
+ 2. Extract contents to BepinEx folder
+ 3. Download Journey To Valhalla last
+ 4. Extract to BepinEx folder
+
+Using a mod manager may overwrite the custom configs I have set up. So, it's not recommended.
 
 # Biomes
 ```
@@ -57,7 +66,7 @@ Deep North:
  - FrometalOre deposits (DoDMonsters)
  - Makes iceberg destructable with new drop
  - randomly spawning boss altar (HundardysValheimAdditions)
- - Frost Giant miniboss (MonsterLabZ)
+ - Frost Giant (MonsterLabZ)
  - Forgotten One miniboss (Monsternomicon)
 ```
 ```
@@ -66,6 +75,11 @@ Ashlands:
  - Living Lava (DoDMonsters)
  - randomly spawning boss altar (HundardysValheimAdditions)
 ```
+```
+Ocean:
+ - Add Goblin Ships (MonsterLabZ)
+ - Add Kraken (Disabled) (MonsterLabZ)
+ ```
 
 # Armor
 There are 7 new sets of armor. All are top-tier with identical armor stats, but each provides different strengths and weaknesses
@@ -80,15 +94,20 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
 ```
 
 # Known issues
- - The boss altars don't seem to work
+ - The boss altars don't always seem to work
 
 # Roadmap
-
- - Balance the weapons and enemies in Mistlands/Deep North/Ashlands
+ - Balance the weapons and enemies in Mistlands/Deep North/Ashlands (Ongoing)
  - Add enemy NPCs with unique weapon drops
  - Add new minibosses
 
 # Change log
+v0.0.5
+ - Fixed custom textures not loading on dedicated servers
+ - Toned down the Dark Elves a bit
+ - Added Goblin ships to the Ocean
+ - Added Kraken to the Ocean, but diabled by default. Enable at your own risk.
+
 v0.0.4
  - Dark Elves always drop Heavyscale
  - Update Forgotten Biomes dependency

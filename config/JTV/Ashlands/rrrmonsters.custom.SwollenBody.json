@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Draugr",
+   "sOriginalPrefabName":"SwollenBody",
    "sNewPrefabName":"SwollenBody",
    "Category_Appearance":{
       "vScale":{
@@ -14,8 +14,7 @@
          "fRed":0.05,
          "fGreen":0.05,
          "fBlue":0.05
-      },
-      "sCustomTexture":"SwollenBody"
+      }
    },
    "Category_Character":{
       "sName":"Swollen Body",

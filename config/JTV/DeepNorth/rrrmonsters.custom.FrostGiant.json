@@ -3,9 +3,9 @@
    "sNewPrefabName" : "FrostGiant",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1,
-         "fY" : 1,
-         "fZ" : 1
+         "fX" : 0.5,
+         "fY" : 0.5,
+         "fZ" : 0.5
       },
       "cTintColor" : null,
       "cTintItems" : null,
@@ -15,7 +15,7 @@
    "Category_Character" : {
       "sName" : "Frost Giant",
       "sFaction" : "MountainMonsters",
-      "bBoss" : true,
+      "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
       "fMoveSpeedMulti" : 1,

@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"SkeletonWarrior",
+   "sOriginalPrefabName":"BurnedBones",
    "sNewPrefabName":"BurnedBones",
    "Category_Appearance":{
       "vScale":{
@@ -14,8 +14,7 @@
          "fRed":0.05,
          "fGreen":0.05,
          "fBlue":0.05
-      },
-      "sCustomTexture":"BurnedBones"
+      }
    },
    "Category_Character":{
       "sName":"Burned Bones",

@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName" : "Wolf",
+   "sOriginalPrefabName" : "StormWolf",
    "sNewPrefabName" : "StormWolf",
    "Category_Appearance" : {
       "vScale" : {
@@ -10,8 +10,7 @@
       "cTintColor" : null,
       "cTintItems" : null,
       "cBodySmoke" : null,
-      "cBodyFlames" : null,
-      "sCustomTexture" : "StormWolf"
+      "cBodyFlames" : null
    },
    "Category_Character" : {
       "sName" : "Storm Wolf",

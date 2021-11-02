@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"TreeSpider",
+   "sOriginalPrefabName":"DarkSpider",
    "sNewPrefabName":"SmallDarkSpider",
    "Category_Appearance":{
       "vScale":{
@@ -10,8 +10,7 @@
       "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":null,
-      "sCustomTexture":"Spider"
+      "cBodyFlames":null
    },
    "Category_Character":{
       "sName":"Small DarkSpider",

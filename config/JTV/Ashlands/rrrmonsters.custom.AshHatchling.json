@@ -7,7 +7,11 @@
          "fY":2.5,
          "fZ":2.5
       },
-      "cTintColor":null,
+      "cTintColor":{
+         "fRed":1.70,
+         "fGreen":0.0,
+         "fBlue":0.0
+      },
       "cTintItems":null,
       "cBodySmoke":{
          "fRed":0.01,

@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Troll",
+   "sOriginalPrefabName":"Jotunn",
    "sNewPrefabName":"Jotunn",
    "Category_Appearance":{
       "vScale":{
@@ -10,11 +10,10 @@
       "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":null,
-      "sCustomTexture":"Jotunn"
+      "cBodyFlames":null
    },
    "Category_Character":{
-      "sName":"Frost Troll",
+      "sName":"Jotunn",
       "sFaction":"MountainMonsters",
       "bBoss":true,
       "sBossEvent":"",
@@ -189,7 +188,22 @@
    "Category_CharacterDrop":{
       "bReplaceOriginalDrops":true,
       "drDrops":[
-         
+         {
+            "sPrefabName":"PrimordialIce",
+            "iAmountMin":10,
+            "iAmountMax":15,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":false
+         },
+         {
+            "sPrefabName":"FrometalOre_DoD",
+            "iAmountMin":10,
+            "iAmountMax":15,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":false
+         }
       ]
    },
    "Category_Special":{
