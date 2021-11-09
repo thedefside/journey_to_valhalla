@@ -1,47 +1,38 @@
 {
-   "sOriginalPrefabName":"StoneGolem",
-   "sNewPrefabName":"SilverGolem",
+   "sOriginalPrefabName":"PolarLox",
+   "sNewPrefabName":"PolarLox",
    "Category_Appearance":{
       "vScale":{
-         "fX":2.25,
-         "fY":2.25,
-         "fZ":2.25
+         "fX":1.2,
+         "fY":1.2,
+         "fZ":1.2
       },
-      "cTintColor":{
-         "fRed":0.85,
-         "fGreen":0.85,
-         "fBlue":0.85
-      },
-      "cTintItems":{
-         "fRed":0.85,
-         "fGreen":0.85,
-         "fBlue":0.85
-      },
+      "cTintColor":null,
+      "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":null,
-      "sCustomTexture":null
+      "cBodyFlames":null
    },
    "Category_Character":{
-      "sName":"Silver Golem",
+      "sName":"Icebreaker Lox",
       "sFaction":"MountainMonsters",
       "bBoss":false,
       "sBossEvent":"",
       "sDefeatSetGlobalKey":"",
       "fMoveSpeedMulti":1,
       "bToleratesWater":true,
-      "bToleratesFire":true,
-      "bToleratesSmoke":true,
-      "fHealth":2000,
+      "bToleratesFire":false,
+      "bToleratesSmoke":false,
+      "fHealth":1000,
       "dDamageTaken":{
-         "m_blunt":"Normal",
+         "m_blunt":"Resistant",
          "m_slash":"Resistant",
-         "m_pierce":"Resistant",
+         "m_pierce":"Normal",
          "m_chop":"Ignore",
-         "m_pickaxe":"VeryWeak",
-         "m_fire":"Immune",
-         "m_frost":"Immune",
+         "m_pickaxe":"Ignore",
+         "m_fire":"Weak",
+         "m_frost":"Resistant",
          "m_lightning":"Normal",
-         "m_poison":"Immune",
+         "m_poison":"Normal",
          "m_spirit":"Immune"
       }
    },
@@ -52,17 +43,13 @@
       "aDefaultItems":[
          "@1",
          "@2",
-         "@3",
-         "@4",
-         "StoneGolem_clubs"
+         "@3"
       ],
       "aRandomWeapon":[
          
       ],
       "aRandomArmor":[
-         "StoneGolem_hat",
-         "",
-         ""
+         
       ],
       "aRandomShield":[
          
@@ -72,104 +59,13 @@
       ],
       "aAdvancedCustomAttacks":[
          {
-            "sOriginalPrefabName":"stonegolem_attack2_left_groundslam",
-            "sTargetAnim":"attack2",
-            "fAIAttackInterval":6,
+            "sOriginalPrefabName":"lox_stomp",
+            "sTargetAnim":"attack_stomp",
+            "fAIAttackInterval":12,
             "bAIPrioritized":true,
             "dtAttackDamageOverride":{
                "fDamage":0,
                "fBlunt":140,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":150,
-               "fPickaxe":150,
-               "fFire":0,
-               "fFrost":40,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_stonegolem_primary_start"
-            ],
-            "aHitEffects":[
-               "fx_dragon_land",
-               "vfx_ice_destroyed"
-            ],
-            "aTriggerEffects":[
-               "vfx_dragon_coldbreath"
-            ]
-         },
-         {
-            "sOriginalPrefabName":"stonegolem_attack_doublesmash",
-            "sTargetAnim":"attack3",
-            "fAIAttackInterval":10,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":140,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":150,
-               "fPickaxe":150,
-               "fFire":0,
-               "fFrost":40,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_stonegolem_primary_start"
-            ],
-            "aHitEffects":[
-               "fx_dragon_land",
-               "vfx_ice_destroyed"
-            ],
-            "aTriggerEffects":[
-               "vfx_dragon_coldbreath"
-            ]
-         },
-         {
-            "sOriginalPrefabName":"stonegolem_attack_doublesmash",
-            "sTargetAnim":"doublesmash",
-            "fAIAttackInterval":20,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":200,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":150,
-               "fPickaxe":150,
-               "fFire":0,
-               "fFrost":40,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":null,
-            "aHitEffects":[
-               "fx_dragon_land",
-               "vfx_ice_destroyed"
-            ],
-            "aTriggerEffects":[
-               "vfx_dragon_coldbreath"
-            ]
-         },
-         {
-            "sOriginalPrefabName":"gd_king_shoot",
-            "sTargetAnim":"attack3",
-            "fAIAttackInterval":20,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":120,
                "fSlash":0,
                "fPierce":0,
                "fChop":150,
@@ -181,22 +77,82 @@
                "fSpirit":0
             },
             "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":"troll_throw_projectile",
-            "aStartEffects":[
-               "sfx_stonegolem_primary_start"
+            "sAttackProjectileOverride":null,
+            "aStartEffects":null,
+            "aHitEffects":[
+               "fx_dragon_land",
+               "vfx_ice_destroyed"
             ],
-            "aHitEffects":null,
+            "aTriggerEffects":null
+         },
+         {
+            "sOriginalPrefabName":"lox_bite",
+            "sTargetAnim":"attack_bite",
+            "fAIAttackInterval":6,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":160,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":20,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":null,
+            "aHitEffects":[
+               "vfx_BloodHit",
+               "vfx_ColdBall_Hit",
+               "sfx_wolf_attack_hit"
+            ],
+            "aTriggerEffects":null
+         },
+         {
+            "sOriginalPrefabName":"dragon_bite",
+            "sTargetAnim":"attack_bite",
+            "fAIAttackInterval":20,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":20,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":140,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "sfx_lox_attack_stomp",
+               "vfx_dragon_coldbreath",
+               "sfx_dragon_coldbreath_trailon"
+            ],
+            "aHitEffects":[
+               "vfx_ColdBall_Hit",
+               "sfx_ice_hit"
+            ],
             "aTriggerEffects":null
          }
       ]
    },
    "Category_BaseAI":{
-      "fViewRange":30,
+      "fViewRange":15,
       "fViewAngle":90,
-      "fHearRange":9999,
+      "fHearRange":15,
       "sPathAgentType":"HugeSize",
       "fRandomCircleInterval":2,
-      "fRandomMoveInterval":10,
+      "fRandomMoveInterval":60,
       "fRandomMoveRange":10,
       "bAvoidFire":false,
       "bAfraidOfFire":false,
@@ -205,61 +161,55 @@
       "sDeathMessage":""
    },
    "Category_MonsterAI":{
-      "fAlertRange":20,
+      "fAlertRange":6,
       "bFleeIfHurtWhenTargetCantBeReached":true,
       "bFleeIfNotAlerted":false,
       "fFleeIfLowHealth":0,
-      "bCirculateWhileCharging":true,
+      "bCirculateWhileCharging":false,
       "bCirculateWhileChargingFlying":false,
       "bEnableHuntPlayer":false,
-      "bAttackPlayerObjects":true,
+      "bAttackPlayerObjects":false,
       "bAttackPlayerObjectsWhenAlerted":true,
-      "fInterceptTimeMax":0,
+      "fInterceptTimeMax":2,
       "fInterceptTimeMin":0,
       "fMaxChaseDistance":0,
       "fMinAttackInterval":0,
-      "fCircleTargetInterval":0,
+      "fCircleTargetInterval":30,
       "fCircleTargetDuration":5,
       "fCircleTargetDistance":10,
       "aConsumeItems":[
-         
+         "Cloudberry",
+         "Barley",
+         "Flax"
       ],
-      "fConsumeRange":2,
-      "fConsumeSearchRange":5,
+      "fConsumeRange":4,
+      "fConsumeSearchRange":10,
       "fConsumeSearchInterval":10,
-      "fConsumeHeal":0
+      "fConsumeHeal":10
    },
    "Category_CharacterDrop":{
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"TrophySGolem",
-            "iAmountMin":1,
-            "iAmountMax":1,
-            "fChance":0.10,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":false
-         },
-         {
-            "sPrefabName":"Stone",
-            "iAmountMin":15,
-            "iAmountMax":30,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":true
-         },
-         {
-            "sPrefabName":"Crystal",
-            "iAmountMin":3,
+            "sPrefabName":"LoxMeat",
+            "iAmountMin":4,
             "iAmountMax":6,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"SilverOre",
-            "iAmountMin":5,
-            "iAmountMax":10,
+            "sPrefabName":"TrophyLox",
+            "iAmountMin":1,
+            "iAmountMax":1,
+            "fChance":0.1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":false
+         },
+         {
+            "sPrefabName":"LoxPelt",
+            "iAmountMin":2,
+            "iAmountMax":3,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
@@ -267,10 +217,10 @@
       ]
    },
    "Category_Special":{
-      "bCanTame":false,
+      "bCanTame":true,
       "bAlwaysTame":false,
-      "bCommandableWhenTame":false,
-      "bCanProcreateWhenTame":false,
+      "bCommandableWhenTame":true,
+      "bCanProcreateWhenTame":true,
       "bFxNoTame":false,
       "bSfxNoAlert":false,
       "bSfxNoIdle":false,

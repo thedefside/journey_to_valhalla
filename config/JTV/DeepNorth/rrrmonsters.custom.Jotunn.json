@@ -14,7 +14,7 @@
    },
    "Category_Character":{
       "sName":"Jotunn",
-      "sFaction":"MountainMonsters",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"",
       "sDefeatSetGlobalKey":"",

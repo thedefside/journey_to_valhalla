@@ -200,6 +200,25 @@
 		]
 	},
 	{
+		"Item": "ChaosPlateHelmAlt",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_helmet_pchaosplate_alt",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},			
+			{
+				"Item": "ChaosPlateHelm",
+				"Amount": 1
+			}
+		]
+	},
+	{
 		"Item": "ChaosPlateLegs",
 		"Amount": 1,
 		"Enabled": true,

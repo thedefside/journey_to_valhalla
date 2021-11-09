@@ -1,9 +1,6 @@
 # Description
 The goal of this set up is to simply complete the game without straying too far from vanilla. It is based off of monsternomicon, with weapons from Huntardy's Valheim Additions, and some new enemies and metals from DoDMonsters.
 
-# Nexus Requirements
-[Recipe Customization](https://www.nexusmods.com/valheim/mods/1245?tab=files) is required to be installed from Nexus Mods. If you don't install this, you won't see the new weapons!
-
 # Click the image for a short video preview
 [![Journey To Valhalla](https://img.youtube.com/vi/nzWcYK7BIyQ/0.jpg)](https://www.youtube.com/watch?v=nzWcYK7BIyQ)
 
@@ -14,15 +11,14 @@ The goal of this set up is to simply complete the game without straying too far 
  - Boss altars for Mistlands, Ashlands, and Deep North
  - 7 top tier armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
- - Goblin ships that patrol the Oceans
 
-# Manual Installation (Recommended)
+# Manual Installation (Required)
  1. Download all dependencies first
  2. Extract contents to BepinEx folder
  3. Download Journey To Valhalla last
  4. Extract to BepinEx folder
 
-Using a mod manager may overwrite the custom configs I have set up. So, it's not recommended.
+Using a mod manager will not work, as the Terraheim changes will be in the wrong place.
 
 # Biomes
 ```
@@ -54,18 +50,16 @@ Mistlands:
  - Voidling (DoDMonsters)
  - Minable FelMetal deposits (DoDMonsters)
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
- - Heavymetal Scale drops (Huntadry)
+ - Heavymetal Scale drops (HundardysValheimAdditions)
  - Mother Darkspider miniboss (Monsternomicon)
- - Randomly spawning boss altar (HundardysValheimAdditions) 
 ```
 ```
 Deep North:
- - Frozen Corpses, Frost Serpents, Boreal Spirits, Silver Golems, and Jotunn (Monsternomicon)
+ - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, and Jotunn (Monsternomicon)
  - Ice Golem, Dire Wolf, Frostling (DoDMonsters)
  - Dvergr NPC (Monsternomicon)
  - FrometalOre deposits (DoDMonsters)
- - Makes iceberg destructable with new drop
- - randomly spawning boss altar (HundardysValheimAdditions)
+ - Makes iceberg destructable with new drop (HundardysValheimAdditions)
  - Frost Giant (MonsterLabZ)
  - Forgotten One miniboss (Monsternomicon)
 ```
@@ -73,12 +67,10 @@ Deep North:
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire Drake (Monsternomicon)
  - Living Lava (DoDMonsters)
- - randomly spawning boss altar (HundardysValheimAdditions)
 ```
 ```
 Ocean:
- - Add Goblin Ships (MonsterLabZ)
- - Add Kraken (Disabled) (MonsterLabZ)
+  - Add Kraken (Disabled) (MonsterLabZ)
  ```
 
 # Armor
@@ -98,15 +90,27 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
 
 # Roadmap
  - Balance the weapons and enemies in Mistlands/Deep North/Ashlands (Ongoing)
+ - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
  - Add enemy NPCs with unique weapon drops
  - Add new minibosses
 
 # Change log
+v0.0.6
+ - Removed Goblin ships (causing errors and severe FPS drops)
+ - Removed Silver Golem and added Polar Lox to Deep North
+ - Changed the name of the 'Mistlands' armor, since it has nothing to do with the Mistlands
+ - Changed the prefabs for the Thunder Drake and Fire-Breathing Drake to the new DoD prefabs (Thanks Horem!)
+ - Reworked Storm Fenring encounter
+ - Made the Dark Elf raids scale as you progress (instead of adding them all after Bonemass)
+ - Fixed Frost Giant's Damage
+ - Removed ValheimPlus config
+ - Dvergr doesn't despawn at night
+
 v0.0.5
  - Fixed custom textures not loading on dedicated servers
  - Toned down the Dark Elves a bit
  - Added Goblin ships to the Ocean
- - Added Kraken to the Ocean, but diabled by default. Enable at your own risk.
+ - Added Kraken to the Ocean, but disabled by default. Enable at your own risk.
 
 v0.0.4
  - Dark Elves always drop Heavyscale

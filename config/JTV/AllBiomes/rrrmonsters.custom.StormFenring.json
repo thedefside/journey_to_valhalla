@@ -20,7 +20,7 @@
       "sName":"Storm Fenring",
       "sFaction":"MountainMonsters",
       "bBoss":true,
-      "sBossEvent":"",
+      "sBossEvent":"StormFenringEncounter",
       "sDefeatSetGlobalKey":"defeated_stormfenring",
       "fMoveSpeedMulti":1.2,
       "bToleratesWater":true,
