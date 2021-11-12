@@ -18,7 +18,7 @@ The goal of this set up is to simply complete the game without straying too far 
  3. Download Journey To Valhalla last
  4. Extract to BepinEx folder
 
-Using a mod manager will not work, as the Terraheim changes will be in the wrong place.
+Using a mod manager will not work, as the Terraheim and Forgotten Biomes changes will be in the wrong place.
 
 # Biomes
 ```
@@ -89,12 +89,15 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - The boss altars don't always seem to work
 
 # Roadmap
- - Balance the weapons and enemies in Mistlands/Deep North/Ashlands (Ongoing)
  - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
  - Add enemy NPCs with unique weapon drops
  - Add new minibosses
 
 # Change log
+v0.0.7
+ - Added everything back to the Mistlands world generation
+ - Balance all Huntardy's weapons to be in line with vanilla
+
 v0.0.6
  - Removed Goblin ships (causing errors and severe FPS drops)
  - Removed Silver Golem and added Polar Lox to Deep North

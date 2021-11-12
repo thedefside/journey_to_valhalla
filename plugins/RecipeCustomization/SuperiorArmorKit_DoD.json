@@ -1,0 +1,13 @@
+{
+    "name": "SuperiorArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "SteelBar_DoD:30:0:False",
+        "LoxPelt:5:0:False",
+        "ForestWolfPelt_DoD:5:0:False",
+        "LinenThread:10:0:False"
+    ]
+}

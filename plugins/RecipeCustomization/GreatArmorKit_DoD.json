@@ -1,0 +1,13 @@
+{
+    "name": "GreatArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "BlackMetal:30:0:False",
+        "LoxPelt:5:0:False",
+        "WolfPelt:5:0:False",
+        "LinenThread:10:0:False"
+    ]
+}

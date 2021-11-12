@@ -1,0 +1,13 @@
+{
+    "name": "GoodArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Silver:30:0:False",
+        "TrollHide:5:0:False",
+        "WolfPelt:5:0:False",
+        "Resin:5:0:False"
+    ]
+}

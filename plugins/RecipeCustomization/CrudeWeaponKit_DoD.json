@@ -1,0 +1,13 @@
+{
+    "name": "CrudeWeaponKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Bronze:15:0:False",
+        "TrollHide:5:0:False",
+        "FineWood:5:0:False",
+        "Wood:10:0:False"
+    ]
+}

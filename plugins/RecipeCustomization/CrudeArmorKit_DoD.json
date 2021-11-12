@@ -1,0 +1,13 @@
+{
+    "name": "CrudeArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Bronze:30:0:False",
+        "TrollHide:5:0:False",
+        "DeerHide:5:0:False",
+        "Resin:5:0:False"
+    ]
+}

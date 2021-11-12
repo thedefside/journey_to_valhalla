@@ -1,0 +1,13 @@
+{
+    "name": "BasicArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Iron:30:0:False",
+        "TrollHide:5:0:False",
+        "DeerHide:5:0:False",
+        "Resin:5:0:False"
+    ]
+}

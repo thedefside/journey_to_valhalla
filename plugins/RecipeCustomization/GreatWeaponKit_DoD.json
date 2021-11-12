@@ -1,0 +1,13 @@
+{
+    "name": "GreatWeaponKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "BlackMetal:15:0:False",
+        "LoxPelt:5:0:False",
+        "ElderBark:5:0:False",
+        "OakWood_DoD:10:0:False"
+    ]
+}

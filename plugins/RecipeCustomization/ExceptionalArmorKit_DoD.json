@@ -1,0 +1,13 @@
+{
+    "name": "ExceptionalArmorKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FrometalBar_DoD:30:0:False",
+        "DireWolfPelt_DoD:5:0:False",
+        "BlackDeerHide_DoD:5:0:False",
+        "LinenThread:10:0:False"
+    ]
+}

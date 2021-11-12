@@ -1,0 +1,13 @@
+{
+    "name": "ExcellentWeaponKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FelmetalBar_DoD:15:0:False",
+        "BlackDeerHide_DoD:5:0:False",
+        "ElderBark:5:0:False",
+        "OakWood_DoD:10:0:False"
+    ]
+}

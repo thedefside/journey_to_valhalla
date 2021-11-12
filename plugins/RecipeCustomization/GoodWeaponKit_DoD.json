@@ -1,0 +1,13 @@
+{
+    "name": "GoodWeaponKit_DoD",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Silver:15:0:False",
+        "ElderBark:5:0:False",
+        "WolfPelt:5:0:False",
+        "FineWood:10:0:False"
+    ]
+}
