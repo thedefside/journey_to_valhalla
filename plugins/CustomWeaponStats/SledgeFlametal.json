@@ -15,7 +15,7 @@
     "blockPower": 28.0,
     "deflectionForce": 50.0,
     "attackForce": 200.0,
-    "blunt": 115.0,
+    "blunt": 155.0,
     "damage": 0.0,
     "pierce": 0.0,
     "slash": 0.0,

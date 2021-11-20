@@ -32,7 +32,7 @@
     "damagePerLevel": 0.0,
     "piercePerLevel": 0.0,
     "slashPerLevel": 6.0,
-    "chopPerLevel": 2.5,
+    "chopPerLevel": 5,
     "pickaxePerLevel": 0.0,
     "firePerLevel": 0.0,
     "frostPerLevel": 0.0,
