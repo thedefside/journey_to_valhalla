@@ -76,7 +76,7 @@
                "@6",
                "@7",
                "ArmorIronLegs",
-               "ArmorPaddedCuirass",
+               "SageRobeBlack",
                "CapeLinen"
             ]
          },
@@ -89,7 +89,7 @@
                "@5",
                "HelmetTrollLeather",
                "ArmorIronLegs",
-               "ArmorPaddedCuirass",
+               "SageRobeBlack",
                "CapeLinen",
                "ShieldBronzeBuckler"
             ]
@@ -100,7 +100,7 @@
                "@7",
                "HelmetTrollLeather",
                "ArmorIronLegs",
-               "ArmorPaddedCuirass",
+               "SageRobeBlack",
                "CapeLinen"
             ]
          },
@@ -110,21 +110,8 @@
                "@9",
                "@10",
                "ArmorIronLegs",
-               "ArmorPaddedCuirass",
+               "SageRobeBlack",
                "CapeLinen"
-            ]
-         },
-         {
-            "aSetItems":[
-               "@4",
-               "@11",
-               "@12",
-               "@13",
-               "@14",
-               "ArmorIronLegs",
-               "ArmorPaddedCuirass",
-               "HelmetPadded",
-               "CapeLox"
             ]
          }
          
@@ -401,124 +388,6 @@
                "vfx_gdking_stomp",
                "sfx_gdking_stomp"
             ],
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"SledgeStagbreaker",
-            "sTargetAnim":"battleaxe_attack2",
-            "fAIAttackInterval":6,
-            "bAIPrioritized":true,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":130,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":50,
-               "fPickaxe":50,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_sledge_swing"
-            ],
-            "aHitEffects":null,
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"SledgeStagbreaker",
-            "sTargetAnim":"atgeir_attack0",
-            "fAIAttackInterval":6,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":130,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":50,
-               "fPickaxe":50,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_sledge_swing"
-            ],
-            "aHitEffects":[
-               "vfx_clubhit",
-               "sfx_sledge_hit"
-            ],
-            "aTriggerEffects":[
-               "vfx_clubhit",
-               "sfx_sledge_hit"
-            ]
-         },
-         {
-            "sOriginalPrefabName":"SledgeStagbreaker",
-            "sTargetAnim":"battleaxe_attack0",
-            "fAIAttackInterval":20,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":170,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":100,
-               "fPickaxe":100,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_sledge_swing",
-               "vfx_crow_death"
-            ],
-            "aHitEffects":[
-               "vfx_clubhit",
-               "sfx_sledge_hit"
-            ],
-            "aTriggerEffects":[
-               "vfx_clubhit",
-               "sfx_sledge_hit"
-            ]
-         },
-         {
-            "sOriginalPrefabName":"SledgeStagbreaker",
-            "sTargetAnim":"knife_secondary",
-            "fAIAttackInterval":24,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":150,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":100,
-               "fPickaxe":100,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_sledge_swing",
-               "vfx_crow_death"
-            ],
-            "aHitEffects":null,
             "aTriggerEffects":null
          }
       ]

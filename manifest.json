@@ -1,10 +1,10 @@
 {
     "name": "Journey_To_Valhalla",
-    "version_number": "0.0.7",
+    "version_number": "0.0.9",
     "website_url": "https://github.com/thedefside/journey_to_valhalla",
     "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
     "dependencies": [
-        "KiwisMods-Forgotten_Biomes-0.0.12",
+        "AlreeNicolas-Forgotten_Biomes-0.0.13",
         "MonsterLabZ-MonsterLabZ-1.7.0",
         "GoldenJude-Blacksmiths_tools-2.0.1",
         "AeehyehssReeper-ChaosArmor-7.1.0",

@@ -15,8 +15,12 @@ The goal of this set up is to simply complete the game without straying too far 
 # Manual Installation (Required)
  1. Download all dependencies first
  2. Extract contents to BepinEx folder
- 3. Download Journey To Valhalla last
+ 3. Download Journey To Valhalla
  4. Extract to BepinEx folder
+ 5. Download the following mods from nexus and place them in the BepInEx/plugins folder:
+    1. [Custom Weapon Stats](https://www.nexusmods.com/valheim/mods/1151)
+    2. [Custom Armor Stats](https://www.nexusmods.com/valheim/mods/1162)
+    3. [Recipe Customization](https://www.nexusmods.com/valheim/mods/1245)
 
 Using a mod manager will not work, as the Terraheim and Forgotten Biomes changes will be in the wrong place.
 
@@ -94,6 +98,15 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - Add new minibosses
 
 # Change log
+v0.0.9
+ - Updated the look of the Dark Elves
+ - Disabled the dark elf raids
+
+v0.0.8
+ - Mourning Queen event can only happen in the Mistlands
+ - Fixed the drops for Mourning Queen and court
+ - Updated dependency for Forgotten Biomes
+
 v0.0.7
  - Added everything back to the Mistlands world generation
  - Balance all Huntardy's weapons to be in line with vanilla

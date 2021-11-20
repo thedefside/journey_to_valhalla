@@ -169,7 +169,7 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"HeavyScale",
+            "sPrefabName":"Heavyscale",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,

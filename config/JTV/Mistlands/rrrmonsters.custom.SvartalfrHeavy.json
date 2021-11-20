@@ -1,11 +1,11 @@
 {
    "sOriginalPrefabName":"RRR_NPC",
-   "sNewPrefabName":"SvartalfrHeavy",
+   "sNewPrefabName":"Kursed_JTV",
    "Category_Appearance":{
       "vScale":{
-         "fX":0.75,
+         "fX":1.3,
          "fY":1.2,
-         "fZ":1.1
+         "fZ":1.2
       },
       "cTintColor":null,
       "cTintItems":{
@@ -23,7 +23,7 @@
       "bBoss":false,
       "sBossEvent":"",
       "sDefeatSetGlobalKey":"killed_svartalfr",
-      "fMoveSpeedMulti":1.1,
+      "fMoveSpeedMulti":0.8,
       "bToleratesWater":true,
       "bToleratesFire":false,
       "bToleratesSmoke":false,
@@ -51,10 +51,9 @@
          "@3",
          "@4",
          "@5",
-         "ArmorIronLegs",
-         "ArmorPaddedCuirass",
-         "HelmetPadded",
-         "CapeLox"
+         "ArmorDragonslayerLegs",
+         "ArmorDragonslayerChest",
+         "ArmorDragonslayerHelmet"
       ],
       "aRandomWeapon":[
          
@@ -271,7 +270,7 @@
          {
             "sPrefabName":"Heavyscale",
             "iAmountMin":1,
-            "iAmountMax":1,
+            "iAmountMax":3,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true

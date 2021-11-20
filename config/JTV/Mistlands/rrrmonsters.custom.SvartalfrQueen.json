@@ -3,16 +3,16 @@
    "sNewPrefabName":"SvartalfrQueen",
    "Category_Appearance":{
       "vScale":{
-         "fX":0.75,
-         "fY":1.2,
-         "fZ":1.1
+         "fX":1.5,
+         "fY":1.75,
+         "fZ":1.5
       },
-      "cTintColor":null,
-      "cTintItems":{
-         "fRed":0.35,
-         "fGreen":0.35,
-         "fBlue":0.35
+      "cTintColor":{
+         "fRed":2.55,
+         "fGreen":1.35,
+	      "fBlue":1.35
       },
+      "cTintItems":null,
       "cBodySmoke":null,
       "cBodyFlames":null,
       "sCustomTexture":null
@@ -23,11 +23,11 @@
       "bBoss":true,
       "sBossEvent":"SvartalfarCourt",
       "sDefeatSetGlobalKey":"defeated_MourningQueen",
-      "fMoveSpeedMulti":1.1,
+      "fMoveSpeedMulti":1.3,
       "bToleratesWater":true,
       "bToleratesFire":false,
       "bToleratesSmoke":false,
-      "fHealth":1800,
+      "fHealth":2800,
       "dDamageTaken":{
          "m_blunt":"Normal",
          "m_slash":"Normal",
@@ -49,14 +49,13 @@
          "@1",
          "@2",
          "ArmorIronLegs",
-         "ArmorPaddedCuirass",
-         "CapeLinen"
+         "SageRobeWhite",
+         "HelmetDverger"
       ],
       "aRandomWeapon":[
          
       ],
       "aRandomArmor":[
-         
       ],
       "aRandomShield":[
          
@@ -117,6 +116,63 @@
             ],
             "aHitEffects":null,
             "aTriggerEffects":null
+         },
+         {
+            "sOriginalPrefabName":"Greydwarf_shaman_heal",
+            "sTargetAnim":"mace_secondary",
+            "fAIAttackInterval":12,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "sfx_unarmed_swing"
+            ],
+            "aHitEffects":null,
+            "aTriggerEffects":null
+         },
+         {
+            "sOriginalPrefabName":"dragon_claw_right",
+            "sTargetAnim":"mace_secondary",
+            "fAIAttackInterval":12,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":40,
+               "fSlash":40,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":30,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "fx_gdking_rootspawn",
+               "sfx_unarmed_swing"
+            ],
+            "aHitEffects":[
+               "TentaRoot",
+               "vfx_gdking_stomp",
+               "sfx_gdking_stomp"
+            ],
+            "aTriggerEffects":null
          }
       ]
    },
@@ -131,8 +187,8 @@
       "bAvoidFire":false,
       "bAfraidOfFire":false,
       "bAvoidWater":true,
-      "sSpawnMessage":"",
-      "sDeathMessage":""
+      "sSpawnMessage":"The Mourning Queen has awakened",
+      "sDeathMessage":"The Mourning Queen Rests"
    },
    "Category_MonsterAI":{
       "fAlertRange":20,
@@ -160,12 +216,12 @@
       "fConsumeHeal":0
    },
    "Category_CharacterDrop":{
-      "bReplaceOriginalDrops":true,
+      "bReplaceOriginalDrops":false,
       "drDrops":[
          {
-            "sPrefabName":"HeavyScale",
-            "iAmountMin":3,
-            "iAmountMax":6,
+            "sPrefabName":"Heavyscale",
+            "iAmountMin":10,
+            "iAmountMax":15,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true

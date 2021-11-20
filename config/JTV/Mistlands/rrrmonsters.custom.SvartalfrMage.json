@@ -50,7 +50,7 @@
          "@2",
          "@3",
          "ArmorIronLegs",
-         "ArmorPaddedCuirass",
+         "SageRobeBlack",
          "CapeLinen"
       ],
       "aRandomWeapon":[
@@ -203,7 +203,7 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"HeavyScale",
+            "sPrefabName":"Heavyscale",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,
