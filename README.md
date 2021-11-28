@@ -12,17 +12,19 @@ The goal of this set up is to simply complete the game without straying too far 
  - 7 top tier armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
 
-# Manual Installation (Required)
+# Installation
+
+## Manual (Recommended)
  1. Download all dependencies first
- 2. Extract contents to BepinEx folder
+ 2. Extract contents to the appropriate folder (i.e. if the download has a config folder, put all the files in that config folder in your BepInEx\Config folder. If there is a plugins folder, put those files in you BepInEx\plugins folder.)
  3. Download Journey To Valhalla
  4. Extract to BepinEx folder
- 5. Download the following mods from nexus and place them in the BepInEx/plugins folder:
-    1. [Custom Weapon Stats](https://www.nexusmods.com/valheim/mods/1151)
-    2. [Custom Armor Stats](https://www.nexusmods.com/valheim/mods/1162)
-    3. [Recipe Customization](https://www.nexusmods.com/valheim/mods/1245)
 
-Using a mod manager will not work, as the Terraheim and Forgotten Biomes changes will be in the wrong place.
+## Mod Manager
+ 1. Install all dependencies first
+ 2. Install Journey To Valhalla to over-write the default configs for the dependencies
+ 3. Manually move the files from `BepInEx\plugins\thedefside-Journey_To_Valhalla\DasSauerkraut-Terraheim` to `BepInEx\plugins\DasSauerkraut-Terraheim`. If you skip this step the armor recipes will be wrong.
+
 
 # Biomes
 ```
@@ -90,14 +92,20 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
 ```
 
 # Known issues
- - The boss altars don't always seem to work
+ - The boss altars don't work for Servers. For clients you may need to log out (not quit) and log back in to your world to summon the boss.
 
 # Roadmap
  - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
- - Add enemy NPCs with unique weapon drops
- - Add new minibosses
+ - Replace Forgotten Biomes with a JVL based solution
 
 # Change log
+v0.1.0
+ - Remove dependency on Nexus mods and replace with my own forks
+ - Fix the movement speed modifier on weapons
+ - Replace Sage Robes with Sage Vault
+ - Update Cahos Warrior T1-T2 stats and recipes
+ - Fixed an issue in MonsterNobs.dll where it was trying to load the prefabs again on log out
+
 v0.0.9
  - Updated the look of the Dark Elves
  - Disabled the dark elf raids
