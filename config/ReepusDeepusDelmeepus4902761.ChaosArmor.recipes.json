@@ -9,7 +9,7 @@
 		"Requirements": [
 			{
 				"Item": "Bronze",
-				"Amount": 20,
+				"Amount": 15,
 				"AmountPerLevel": 5
 			},
 			{
@@ -32,7 +32,7 @@
 		"Requirements": [
 			{
 				"Item": "Bronze",
-				"Amount": 10,
+				"Amount": 15,
 				"AmountPerLevel": 3
 			},
 			{
@@ -74,8 +74,8 @@
 		"Name": "$item_armor_t2pchaosbody",
 		"Requirements": [
 			{
-				"Item": "Iron",
-				"Amount": 50,
+				"Item": "Silver",
+				"Amount": 30,
 				"AmountPerLevel": 10
 			},
 			{
@@ -102,7 +102,7 @@
 		"Name": "$item_helmet_t2pchaosplate",
 		"Requirements": [
 			{
-				"Item": "Iron",
+				"Item": "Silver",
 				"Amount": 30,
 				"AmountPerLevel": 5
 			},
@@ -126,7 +126,7 @@
 		"RepairStation": "forge",
 		"Requirements": [
 			{
-				"Item": "Iron",
+				"Item": "Silver",
 				"Amount": 30,
 				"AmountPerLevel": 8
 			},

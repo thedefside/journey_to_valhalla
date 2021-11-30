@@ -1,0 +1,13 @@
+{
+    "name": "JotunnAltar",
+    "craftingStation": "",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FrometalBar_DoD:20:0:True",
+        "WorldTreeFragment:10:0:True",
+        "PrimordialIce:20:0:True",
+        "YmirsSoulEssence:1:0:True"
+    ]
+}

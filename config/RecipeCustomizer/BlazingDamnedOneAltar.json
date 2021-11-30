@@ -1,0 +1,12 @@
+{
+    "name": "BlazingDamnedOneAltar",
+    "craftingStation": "",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flametal:20:0:True",
+        "WorldTreeFragment:10:0:True",
+        "FenrirsHeart:1:0:True"
+    ]
+}
