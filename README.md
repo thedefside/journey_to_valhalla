@@ -25,6 +25,8 @@ The goal of this set up is to simply complete the game without straying too far 
  2. Install Journey To Valhalla to over-write the default configs for the dependencies
  3. Manually move the files from `BepInEx\plugins\thedefside-Journey_To_Valhalla\DasSauerkraut-Terraheim` to `BepInEx\plugins\DasSauerkraut-Terraheim`. If you skip this step the armor recipes will be wrong.
 
+## Information
+For help requests, suggestions, bug reports, or to just follow the development, join the discord! https://discord.gg/vSEjCNF48K
 
 # Biomes
 ```
@@ -95,16 +97,23 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - The boss altars don't work for Servers. For clients you may need to log out (not quit) and log back in to your world to summon the boss.
 
 # Roadmap
+ - Fix Boss Altars
  - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
- - Replace Forgotten Biomes with a JVL based solution
 
 # Change log
+v0.1.1
+ - Fix Obsidian Golem not doing any damage
+ - Fix Kursed not loading on dedicated servers
+ - Include config for latest DoDMonsters (thanks Horem!)
+ - Move the Forgotten Biomes files to the config folder (thanks Alree!)
+ - Turn off Storm enemies spawning in the Mountains
+
 v0.1.0
  - Remove dependency on Nexus mods and replace with my own forks
  - Fix the movement speed modifier on weapons
  - Replace Sage Robes with Sage Vault
- - Update Cahos Warrior T1-T2 stats and recipes
- - Fixed an issue in MonsterNobs.dll where it was trying to load the prefabs again on log out
+ - Update Chaos Warrior T1-T2 stats and recipes
+ - Fixed an issue in MonsterMobs.dll where it was trying to load the prefabs again on log out
 
 v0.0.9
  - Updated the look of the Dark Elves

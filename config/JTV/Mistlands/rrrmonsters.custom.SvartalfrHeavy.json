@@ -51,9 +51,9 @@
          "@3",
          "@4",
          "@5",
-         "ArmorDragonslayerLegs",
-         "ArmorDragonslayerChest",
-         "ArmorDragonslayerHelmet"
+         "ArmorRootChest",
+         "ArmorRootLegs",
+         "HelmetRoot"
       ],
       "aRandomWeapon":[
          

@@ -1,26 +1,28 @@
 {
     "name": "Journey_To_Valhalla",
-    "version_number": "0.0.9",
+    "version_number": "0.1.1",
     "website_url": "https://github.com/thedefside/journey_to_valhalla",
     "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
     "dependencies": [
-        "AlreeNicolas-Forgotten_Biomes-0.0.13",
+        "AlreeNicolas-Forgotten_Biomes-0.0.15",
         "MonsterLabZ-MonsterLabZ-1.7.0",
         "GoldenJude-Blacksmiths_tools-2.0.1",
         "AeehyehssReeper-ChaosArmor-7.1.0",
-        "Horem-DoOrDieMonsters-0.3.10",
+        "Horem-DoOrDieMonsters-0.4.3",
         "Huntardys-EpicValheimsAdditions-1.2.7",
-        "ValheimModding-Jotunn-2.3.12",
+        "ValheimModding-Jotunn-2.4.1",
         "GoldenJude-Judes_Equipment-1.4.0",
         "neurodr0me-RRRCore-2.10.0",
         "neurodr0me-RRRMonsters-2.2.1",
         "neurodr0me-RRRNpcs-0.2.3",
-        "Fantu-SageRobes-1.0.0",
+        "Fantu-Sages_Vault-1.1.2",
         "ASharpPen-Custom_Raids-1.4.0",
         "ASharpPen-Drop_That-2.1.0",
-        "ASharpPen-Spawn_That-0.11.3",
-        "Fantu-PopVillages-1.0.0",
-        "OdinPlus-ChickenBoo-0.1.5",
-        "DasSauerkraut-Terraheim-2.2.0"
+        "ASharpPen-Spawn_That-0.11.6",
+        "Fantu-PopVillages-1.0.1",
+        "OdinPlus-ChickenBoo-2.0.5",
+        "DasSauerkraut-Terraheim-2.2.0",
+        "thedefside-RecipeCustomizer-0.0.1",
+        "thedefside-WeaponCustomizer-0.0.1"
     ]
 }
