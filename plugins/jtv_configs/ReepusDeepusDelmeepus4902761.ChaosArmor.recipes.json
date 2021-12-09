@@ -1,0 +1,250 @@
+[
+	{
+		"Item": "T1ChaosPlateArmor",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_armor_t1pchaosbody",
+		"Requirements": [
+			{
+				"Item": "Bronze",
+				"Amount": 15,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "TrophyFrostTroll",
+				"Amount": 1
+			},
+			{
+				"Item": "LeatherScraps",
+				"Amount": 9
+			}
+		]
+	},
+	{
+		"Item": "T1ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_helmet_t1pchaosplate",
+		"Requirements": [
+			{
+				"Item": "Bronze",
+				"Amount": 15,
+				"AmountPerLevel": 3
+			},
+			{
+				"Item": "TrophyBoar",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "T1ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_legs_t1pchaoslegs",
+		"Requirements": [
+			{
+				"Item": "Bronze",
+				"Amount": 15,
+				"AmountPerLevel": 3
+			},
+			{
+				"Item": "TrollHide",
+				"Amount": 5,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "LeatherScraps",
+				"Amount": 4
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateArmor",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_armor_t2pchaosbody",
+		"Requirements": [
+			{
+				"Item": "Silver",
+				"Amount": 30,
+				"AmountPerLevel": 10
+			},
+			{
+				"Item": "TrophyDraugrElite",
+				"Amount": 1
+			},
+			{
+				"Item": "FreezeGland",
+				"Amount": 5,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T1ChaosPlateArmor",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Name": "$item_helmet_t2pchaosplate",
+		"Requirements": [
+			{
+				"Item": "Silver",
+				"Amount": 30,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FreezeGland",
+				"Amount": 5,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T1ChaosPlateHelm",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "T2ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_legs_t2pchaoslegs",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Silver",
+				"Amount": 30,
+				"AmountPerLevel": 8
+			},
+			{
+				"Item": "FreezeGland",
+				"Amount": 5,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T1ChaosPlateLegs",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateArmorBody",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_armor_pchaosbodytwo",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "HeavymetalBar",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T2ChaosPlateArmor",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateHelm",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_helmet_pchaosplate",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "HeavymetalBar",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T2ChaosPlateHelm",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateHelmAlt",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_helmet_pchaosplate_alt",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "FelmetalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},			
+			{
+				"Item": "ChaosPlateHelm",
+				"Amount": 1
+			}
+		]
+	},
+	{
+		"Item": "ChaosPlateLegs",
+		"Amount": 1,
+		"Enabled": true,
+		"Name": "$item_legs_pchaoslegs",
+		"CraftingStation": "forge",
+		"RepairStation": "forge",
+		"Requirements": [
+			{
+				"Item": "Flametal",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "HeavymetalBar",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "FrometalBar_DoD",
+				"Amount": 10,
+				"AmountPerLevel": 5
+			},
+			{
+				"Item": "T2ChaosPlateLegs",
+				"Amount": 1
+			}
+		]
+	}
+]

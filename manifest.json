@@ -1,6 +1,6 @@
 {
     "name": "Journey_To_Valhalla",
-    "version_number": "0.1.1",
+    "version_number": "0.1.3",
     "website_url": "https://github.com/thedefside/journey_to_valhalla",
     "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
     "dependencies": [
@@ -19,6 +19,7 @@
         "ASharpPen-Custom_Raids-1.4.0",
         "ASharpPen-Drop_That-2.1.0",
         "ASharpPen-Spawn_That-0.11.6",
+        "ASharpPen-This_Goes_Here-1.1.0",
         "Fantu-PopVillages-1.0.1",
         "OdinPlus-ChickenBoo-2.0.5",
         "DasSauerkraut-Terraheim-2.2.0",

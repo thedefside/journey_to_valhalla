@@ -14,16 +14,9 @@ The goal of this set up is to simply complete the game without straying too far 
 
 # Installation
 
-## Manual (Recommended)
- 1. Download all dependencies first
- 2. Extract contents to the appropriate folder (i.e. if the download has a config folder, put all the files in that config folder in your BepInEx\Config folder. If there is a plugins folder, put those files in you BepInEx\plugins folder.)
- 3. Download Journey To Valhalla
- 4. Extract to BepinEx folder
-
-## Mod Manager
- 1. Install all dependencies first
- 2. Install Journey To Valhalla to over-write the default configs for the dependencies
- 3. Manually move the files from `BepInEx\plugins\thedefside-Journey_To_Valhalla\DasSauerkraut-Terraheim` to `BepInEx\plugins\DasSauerkraut-Terraheim`. If you skip this step the armor recipes will be wrong.
+ 1. Install JTV and all dependencies
+ 2. Start the game. This will copy all config files to the correct place.
+ 3. Exit the game and re-start to reload the config changes.
 
 ## Information
 For help requests, suggestions, bug reports, or to just follow the development, join the discord! https://discord.gg/vSEjCNF48K
@@ -101,6 +94,14 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
 
 # Change log
+v0.1.3
+ - Remove the DoD spawner and drop files
+
+v0.1.2
+ - Use DoD Monsters Deep North Veg instead of Forgotten Biomes
+ - Fix Swedish Chef and Molluscan damages
+ - No more manual installation steps required thanks to ASharpPen's 'This Goes Here' mod
+
 v0.1.1
  - Fix Obsidian Golem not doing any damage
  - Fix Kursed not loading on dedicated servers

@@ -1,0 +1,21 @@
+PrintComment: Copying JTV configs...
+CopyFile:
+- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/horemvore.DoDMonsters.cfg
+  To: config/horemvore.DoDMonsters.cfg
+- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/balance.json
+  To: plugins/DasSauerkraut-Terraheim/balance.json
+- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/weaponBalance.json
+  To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
+- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/english.lang
+  To: plugins/DasSauerkraut-Terraheim/english.lang
+- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
+  To: config/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
+DeleteFile:
+- plugins/thedefside-Journey_To_Valhalla/CustomWeaponStats.dll
+- plugins/thedefside-Journey_To_Valhalla/CustomArmorStats.dll
+- plugins/thedefside-Journey_To_Valhalla/RecipeCustomization.dll
+- config/Do or Die SE/dod_drops/dod_drops_other/drop_that.drop_table.dod_pickables.cfg
+- config/Do or Die SE/dod_drops/dod_drops_other/drop_that.drop_table.dod_trees.cfg
+- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_AshLands.cfg
+- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_DeepNorth.cfg
+- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_Mistlands.cfg
