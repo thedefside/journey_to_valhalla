@@ -160,7 +160,7 @@
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FrometalBar_DoD",
+				"Item": "FrometalBar",
 				"Amount": 10,
 				"AmountPerLevel": 5
 			},
@@ -189,7 +189,7 @@
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FrometalBar_DoD",
+				"Item": "FrometalBar",
 				"Amount": 10,
 				"AmountPerLevel": 5
 			},
@@ -237,7 +237,7 @@
 				"AmountPerLevel": 5
 			},
 			{
-				"Item": "FrometalBar_DoD",
+				"Item": "FrometalBar",
 				"Amount": 10,
 				"AmountPerLevel": 5
 			},

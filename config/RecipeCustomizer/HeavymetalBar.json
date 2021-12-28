@@ -5,7 +5,7 @@
     "amount": 1,
     "disabled": false,
     "reqs": [
-        "FelmetalBar_DoD:1:0:False",
+        "Coal:2:0:False",
         "Heavyscale:1:0:False"
     ]
 }

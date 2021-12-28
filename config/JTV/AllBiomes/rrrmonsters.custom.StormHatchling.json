@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"DarknessDrake_DoD",
+   "sOriginalPrefabName":"Hatchling",
    "sNewPrefabName":"StormHatchling",
    "Category_Appearance":{
       "vScale":{
@@ -18,8 +18,7 @@
          "fGreen":0.1,
          "fBlue":0.1
       },
-      "cBodyFlames":null,
-      "sCustomTexture":"StormHatchling"
+      "cBodyFlames":null
    },
    "Category_Character":{
       "sName":"Thunder Drake",

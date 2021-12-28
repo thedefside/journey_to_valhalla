@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"FlameDrake_DoD",
+   "sOriginalPrefabName":"Hatchling",
    "sNewPrefabName":"AshHatchling",
    "Category_Appearance":{
       "vScale":{
@@ -22,8 +22,7 @@
          "fRed":0.007,
          "fGreen":0.0,
          "fBlue":0.07
-      },
-      "sCustomTexture":"AshHatchling"
+      }
    },
    "Category_Character":{
       "sName":"Fire-breathing Drake",

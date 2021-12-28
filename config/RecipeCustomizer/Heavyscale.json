@@ -1,0 +1,11 @@
+{
+    "name": "Heavyscale",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Iron:1:0:False",
+        "WorldTreeFragment:2:0:False"
+    ]
+}

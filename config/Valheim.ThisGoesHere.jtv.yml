@@ -2,11 +2,11 @@ PrintComment: Copying JTV configs...
 CopyFile:
 - From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/horemvore.DoDMonsters.cfg
   To: config/horemvore.DoDMonsters.cfg
-- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/balance.json
+- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/balance.json
   To: plugins/DasSauerkraut-Terraheim/balance.json
-- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/weaponBalance.json
+- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/weaponBalance.json
   To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
-- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/DasSauerkraut-Terraheim/english.lang
+- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/english.lang
   To: plugins/DasSauerkraut-Terraheim/english.lang
 - From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
   To: config/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json

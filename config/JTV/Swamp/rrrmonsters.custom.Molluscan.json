@@ -65,7 +65,7 @@
       "fViewRange" : 30,
       "fViewAngle" : 90,
       "fHearRange" : 9999,
-      "sPathAgentType" : "HumanoidAvoidWater",
+      "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
       "fRandomMoveInterval" : 20,
       "fRandomMoveRange" : 10,

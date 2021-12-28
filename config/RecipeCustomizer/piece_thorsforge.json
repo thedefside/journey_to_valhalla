@@ -1,0 +1,13 @@
+{
+    "name": "piece_thorsforge",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "WorldTreeFragment:20:0:True",
+        "Thunderstone:10:0:True",
+        "Tar:5:0:True",
+        "ErrorDrop:1:0:True"
+    ]
+}

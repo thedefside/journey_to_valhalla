@@ -1,10 +1,11 @@
 {
-    "name": "FrometalBar",
+    "name": "reforger_ext5",
     "craftingStation": "$piece_forge",
     "minStationLevel": 1,
     "amount": 1,
     "disabled": false,
     "reqs": [
-        "FrometalBar_DoD:1:0:False"
+        "FineWood:10:0:True",
+        "CapeTest:5:0:True"
     ]
 }

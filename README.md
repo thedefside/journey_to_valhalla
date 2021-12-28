@@ -13,10 +13,14 @@ The goal of this set up is to simply complete the game without straying too far 
  - Storm Wolves and Drakes that spawn during rain storms
 
 # Installation
-
+Mod Manager (Preferred)
  1. Install JTV and all dependencies
  2. Start the game. This will copy all config files to the correct place.
  3. Exit the game and re-start to reload the config changes.
+
+Manual
+ 1. Download all dependencies and copy to your BepInEx folder
+ 2. Download JTV last and copy all files to the BepInEx folder
 
 ## Information
 For help requests, suggestions, bug reports, or to just follow the development, join the discord! https://discord.gg/vSEjCNF48K
@@ -34,6 +38,7 @@ Black Forest:
 ```
 Swamp:
  - Add Molluscan (MonsterLabZ)
+ - Add Rancid Remains
 ```
 ```
 Mountains:
@@ -49,25 +54,28 @@ Plains:
 Mistlands:
  - Dark Elves, Dark Elder, Dark Spiders, Darksquitos (Monsternomicon)
  - Voidling (DoDMonsters)
- - Minable FelMetal deposits (DoDMonsters)
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
- - Heavymetal Scale drops (HundardysValheimAdditions)
+ - Heavymetal ore deposits (HundardysValheimAdditions)
  - Mother Darkspider miniboss (Monsternomicon)
+ - The Mourning Queen boss and altar (HundardysValheimAdditions)
 ```
 ```
 Deep North:
- - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, and Jotunn (Monsternomicon)
- - Ice Golem, Dire Wolf, Frostling (DoDMonsters)
+ - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem (Monsternomicon)
+ - Dire Wolf, Frostling (DoDMonsters)
  - Dvergr NPC (Monsternomicon)
- - FrometalOre deposits (DoDMonsters)
+ - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
  - Frost Giant (MonsterLabZ)
  - Forgotten One miniboss (Monsternomicon)
+ - Jotunn boss and altar (Monsternomicon)
 ```
 ```
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire Drake (Monsternomicon)
  - Living Lava (DoDMonsters)
+ - Minable FelMetal deposits (DoDMonsters)
+ - Damned One boss and Altar (HundardysValheimAdditions)
 ```
 ```
 Ocean:
@@ -85,15 +93,28 @@ There are 7 new sets of armor. All are top-tier with identical armor stats, but 
  - Wanderer's Armor: resistent to lightning, frost damage; weak to fire
  - Chaos Warrior Armor: Increased health and stamina regen, slow movement
 ```
+Terraheim armor changes are disabled along with the armor's bench crafting station.
 
 # Known issues
- - The boss altars don't work for Servers. For clients you may need to log out (not quit) and log back in to your world to summon the boss.
+ - None.
 
 # Roadmap
- - Fix Boss Altars
  - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
 
 # Change log
+v0.2.0
+ - Update Epic Valheim Additions mod
+   - Boss altars are fixed for all users and are created during world gen instead of having to build them
+   - This requires the Deep North to switch back to Forgotten Biomes vegetation
+   - DoDMonsters Frometal has been replaced by Huntardy's Frometal
+   - Dark Elves will drop Infused Gemstones instead of scales
+   - Felmetal deposits moved to Ashlands
+   - Frometal recipes updated to use Huntardy's Frometal
+ - Molluscan should no longer avoid water
+ - Make Thor's Forge, Inscription tabel, and Armorer's Bench un-crafable
+ - Add Rancid Remains to the Swamp
+ - Update Chaos Warrior Armor. Unfortunately, you can no longer configure the armor values
+
 v0.1.3
  - Remove the DoD spawner and drop files
 
