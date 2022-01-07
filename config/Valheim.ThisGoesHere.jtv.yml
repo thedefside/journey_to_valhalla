@@ -19,3 +19,11 @@ DeleteFile:
 - config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_AshLands.cfg
 - config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_DeepNorth.cfg
 - config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_Mistlands.cfg
+- config/RecipeCustomizer/piece_alchemystation.json
+- config/RecipeCustomizer/piece_thorsforge.json
+- config/RecipeCustomizer/reforger.json
+- config/RecipeCustomizer/reforger_ext1.json
+- config/RecipeCustomizer/reforger_ext2.json
+- config/RecipeCustomizer/reforger_ext3.json
+- config/RecipeCustomizer/reforger_ext4.json
+- config/RecipeCustomizer/reforger_ext5.json

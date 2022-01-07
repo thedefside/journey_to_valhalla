@@ -288,12 +288,12 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"Coal",
+            "sPrefabName":"TorchOlympia",
             "iAmountMin":1,
-            "iAmountMax":2,
+            "iAmountMax":1,
             "fChance":1,
             "bOnePerPlayer":false,
-            "bLevelMultiplier":true
+            "bLevelMultiplier":false
          },
          {
             "sPrefabName":"FlametalOre",

@@ -58,6 +58,7 @@ Mistlands:
  - Heavymetal ore deposits (HundardysValheimAdditions)
  - Mother Darkspider miniboss (Monsternomicon)
  - The Mourning Queen boss and altar (HundardysValheimAdditions)
+ - New crafting table: Dark Forge
 ```
 ```
 Deep North:
@@ -69,6 +70,7 @@ Deep North:
  - Frost Giant (MonsterLabZ)
  - Forgotten One miniboss (Monsternomicon)
  - Jotunn boss and altar (Monsternomicon)
+ - New crafting table: Cold Forge
 ```
 ```
 Ashlands:
@@ -76,6 +78,7 @@ Ashlands:
  - Living Lava (DoDMonsters)
  - Minable FelMetal deposits (DoDMonsters)
  - Damned One boss and Altar (HundardysValheimAdditions)
+ - New Crafting Table: Thor's Forge
 ```
 ```
 Ocean:
@@ -83,25 +86,47 @@ Ocean:
  ```
 
 # Armor
-There are 7 new sets of armor. All are top-tier with identical armor stats, but each provides different strengths and weaknesses
+There are 7 new sets of armor.
 ```
  - Plate Armor: Mistlands - resistent to poison damage
- - Dragon Slayer Armor: Deep North - resistent to frost damage
- - Mistlands Armor: Ashlands - resistent to fire damage
- - Barbarian Armor: Faster movement speed, weak to frost and fire
- - Nomad Armor: Weight carry bonus
- - Wanderer's Armor: resistent to lightning, frost damage; weak to fire
+ - Dragon Slayer Armor: Mountains - resistent to frost damage
+ - Ashlands Armor: Ashlands - resistent to fire damage
+ - Barbarian Armor: Mistlands - Faster movement speed, weak to frost and fire
+ - Nomad Armor: Plains - Weight carry bonus
+ - Wanderer's Armor: Deep North - resistent to lightning, frost damage; weak to fire
  - Chaos Warrior Armor: Increased health and stamina regen, slow movement
 ```
-Terraheim armor changes are disabled along with the armor's bench crafting station.
+***Terraheim armor changes are disabled
 
 # Known issues
  - None.
 
 # Roadmap
- - Lock progresion to Mistlands -> Deep North -> Ashlands through boss drops
+ - Sync the weapon configs with server
 
 # Change log
+v0.2.2
+ - Lock progression to Mistlands -> Deep North -> Ashlands through boss drops and crafting stations
+   - Dark Forge (Inscription Table) - Requires Yagluth drop to craft. Used to craft Heavy metal weapons and armor.
+   - Cold Forge (Armorer's Bench) - Requires Misltands boss drop to craft. Used to craft Frometal weapons and armor.
+   - Thor's Forge - Requires Deep North boss drop to craft. Used to craft Flametal weapons and armor.
+ - Add new food: Banana Bread
+ - Improve the appearance of the Dire Wolves and lowered the drop rate of the pelts
+ - Add teirs to the Jude's Equipment armors 
+
+v0.2.1
+ - Revert change to Dark Elf drops
+ - Add boss summoning drops to Deep North and Ashlands mobs
+ - Disable random boss events for Deep North and Ashlands (Altars must be used to summon them)
+ - Increase Dire Wolf pelt drop rate
+ - Increase Frostling Core drop rate
+ - Fix 'Forgotten One' Deep North miniboss spawning
+ - Adjust Heavymetal, Frometal, and Flametal Pickaxe damages
+ - Adjust Flametal Bow damage
+ - Reduce the drop rate on frometal ore
+ - Add unique item drops to the bosses to unlock the next tier progression (WIP)
+ - chickens can only lay 1 egg at a time
+
 v0.2.0
  - Update Epic Valheim Additions mod
    - Boss altars are fixed for all users and are created during world gen instead of having to build them

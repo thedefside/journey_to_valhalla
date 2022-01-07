@@ -42,9 +42,9 @@
         ]
     },
     "AtgeirFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.10,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -82,7 +82,7 @@
     "ArrowGreatFire": {
         "enabled": true,
         "effectVal": 0.10,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 20,
         "damages": [
             {
@@ -155,7 +155,7 @@
     },
     "AxeForstasca": {
         "enabled": true,
-        "station": "forge",
+        "station": "reforger",
         "amountCrafted": 1,
         "damages": [
             {
@@ -199,9 +199,9 @@
         ]
     },
     "AxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.50,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -388,9 +388,9 @@
         ]
     },
     "BattleaxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 15,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -482,9 +482,9 @@
         ]
     },
     "BowFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 45,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -645,9 +645,9 @@
         ]
     },
     "GreatswordFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 65,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -746,11 +746,11 @@
         ]
     },
     "KnifeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 2.0,
         "effectDur": 1,
         "effectThreshold": 1,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -874,9 +874,9 @@
         ]
     },
     "SpearFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 20,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -914,7 +914,7 @@
     "SledgeFire": {
         "enabled": true,
         "effectVal": 20,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -935,12 +935,12 @@
             {
                 "item": "Flametal",
                 "amount": 30,
-                "perLevel": 15
+                "perLevel": 5
             },
             {
                 "item": "SurtlingCore",
                 "amount": 30,
-                "perLevel": 15
+                "perLevel": 5
             },
             {
                 "item": "LeatherScraps",
@@ -952,7 +952,7 @@
     "SwordFire": {
         "enabled": true,
         "effectVal": 60,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -992,7 +992,7 @@
         "effectVal": 0.10,
         "effectDur": 45,
         "effectCooldown": 60,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
         ],
@@ -1020,10 +1020,10 @@
         ]
     },
     "ShieldFireTower": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 4,
         "projProtection": 0.10,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
         ],
@@ -1197,7 +1197,7 @@
     "ThrowingAxeFire": {
         "enabled": true,
         "effectVal": 20,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {
@@ -1240,10 +1240,10 @@
         "enabled": true
     },
     "MaceFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 8,
         "cooldownVal": 17,
-        "station": "forge",
+        "station": "piece_thorsforge",
         "amountCrafted": 1,
         "damages": [
             {

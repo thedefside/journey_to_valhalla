@@ -227,12 +227,12 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"Crystal",
-            "iAmountMin":2,
-            "iAmountMax":4,
+            "sPrefabName":"InfusedGemstone_DoD",
+            "iAmountMin":5,
+            "iAmountMax":5,
             "fChance":1,
             "bOnePerPlayer":false,
-            "bLevelMultiplier":true
+            "bLevelMultiplier":false
          }
       ]
    },

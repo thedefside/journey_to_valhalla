@@ -251,7 +251,7 @@
       "bAvoidFire":false,
       "bAfraidOfFire":false,
       "bAvoidWater":true,
-      "sSpawnMessage":"",
+      "sSpawnMessage":"The Forgotten One is coming...",
       "sDeathMessage":""
    },
    "Category_MonsterAI":{

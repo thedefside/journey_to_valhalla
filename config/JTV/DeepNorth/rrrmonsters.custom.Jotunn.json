@@ -197,9 +197,9 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"FrometalOre_DoD",
-            "iAmountMin":10,
-            "iAmountMax":15,
+            "sPrefabName":"GreyPearl_DoD",
+            "iAmountMin":5,
+            "iAmountMax":5,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":false

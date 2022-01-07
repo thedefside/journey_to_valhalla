@@ -107,6 +107,14 @@
             "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "YmirsSoulEssence",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
          }
       ]
    },

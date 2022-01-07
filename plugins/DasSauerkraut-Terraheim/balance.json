@@ -1045,7 +1045,7 @@
     },
     "salamanderFur": {
         "crafting": {
-            "station": "piece_workbench",
+            "station": "reforger",
             "minLevel": 4,
             "amountCrafted": 1,
             "items": [

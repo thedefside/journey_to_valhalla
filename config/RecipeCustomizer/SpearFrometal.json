@@ -1,6 +1,6 @@
 {
     "name": "SpearFrometal",
-    "craftingStation": "$piece_forge",
+    "craftingStation": "Cold Forge",
     "minStationLevel": 1,
     "amount": 1,
     "disabled": false,

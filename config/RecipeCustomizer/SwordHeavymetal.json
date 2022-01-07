@@ -1,6 +1,6 @@
 {
     "name": "SwordHeavymetal",
-    "craftingStation": "$piece_forge",
+    "craftingStation": "Dark Forge",
     "minStationLevel": 1,
     "amount": 1,
     "disabled": false,

@@ -192,7 +192,7 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"SurtlingCore",
+            "sPrefabName":"FenrirsHeart",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.5,

@@ -1,6 +1,6 @@
 {
     "name": "KnifeFlametal",
-    "craftingStation": "$piece_forge",
+    "craftingStation": "Thors Forge",
     "minStationLevel": 1,
     "amount": 1,
     "disabled": false,
