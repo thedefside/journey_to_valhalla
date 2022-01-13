@@ -106,6 +106,9 @@ There are 7 new sets of armor.
  - Sync the weapon configs with server
 
 # Change log
+v0.2.4
+ - Update dependencies
+ 
 v0.2.3
  - Update the ragdolls for the Monsternomicon mobs so the textures match
  - New Mistlands food: Liver and Onions
