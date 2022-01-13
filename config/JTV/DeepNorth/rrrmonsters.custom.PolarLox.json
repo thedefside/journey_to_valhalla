@@ -57,6 +57,11 @@
       "aaRandomSets":[
          
       ],
+      "aDeathEffects" : [
+         "fx_lox_death",
+         "PolarLox_ragdoll",
+         "sfx_troll_death"
+      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"lox_stomp",

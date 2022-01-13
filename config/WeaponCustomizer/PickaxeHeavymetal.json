@@ -8,7 +8,7 @@
     "durabilityPerLevel": 50.0,
     "holdDurationMin": 0.0,
     "holdStaminaDrain": 0.0,
-    "toolTier": 3,
+    "toolTier": 5,
     "ammoType": "",
     "statusEffect": "",
     "movementModifier": -0.05,

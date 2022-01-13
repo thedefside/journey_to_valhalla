@@ -57,6 +57,11 @@
       "aaRandomSets":[
          
       ],
+      "aDeathEffects" : [
+         "vfx_troll_death",
+         "Jotunn_ragdoll",
+         "sfx_troll_death"
+      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"troll_groundslam",

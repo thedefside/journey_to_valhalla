@@ -59,6 +59,11 @@
       "aaRandomSets":[
          
       ],
+      "aDeathEffects" : [
+         "vfx_spider_death",
+         "DarkSpider_ragdoll",
+         "sfx_spider_death"
+      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"Greydwarf_attack",

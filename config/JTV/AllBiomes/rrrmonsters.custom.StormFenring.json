@@ -62,6 +62,11 @@
       "aaRandomSets":[
          
       ],
+      "aDeathEffects" : [
+         "vfx_fenring_death",
+         "StormFenring_ragdoll",
+         "sfx_fenring_death"
+      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"Fenring_attack_claw",

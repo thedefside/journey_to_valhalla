@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"BurnedBones",
+   "sOriginalPrefabName":"SkeletonWarriorFire",
    "sNewPrefabName":"BlazingBones",
    "Category_Appearance":{
       "vScale":{
@@ -10,11 +10,7 @@
       "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
-      "cBodyFlames":{
-         "fRed":2.55,
-         "fGreen":1.5,
-         "fBlue":0.5
-      }
+      "cBodyFlames":null
    },
    "Category_Character":{
       "sName":"Blazing Bones",

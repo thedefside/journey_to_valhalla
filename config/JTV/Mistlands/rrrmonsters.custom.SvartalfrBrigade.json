@@ -440,10 +440,10 @@
             "iAmountMax":1,
             "fChance":0.05,
             "bOnePerPlayer":false,
-            "bLevelMultiplier":true
+            "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"Heavyscale",
+            "sPrefabName":"Liver",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,
@@ -451,12 +451,12 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"Crystal",
+            "sPrefabName":"HeadElf",
             "iAmountMin":1,
             "iAmountMax":1,
-            "fChance":0.5,
+            "fChance":0.1,
             "bOnePerPlayer":false,
-            "bLevelMultiplier":true
+            "bLevelMultiplier":false
          }
       ]
    },

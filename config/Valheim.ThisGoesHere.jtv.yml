@@ -27,3 +27,17 @@ DeleteFile:
 - config/RecipeCustomizer/reforger_ext3.json
 - config/RecipeCustomizer/reforger_ext4.json
 - config/RecipeCustomizer/reforger_ext5.json
+- config/RecipeCustomizer/AtgeirFlametal.json
+- config/RecipeCustomizer/AxeFlametal.json
+- config/RecipeCustomizer/BattleaxeFlametal.json
+- config/RecipeCustomizer/BowFlametal.json
+- config/RecipeCustomizer/FlametalBar.json
+- config/RecipeCustomizer/GreatSwordFlametal.json
+- config/RecipeCustomizer/KnifeFlametal.json
+- config/RecipeCustomizer/MaceFlametal.json
+- config/RecipeCustomizer/PickaxeFlametal.json
+- config/RecipeCustomizer/ShieldFlametal.json
+- config/RecipeCustomizer/ShieldFlametalTower.json
+- config/RecipeCustomizer/SledgeFlametal.json
+- config/RecipeCustomizer/SpearFlametal.json
+- config/RecipeCustomizer/SwordFlametal.json

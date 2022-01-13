@@ -63,11 +63,12 @@ Mistlands:
 ```
 Deep North:
  - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem (Monsternomicon)
- - Dire Wolf, Frostling (DoDMonsters)
+ - Frostling (DoDMonsters)
  - Dvergr NPC (Monsternomicon)
  - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
  - Frost Giant (MonsterLabZ)
+ - Arctic Wolf
  - Forgotten One miniboss (Monsternomicon)
  - Jotunn boss and altar (Monsternomicon)
  - New crafting table: Cold Forge
@@ -105,6 +106,12 @@ There are 7 new sets of armor.
  - Sync the weapon configs with server
 
 # Change log
+v0.2.3
+ - Update the ragdolls for the Monsternomicon mobs so the textures match
+ - New Mistlands food: Liver and Onions
+ - Replaced Dire Wolf with Arctic Wolf and added pelt and trophy drops
+ - Remove custom recipes for Flametal weapons
+
 v0.2.2
  - Lock progression to Mistlands -> Deep North -> Ashlands through boss drops and crafting stations
    - Dark Forge (Inscription Table) - Requires Yagluth drop to craft. Used to craft Heavy metal weapons and armor.

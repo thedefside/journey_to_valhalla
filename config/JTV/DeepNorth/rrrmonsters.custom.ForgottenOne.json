@@ -3,9 +3,9 @@
    "sNewPrefabName":"ForgottenOne",
    "Category_Appearance":{
       "vScale":{
-         "fX":1,
-         "fY":1,
-         "fZ":1
+         "fX":1.2,
+         "fY":1.2,
+         "fZ":1.2
       },
       "cTintColor":null,
       "cTintItems":null,

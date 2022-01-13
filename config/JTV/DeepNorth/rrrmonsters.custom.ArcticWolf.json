@@ -1,25 +1,25 @@
 {
-   "sOriginalPrefabName" : "DireWolf",
-   "sNewPrefabName" : "DireWolf",
+   "sOriginalPrefabName" : "ArcticWolf",
+   "sNewPrefabName" : "ArcticWolf",
    "Category_Appearance" : {
       "vScale" : {
          "fX" : 1.2,
          "fY" : 1.2,
          "fZ" : 1.2
       },
-      "cTintColor":null,
+      "cTintColor" : null,
       "cTintItems" : null,
       "cBodySmoke" : null,
       "cBodyFlames" : null,
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Dire Wolf",
+      "sName" : "Arctic Wolf",
       "sFaction" : "MountainMonsters",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 1,
+      "fMoveSpeedMulti" : 1.1,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
       "bToleratesSmoke" : false,
@@ -38,13 +38,25 @@
       }
    },
    "Category_Humanoid" : {
-      "dtAttackDamageOverride" : null,
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 120,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 40,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "DireWolf_Attack1_DoD",
-         "DireWolf_Attack2_DoD",
-         "DireWolf_Attack3_DoD"
+         "Wolf_Attack1",
+         "Wolf_Attack2",
+         "Wolf_Attack3"
       ],
       "aRandomWeapon" : [
          
@@ -64,7 +76,7 @@
       ],
       "aDeathEffects" : [
          "vfx_wolf_death",
-         "DireWolf_Ragdoll",
+         "ArcticWolf_ragdoll",
          "sfx_wolf_death"
       ],
       "aConsumeItemEffects" : [
@@ -129,7 +141,12 @@
       ],
       "bAvoidLand" : false,
       "aConsumeItems" : [
-         "LoxMeat"
+         "NeckTail",
+         "RawMeat",
+         "LoxMeat",
+         "Sausages",
+         "FishRaw",
+         "DeerMeat"
       ],
       "fConsumeRange" : 1.4,
       "fConsumeSearchRange" : 10,
@@ -140,7 +157,7 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "TrophyDireWolf_DoD",
+            "sPrefabName" : "TrophyWolf",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
             "fChance" : 0.1,
@@ -153,23 +170,23 @@
             "iAmountMax" : 1,
             "fChance" : 1,
             "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
+            "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "DireWolfPelt_DoD",
+            "sPrefabName" : "WolfPelt",
             "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.75,
+            "iAmountMax" : 2,
+            "fChance" : 1,
             "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
+            "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "LargeFang_DoD",
+            "sPrefabName" : "WolfFang",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
-            "fChance" : 0.5,
+            "fChance" : 0.4,
             "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
+            "bLevelMultiplier" : true
          }
       ]
    },

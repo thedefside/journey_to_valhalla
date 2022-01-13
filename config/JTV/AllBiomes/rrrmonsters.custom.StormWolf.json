@@ -57,6 +57,11 @@
       "aaRandomSets" : [
          
       ],
+      "aDeathEffects" : [
+         "vfx_wolf_death",
+         "StormWolf_ragdoll",
+         "sfx_wolf_death"
+      ],
       "aAdvancedCustomAttacks" : [
          {
             "sOriginalPrefabName" : "Wolf_Attack1",
