@@ -201,7 +201,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"ElderBark",
+            "sPrefabName":"WorldTreeFragment",
             "iAmountMin":5,
             "iAmountMax":10,
             "fChance":1,

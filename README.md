@@ -22,6 +22,13 @@ Manual
  1. Download all dependencies and copy to your BepInEx folder
  2. Download JTV last and copy all files to the BepInEx folder
 
+# Incompatible Mods
+ - Monsternomicon (samw prefab names)
+ - DoOrDie Solo Experience (some of the same mobs added)
+ - DoD Biomes (conflicts wit hForgotten Biomes)
+ - Custom Weapon Stats (conflicts with Weapon Customizer)
+ - Recipe Customization (conflicts with Recipe Customizer)
+
 ## Information
 For help requests, suggestions, bug reports, or to just follow the development, join the discord! https://discord.gg/vSEjCNF48K
 
@@ -34,6 +41,7 @@ Meadows:
 ```
 Black Forest:
  - Add Ghost Warrior (MonsterLabZ)
+ - Swedish Chef (JTV)
 ```
 ```
 Swamp:
@@ -48,12 +56,13 @@ Mountains:
 Plains:
  - Add Berserker random spawns
  - Add New Fulings (MonsterLabZ)
- - Add Groozer (Tar Oozer)
+ - Add Groozer (JTV)
 ```
 ```
 Mistlands:
  - Dark Elves, Dark Elder, Dark Spiders, Darksquitos (Monsternomicon)
  - Voidling (DoDMonsters)
+ - Froot (JTV)
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
  - Heavymetal ore deposits (HundardysValheimAdditions)
  - Mother Darkspider miniboss (Monsternomicon)
@@ -68,7 +77,7 @@ Deep North:
  - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
  - Frost Giant (MonsterLabZ)
- - Arctic Wolf
+ - Arctic Wolf (JTV)
  - Forgotten One miniboss (Monsternomicon)
  - Jotunn boss and altar (Monsternomicon)
  - New crafting table: Cold Forge
@@ -106,6 +115,14 @@ There are 7 new sets of armor.
  - Sync the weapon configs with server
 
 # Change log
+v0.2.5
+ - Added DoD Biomes to list of incompatible mods. If you have it installed, you will need to remove it or else your world gen will be messed up
+ - Remove DoD Biomes items from recipes (Hard Wood, Felmetal, Bananas)
+ - Added new Mistlands enemy (thanks to Fjalgard!) with new banana drop
+ - Fix Arctic Wolf drops
+ - Disabled Forgotten Biomes dungeon rooms. You can have your Iron back now :)
+ - Added wood drop to the TentaRoot
+
 v0.2.4
  - Update dependencies
  

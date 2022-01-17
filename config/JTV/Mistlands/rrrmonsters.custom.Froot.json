@@ -1,11 +1,11 @@
 {
-   "sOriginalPrefabName" : "ArcticWolf",
-   "sNewPrefabName" : "ArcticWolf",
+   "sOriginalPrefabName" : "Froot",
+   "sNewPrefabName" : "Froot",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1.2,
-         "fY" : 1.2,
-         "fZ" : 1.2
+         "fX" : 1,
+         "fY" : 0.7,
+         "fZ" : 1
       },
       "cTintColor" : null,
       "cTintItems" : null,
@@ -14,91 +14,103 @@
       "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Arctic Wolf",
-      "sFaction" : "MountainMonsters",
+      "sName" : "FRoot",
+      "sFaction" : "Boss",
       "bBoss" : false,
       "sBossEvent" : "",
       "sDefeatSetGlobalKey" : "",
-      "fMoveSpeedMulti" : 1.1,
+      "fMoveSpeedMulti" : 1,
       "bToleratesWater" : true,
       "bToleratesFire" : false,
-      "bToleratesSmoke" : false,
-      "fHealth" : 500,
+      "bToleratesSmoke" : true,
+      "fHealth" : 80,
       "dDamageTaken" : {
          "m_blunt" : "Normal",
          "m_slash" : "Normal",
          "m_pierce" : "Normal",
          "m_chop" : "Ignore",
          "m_pickaxe" : "Ignore",
-         "m_fire" : "Normal",
-         "m_frost" : "Normal",
+         "m_fire" : "Weak",
+         "m_frost" : "Resistant",
          "m_lightning" : "Normal",
-         "m_poison" : "Normal",
-         "m_spirit" : "Immune"
+         "m_poison" : "Immune",
+         "m_spirit" : "Normal"
       }
    },
    "Category_Humanoid" : {
-      "dtAttackDamageOverride" : {
-         "fDamage" : 0,
-         "fBlunt" : 0,
-         "fSlash" : 120,
-         "fPierce" : 0,
-         "fChop" : 0,
-         "fPickaxe" : 0,
-         "fFire" : 0,
-         "fFrost" : 40,
-         "fLightning" : 0,
-         "fPoison" : 0,
-         "fSpirit" : 0
-      },
+      "dtAttackDamageOverride" : null,
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "Wolf_Attack1",
-         "Wolf_Attack2",
-         "Wolf_Attack3"
+         "@1"
       ],
       "aRandomWeapon" : [
-         
+
       ],
       "aRandomArmor" : [
          
       ],
       "aRandomShield" : [
-         
+
       ],
       "aaRandomSets" : [
          
       ],
       "aHitEffects" : [
-         "vfx_wolf_hit",
-         "sfx_wolf_hit"
+         "sfx_greydwarf_hit",
+         "vfx_greydwarf_hit"
       ],
       "aDeathEffects" : [
-         "vfx_wolf_death",
-         "ArcticWolf_ragdoll",
-         "sfx_wolf_death"
+         "fx_tentaroot_death"
       ],
       "aConsumeItemEffects" : [
-         "sfx_creature_consume"
+         
       ],
-      "aAdvancedCustomAttacks" : null
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName":"tentaroot_attack",
+            "sTargetAnim":"attack",
+            "fAIAttackInterval":8,
+            "bAIPrioritized":true,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":20,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":30,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":null,
+            "aHitEffects":[
+               "sfx_GuckSackDestroyed",
+               "vfx_beehive_destroyed"
+            ],
+            "aTriggerEffects":null
+         }
+      ]
    },
    "Category_BaseAI" : {
       "fViewRange" : 30,
       "fViewAngle" : 90,
-      "fHearRange" : 9999,
+      "fHearRange" : 30,
       "aAlertedEffects" : [
-         "sfx_wolf_alerted"
+         
       ],
       "aIdleEffects" : [
          
       ],
       "fIdleEffectsInterval" : 10,
-      "fIdleEffectsChance" : 0.25,
-      "sPathAgentType" : "Wolf",
+      "fIdleEffectsChance" : 0.5,
+      "sPathAgentType" : "HumanoidNoSwim",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 30,
+      "fRandomMoveInterval" : 10,
       "fRandomMoveRange" : 10,
       "bRandomFly" : false,
       "fChanceToTakeoff" : 1,
@@ -117,15 +129,15 @@
    },
    "Category_MonsterAI" : {
       "fAlertRange" : 20,
-      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
-      "bCirculateWhileCharging" : true,
+      "bCirculateWhileCharging" : false,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
       "bAttackPlayerObjectsWhenAlerted" : null,
-      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMax" : 0,
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 0,
       "fMinAttackInterval" : 0,
@@ -141,52 +153,23 @@
       ],
       "bAvoidLand" : false,
       "aConsumeItems" : [
-         "NeckTail",
-         "RawMeat",
-         "LoxMeat",
-         "Sausages",
-         "FishRaw",
-         "DeerMeat"
+         
       ],
-      "fConsumeRange" : 1.4,
-      "fConsumeSearchRange" : 10,
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
       "fConsumeSearchInterval" : 10,
       "fConsumeHeal" : 0
    },
    "Category_CharacterDrop" : {
-      "bReplaceOriginalDrops" : true,
+      "bReplaceOriginalDrops" : false,
       "drDrops" : [
          {
-            "sPrefabName" : "ArcticWolfTrophy",
+            "sPrefabName" : "Banana",
             "iAmountMin" : 1,
-            "iAmountMax" : 1,
+            "iAmountMax" : 3,
             "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : false
-         },
-         {
-            "sPrefabName" : "WolfMeat",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 1,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
-            "sPrefabName" : "ArcticWolfPelt",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.75,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
-         },
-         {
-            "sPrefabName" : "WolfFang",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.4,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
          }
       ]
    },
