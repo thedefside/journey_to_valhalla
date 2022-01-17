@@ -23,7 +23,7 @@ Manual
  2. Download JTV last and copy all files to the BepInEx folder
 
 # Incompatible Mods
- - Monsternomicon (samw prefab names)
+ - Monsternomicon (same prefab names)
  - DoOrDie Solo Experience (some of the same mobs added)
  - DoD Biomes (conflicts wit hForgotten Biomes)
  - Custom Weapon Stats (conflicts with Weapon Customizer)
@@ -115,6 +115,9 @@ There are 7 new sets of armor.
  - Sync the weapon configs with server
 
 # Change log
+v0.2.6
+ - Re-upload with correct dlls :P
+  
 v0.2.5
  - Added DoD Biomes to list of incompatible mods. If you have it installed, you will need to remove it or else your world gen will be messed up
  - Remove DoD Biomes items from recipes (Hard Wood, Felmetal, Bananas)
