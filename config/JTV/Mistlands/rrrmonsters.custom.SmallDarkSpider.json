@@ -165,7 +165,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"SpiderChitin_Dod",
+            "sPrefabName":"SpiderSilk",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.25,

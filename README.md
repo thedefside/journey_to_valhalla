@@ -1,15 +1,15 @@
 # Description
-The goal of this set up is to simply complete the game without straying too far from vanilla. It is based off of monsternomicon, with weapons from Huntardy's Valheim Additions, and some new enemies and metals from DoDMonsters.
+The goal of this set up is to simply complete the game without straying too far from vanilla. It is based off of monsternomicon, with weapons from Huntardy's Valheim Additions, and some new exclusive items and foods.
 
 # Click the image for a short video preview
 [![Journey To Valhalla](https://img.youtube.com/vi/nzWcYK7BIyQ/0.jpg)](https://www.youtube.com/watch?v=nzWcYK7BIyQ)
 
 # Features
  - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, and some new weapons
- - 5 New metals and 3 complete weapon sets for unfinished biomes
- - Elemental swords
+ - 2 New metals and 3 complete weapon sets for unfinished biomes
+ - New foods and mats
  - Boss altars for Mistlands, Ashlands, and Deep North
- - 7 top tier armor sets each with special characteristics
+ - 8 new armor sets each with special characteristics
  - Storm Wolves and Drakes that spawn during rain storms
 
 # Installation
@@ -19,13 +19,14 @@ Mod Manager (Preferred)
  3. Exit the game and re-start to reload the config changes.
 
 Manual
- 1. Download all dependencies and copy to your BepInEx folder
- 2. Download JTV last and copy all files to the BepInEx folder
+ 1. Download all dependencies first
+ 2. In your plugins folder, create a folder named 'DasSauerkraut-Terraheim. Place all the Terraheim files in there.
+ 3. Download JTV last and copy all files to the BepInEx folder
+ 4. Copy the files from BepInEx/plugins/jtv_configs to the BepInEx/config folder
 
 # Incompatible Mods
  - Monsternomicon (same prefab names)
- - DoOrDie Solo Experience (some of the same mobs added)
- - DoD Biomes (conflicts wit hForgotten Biomes)
+ - DoD Biomes (conflicts with Forgotten Biomes)
  - Custom Weapon Stats (conflicts with Weapon Customizer)
  - Recipe Customization (conflicts with Recipe Customizer)
 
@@ -61,7 +62,7 @@ Plains:
 ```
 Mistlands:
  - Dark Elves, Dark Elder, Dark Spiders, Darksquitos (Monsternomicon)
- - Voidling (DoDMonsters)
+ - ThornWeaver (RRR)
  - Froot (JTV)
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
  - Heavymetal ore deposits (HundardysValheimAdditions)
@@ -72,7 +73,6 @@ Mistlands:
 ```
 Deep North:
  - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem (Monsternomicon)
- - Frostling (DoDMonsters)
  - Dvergr NPC (Monsternomicon)
  - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
@@ -85,8 +85,7 @@ Deep North:
 ```
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire Drake (Monsternomicon)
- - Living Lava (DoDMonsters)
- - Minable FelMetal deposits (DoDMonsters)
+ - Fire Golem (MonsterLabZ)
  - Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
 ```
@@ -96,15 +95,16 @@ Ocean:
  ```
 
 # Armor
-There are 7 new sets of armor.
+There are 8 new sets of armor.
 ```
- - Plate Armor: Mistlands - resistent to poison damage
- - Dragon Slayer Armor: Mountains - resistent to frost damage
- - Ashlands Armor: Ashlands - resistent to fire damage
- - Barbarian Armor: Mistlands - Faster movement speed, weak to frost and fire
- - Nomad Armor: Plains - Weight carry bonus
- - Wanderer's Armor: Deep North - resistent to lightning, frost damage; weak to fire
- - Chaos Warrior Armor: Increased health and stamina regen, slow movement
+ - Plate Armor: Mistlands
+ - Dragon Slayer Armor: Mountains
+ - Ashlands Armor: Ashlands
+ - Barbarian Armor: Mistlands
+ - Nomad Armor: Plains
+ - Wanderer's Armor: Deep North
+ - Serpent Armor: Deep North
+ - Chaos Warrior Armor: Black Forest/Mountain/Mistlands/Ashlands
 ```
 ***Terraheim armor changes are disabled
 
@@ -113,8 +113,28 @@ There are 7 new sets of armor.
 
 # Roadmap
  - Sync the weapon configs with server
+ - Add Trophys
 
 # Change log
+v0.3.2
+ - Restore Arctic Wolves spawns
+ - Frost Giants no longer spawn in water
+
+v0.3.1
+ - Fix Terraheim changes not being applied
+  
+v0.3.0
+ - Remove DoD Monsters dependency (I recommend you remove it and DoD Biomes due to conflicts)
+ - Add Wildlife mod
+ - Add Lightning Mead mod
+ - Tweak Mistlands boss
+ - Added new resource to the Deep North
+ - Added 2 new food recipes
+ - Updated Jude's Equipment and config
+ - Add Thornweaver to the Mistlands
+ - Add Fire Golem to the Ashlands
+ - Add Storm Wolf Trophy
+
 v0.2.6
  - Re-upload with correct dlls :P
   

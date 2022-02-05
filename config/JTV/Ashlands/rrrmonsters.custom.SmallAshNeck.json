@@ -174,7 +174,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"NeckTail",
+            "sPrefabName":"NeckTailGrilled",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,

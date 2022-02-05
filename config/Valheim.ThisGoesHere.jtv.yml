@@ -1,7 +1,5 @@
 PrintComment: Copying JTV configs...
 CopyFile:
-- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/horemvore.DoDMonsters.cfg
-  To: config/horemvore.DoDMonsters.cfg
 - From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/balance.json
   To: plugins/DasSauerkraut-Terraheim/balance.json
 - From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/weaponBalance.json
@@ -11,34 +9,13 @@ CopyFile:
 - From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
   To: config/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
 DeleteFile:
-- plugins/thedefside-Journey_To_Valhalla/CustomWeaponStats.dll
-- plugins/thedefside-Journey_To_Valhalla/CustomArmorStats.dll
-- plugins/thedefside-Journey_To_Valhalla/RecipeCustomization.dll
-- config/Do or Die SE/dod_drops/dod_drops_other/drop_that.drop_table.dod_pickables.cfg
-- config/Do or Die SE/dod_drops/dod_drops_other/drop_that.drop_table.dod_trees.cfg
-- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_AshLands.cfg
-- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_DeepNorth.cfg
-- config/Do or Die SE/dod_spawners/spawn_that.world_spawners.DoD_Mistlands.cfg
-- config/RecipeCustomizer/piece_alchemystation.json
-- config/RecipeCustomizer/piece_thorsforge.json
-- config/RecipeCustomizer/reforger.json
-- config/RecipeCustomizer/reforger_ext1.json
-- config/RecipeCustomizer/reforger_ext2.json
-- config/RecipeCustomizer/reforger_ext3.json
-- config/RecipeCustomizer/reforger_ext4.json
-- config/RecipeCustomizer/reforger_ext5.json
-- config/RecipeCustomizer/AtgeirFlametal.json
-- config/RecipeCustomizer/AxeFlametal.json
-- config/RecipeCustomizer/BattleaxeFlametal.json
-- config/RecipeCustomizer/BowFlametal.json
-- config/RecipeCustomizer/FlametalBar.json
-- config/RecipeCustomizer/GreatSwordFlametal.json
-- config/RecipeCustomizer/KnifeFlametal.json
-- config/RecipeCustomizer/MaceFlametal.json
-- config/RecipeCustomizer/PickaxeFlametal.json
-- config/RecipeCustomizer/ShieldFlametal.json
-- config/RecipeCustomizer/ShieldFlametalTower.json
-- config/RecipeCustomizer/SledgeFlametal.json
-- config/RecipeCustomizer/SpearFlametal.json
-- config/RecipeCustomizer/SwordFlametal.json
-- config/JTV/DeepNorth/rrrmonsters.custom.DireWolf.json
+- config/RecipeCustomizer/BasicWeaponKit_DoD.json
+- config/RecipeCustomizer/CrudeWeaponKit_DoD.json
+- config/RecipeCustomizer/ExcellentWeaponKit_DoD.json
+- config/RecipeCustomizer/ExceptionalWeaponKit_DoD.json
+- config/RecipeCustomizer/ExtraordinaryWeaponKit_DoD.json
+- config/RecipeCustomizer/FrometalBar.json
+- config/RecipeCustomizer/GoodWeaponKit_Dod.json
+- config/RecipeCustomizer/GreatWeaponKit_Dod.json
+- config/RecipeCustomizer/HeavymeatlBar.json
+- config/RecipeCustomizer/SuperiorWeaponKit_Dod.json

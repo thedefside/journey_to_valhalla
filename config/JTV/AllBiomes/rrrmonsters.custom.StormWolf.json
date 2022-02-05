@@ -187,7 +187,7 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "TrophyWolf",
+            "sPrefabName" : "StormWolfTrophy",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
             "fChance" : 0.1,
@@ -195,7 +195,7 @@
             "bLevelMultiplier" : false
          },
          {
-            "sPrefabName" : "StormlingCore_DoD",
+            "sPrefabName" : "Thunderstone",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
             "fChance" : 0.4,

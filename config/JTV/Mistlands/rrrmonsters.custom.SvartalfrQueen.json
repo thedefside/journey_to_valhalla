@@ -3,9 +3,9 @@
    "sNewPrefabName":"SvartalfrQueen",
    "Category_Appearance":{
       "vScale":{
-         "fX":1.5,
-         "fY":1.75,
-         "fZ":1.5
+         "fX":1.1,
+         "fY":1.25,
+         "fZ":1.1
       },
       "cTintColor":{
          "fRed":2.55,
@@ -27,7 +27,7 @@
       "bToleratesWater":true,
       "bToleratesFire":false,
       "bToleratesSmoke":false,
-      "fHealth":2800,
+      "fHealth":11000,
       "dDamageTaken":{
          "m_blunt":"Normal",
          "m_slash":"Normal",
@@ -42,15 +42,13 @@
       }
    },
    "Category_Humanoid":{
-      "dtAttackDamageOverride":null,
+      "dtAttackDamageOverride" : null,
       "fAttackDamageTotalOverride":null,
       "sAttackProjectileOverride":null,
       "aDefaultItems":[
-         "@1",
-         "@2",
          "ArmorIronLegs",
          "SageRobeWhite",
-         "HelmetDverger"
+         "SageDarkStaff"
       ],
       "aRandomWeapon":[
          
@@ -63,118 +61,7 @@
       "aaRandomSets":[
          
       ],
-      "aAdvancedCustomAttacks":[
-         {
-            "sOriginalPrefabName":"Greydwarf_throw",
-            "sTargetAnim":"sword_secondary",
-            "fAIAttackInterval":4,
-            "bAIPrioritized":true,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":120,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":60,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":"gdking_root_projectile",
-            "aStartEffects":[
-               "sfx_unarmed_swing"
-            ],
-            "aHitEffects":null,
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"gd_king_rootspawn",
-            "sTargetAnim":"sword_secondary",
-            "fAIAttackInterval":10,
-            "bAIPrioritized":true,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":0,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_unarmed_swing",
-               "fx_gdking_rootspawn"
-            ],
-            "aHitEffects":null,
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"Greydwarf_shaman_heal",
-            "sTargetAnim":"mace_secondary",
-            "fAIAttackInterval":12,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":0,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_unarmed_swing"
-            ],
-            "aHitEffects":null,
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"dragon_claw_right",
-            "sTargetAnim":"mace_secondary",
-            "fAIAttackInterval":12,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":40,
-               "fSlash":40,
-               "fPierce":0,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":30,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "fx_gdking_rootspawn",
-               "sfx_unarmed_swing"
-            ],
-            "aHitEffects":[
-               "TentaRoot",
-               "vfx_gdking_stomp",
-               "sfx_gdking_stomp"
-            ],
-            "aTriggerEffects":null
-         }
-      ]
+      "aAdvancedCustomAttacks": null
    },
    "Category_BaseAI":{
       "fViewRange":30,
@@ -188,7 +75,7 @@
       "bAfraidOfFire":false,
       "bAvoidWater":true,
       "sSpawnMessage":"The Mourning Queen has awakened",
-      "sDeathMessage":"The Mourning Queen Rests"
+      "sDeathMessage":""
    },
    "Category_MonsterAI":{
       "fAlertRange":20,
@@ -219,7 +106,7 @@
       "bReplaceOriginalDrops":false,
       "drDrops":[
          {
-            "sPrefabName":"InfusedGemstone_DoD",
+            "sPrefabName":"Amethyst",
             "iAmountMin":5,
             "iAmountMax":5,
             "fChance":1,

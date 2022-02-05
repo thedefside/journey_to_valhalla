@@ -341,7 +341,7 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"CharredBone_DoD",
+            "sPrefabName":"BurnedRemains",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,

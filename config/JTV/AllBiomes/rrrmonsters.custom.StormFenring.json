@@ -226,7 +226,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"StormlingCore_DoD",
+            "sPrefabName":"Thunderstone",
             "iAmountMin":1,
             "iAmountMax":2,
             "fChance":1,

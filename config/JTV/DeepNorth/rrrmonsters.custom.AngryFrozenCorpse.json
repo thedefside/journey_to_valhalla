@@ -347,7 +347,7 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"FrozenBone_DoD",
+            "sPrefabName":"FrozenRemains",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":1,

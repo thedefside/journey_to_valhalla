@@ -202,9 +202,9 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"GreyPearl_DoD",
-            "iAmountMin":5,
-            "iAmountMax":5,
+            "sPrefabName":"JotunnBone",
+            "iAmountMin":4,
+            "iAmountMax":4,
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":false

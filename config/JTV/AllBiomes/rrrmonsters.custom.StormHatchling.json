@@ -199,7 +199,7 @@
             "bLevelMultiplier":false
          },
          {
-            "sPrefabName":"StormlingCore_DoD",
+            "sPrefabName":"Thunderstone",
             "iAmountMin":1,
             "iAmountMax":3,
             "fChance":1,

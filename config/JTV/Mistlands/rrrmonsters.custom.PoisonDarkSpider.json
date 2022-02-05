@@ -263,7 +263,7 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"SpiderChitin_Dod",
+            "sPrefabName":"SpiderSilk",
             "iAmountMin":1,
             "iAmountMax":2,
             "fChance":0.25,
