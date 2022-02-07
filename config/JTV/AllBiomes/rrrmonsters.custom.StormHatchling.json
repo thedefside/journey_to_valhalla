@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Hatchling",
+   "sOriginalPrefabName":"StormHatchling",
    "sNewPrefabName":"StormHatchling",
    "Category_Appearance":{
       "vScale":{
@@ -7,11 +7,7 @@
          "fY":2,
          "fZ":2
       },
-      "cTintColor":{
-         "fRed" : 0.25,
-         "fGreen" : 0.25,
-         "fBlue" : 0.25
-      },
+      "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":{
          "fRed":0.1,
@@ -64,6 +60,11 @@
       ],
       "aaRandomSets":[
          
+      ],
+      "aDeathEffects":[
+         "vfx_hatchling_death",
+         "sfx_hatchling_death",
+         "fx_eikthyr_stomp"
       ],
       "aAdvancedCustomAttacks":[
          {
@@ -191,7 +192,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"TrophyHatchling",
+            "sPrefabName":"StormHatchlingTrophy",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.1,

@@ -228,6 +228,14 @@
          {
             "sPrefabName":"Thunderstone",
             "iAmountMin":1,
+            "iAmountMax":1,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":true
+         },
+         {
+            "sPrefabName":"StormWolfPelt",
+            "iAmountMin":1,
             "iAmountMax":2,
             "fChance":1,
             "bOnePerPlayer":false,

@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Hatchling",
+   "sOriginalPrefabName":"AshHatchling",
    "sNewPrefabName":"AshHatchling",
    "Category_Appearance":{
       "vScale":{
@@ -7,11 +7,7 @@
          "fY":2.5,
          "fZ":2.5
       },
-      "cTintColor":{
-         "fRed":1.70,
-         "fGreen":0.0,
-         "fBlue":0.0
-      },
+      "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":{
          "fRed":0.01,
@@ -68,6 +64,11 @@
       ],
       "aaRandomSets":[
          
+      ],
+      "aDeathEffects":[
+         "vfx_hatchling_death",
+         "sfx_hatchling_death",
+         "vfx_corpse_destruction_large"
       ],
       "aAdvancedCustomAttacks":[
          {
@@ -210,6 +211,14 @@
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
+         },
+         {
+            "sPrefabName" : "AshHatchlingTrophy",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.05,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
          }
       ]
    },

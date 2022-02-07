@@ -6,8 +6,6 @@ CopyFile:
   To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
 - From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/english.lang
   To: plugins/DasSauerkraut-Terraheim/english.lang
-- From: plugins/thedefside-Journey_To_Valhalla/jtv_configs/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
-  To: config/ReepusDeepusDelmeepus4902761.ChaosArmor.recipes.json
 DeleteFile:
 - config/RecipeCustomizer/BasicWeaponKit_DoD.json
 - config/RecipeCustomizer/CrudeWeaponKit_DoD.json

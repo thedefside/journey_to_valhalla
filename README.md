@@ -33,6 +33,22 @@ Manual
 ## Information
 For help requests, suggestions, bug reports, or to just follow the development, join the discord! https://discord.gg/vSEjCNF48K
 
+For existing worlds you must place the altars and vegvisirs by installing this mod: https://valheim.thunderstore.io/package/JereKuusela/Upgrade_World/
+Then run these commands:
+- `place_locations clear SvartalfrQueenAltar_New`
+- `start`
+- `place_locations clear JotunnAltar`
+- `start`
+- `place_locations clear BlazingDamnedOneAltar`
+- `start`
+- `place_locations clear Vegvisir_SvartalfrQueen`
+- `start`
+- `place_locations clear Vegvisir_Jotunn`
+- `start`
+- `place_locations clear Vegvisir_BlazingDamnedOne`
+- `start`
+
+
 # Biomes
 ```
 Meadows:
@@ -116,6 +132,18 @@ There are 8 new sets of armor.
  - Add Trophys
 
 # Change log
+v0.3.3 [Video Preview](https://youtu.be/hIiMWaIUEa0)
+ - Updated the Fire-Breathing Drake and Thunder Drake
+   - Added new textures
+   - ~~Added matching ragdoll animations~~ I couldn't make this work right so I just made them go BOOM
+   - Added Trophy drops
+ - Added Obsidian Golem Trophy
+ - Added Storm Wolf Pelt drop
+ - Added Storm Wolf rug
+ - Added Storm Wolf Cape
+ - Added Arctic Wolf Cape
+ - Tweak the Dark Elf raid
+
 v0.3.2
  - Restore Arctic Wolves spawns
  - Frost Giants no longer spawn in water

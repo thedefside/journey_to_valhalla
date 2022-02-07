@@ -203,9 +203,9 @@
             "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "WolfPelt",
+            "sPrefabName" : "StormWolfPelt",
             "iAmountMin" : 1,
-            "iAmountMax" : 2,
+            "iAmountMax" : 1,
             "fChance" : 1,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
