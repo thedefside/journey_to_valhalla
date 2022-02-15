@@ -333,7 +333,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"TrophySkeleton",
+            "sPrefabName":"BurnedBonesTrophy",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.1,

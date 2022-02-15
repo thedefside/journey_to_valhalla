@@ -61,11 +61,6 @@
       "aaRandomSets":[
          
       ],
-      "aDeathEffects":[
-         "vfx_hatchling_death",
-         "sfx_hatchling_death",
-         "fx_eikthyr_stomp"
-      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"stonegolem_attack_doublesmash",

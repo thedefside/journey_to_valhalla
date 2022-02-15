@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Neck",
+   "sOriginalPrefabName":"AshNeck",
    "sNewPrefabName":"AshNeck",
    "Category_Appearance":{
       "vScale":{
@@ -7,11 +7,7 @@
          "fY":4,
          "fZ":4
       },
-      "cTintColor":{
-         "fRed":1.70,
-         "fGreen":0.0,
-         "fBlue":0.0
-      },
+      "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
       "cBodyFlames":{
@@ -177,7 +173,7 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"TrophyNeck",
+            "sPrefabName":"AshNeckTrophy",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.05,

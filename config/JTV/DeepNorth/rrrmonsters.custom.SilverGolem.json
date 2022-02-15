@@ -233,7 +233,7 @@
       "bReplaceOriginalDrops":true,
       "drDrops":[
          {
-            "sPrefabName":"TrophySGolem",
+            "sPrefabName":"SilverGolemTrophy",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.10,

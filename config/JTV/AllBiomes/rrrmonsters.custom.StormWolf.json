@@ -205,16 +205,8 @@
          {
             "sPrefabName" : "StormWolfPelt",
             "iAmountMin" : 1,
-            "iAmountMax" : 1,
+            "iAmountMax" : 2,
             "fChance" : 1,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
-            "sPrefabName" : "WolfFang",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.4,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
          }

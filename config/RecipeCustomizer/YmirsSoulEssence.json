@@ -1,0 +1,12 @@
+{
+    "name": "YmirsSoulEssence",
+    "craftingStation": "Dark Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FrometalBar:20:0:False",
+        "PrimordialIce:10:0:False",
+        "WorldTreeFragment:30:0:False"
+    ]
+}

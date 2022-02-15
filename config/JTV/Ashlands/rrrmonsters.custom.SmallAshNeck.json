@@ -180,14 +180,6 @@
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
-         },
-         {
-            "sPrefabName":"TrophyNeck",
-            "iAmountMin":1,
-            "iAmountMax":1,
-            "fChance":0.05,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":false
          }
       ]
    },

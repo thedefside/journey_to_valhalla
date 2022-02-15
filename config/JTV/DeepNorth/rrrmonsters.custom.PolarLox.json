@@ -57,11 +57,6 @@
       "aaRandomSets":[
          
       ],
-      "aDeathEffects" : [
-         "fx_lox_death",
-         "PolarLox_ragdoll",
-         "sfx_troll_death"
-      ],
       "aAdvancedCustomAttacks":[
          {
             "sOriginalPrefabName":"lox_stomp",
@@ -204,20 +199,12 @@
             "bLevelMultiplier":true
          },
          {
-            "sPrefabName":"TrophyLox",
+            "sPrefabName":"PolarLoxTrophy",
             "iAmountMin":1,
             "iAmountMax":1,
             "fChance":0.1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":false
-         },
-         {
-            "sPrefabName":"LoxPelt",
-            "iAmountMin":2,
-            "iAmountMax":3,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":true
          }
       ]
    },

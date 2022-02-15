@@ -208,6 +208,14 @@
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":false
+         },
+         {
+            "sPrefabName":"JotunnTrophy",
+            "iAmountMin":1,
+            "iAmountMax":1,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":false
          }
       ]
    },

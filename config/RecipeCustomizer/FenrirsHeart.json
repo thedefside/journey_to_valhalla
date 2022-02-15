@@ -1,0 +1,11 @@
+{
+    "name": "FenrirsHeart",
+    "craftingStation": "Dark Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Flametal:20:0:False",
+        "BurningWorldTreeFragment:30:0:False"
+    ]
+}

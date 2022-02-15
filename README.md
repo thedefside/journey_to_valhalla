@@ -35,6 +35,7 @@ For help requests, suggestions, bug reports, or to just follow the development, 
 
 For existing worlds you must place the altars and vegvisirs by installing this mod: https://valheim.thunderstore.io/package/JereKuusela/Upgrade_World/
 Then run these commands:
+
 - `place_locations clear SvartalfrQueenAltar_New`
 - `start`
 - `place_locations clear JotunnAltar`
@@ -88,19 +89,20 @@ Mistlands:
 ```
 ```
 Deep North:
- - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem (Monsternomicon)
+ - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem, Polar Fenring (Monsternomicon)
  - Dvergr NPC (Monsternomicon)
  - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
  - Frost Giant (MonsterLabZ)
  - Arctic Wolf (JTV)
  - Forgotten One miniboss (Monsternomicon)
+ - Blood-thirsty Fenring miniboss (Monsternomicon)
  - Jotunn boss and altar (Monsternomicon)
  - New crafting table: Cold Forge
 ```
 ```
 Ashlands:
- - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire Drake (Monsternomicon)
+ - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire-breathing Drake (Monsternomicon)
  - Fire Golem (MonsterLabZ)
  - Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
@@ -128,10 +130,31 @@ There are 8 new sets of armor.
  - None.
 
 # Roadmap
- - Sync the weapon configs with server
- - Add Trophys
+ - Add more weapons and shields
 
 # Change log
+v0.3.4 [Video Preview](https://youtu.be/GVBEZP2Lfjc)
+ - Fixed Thunder Drake and Fire-Breathing Drake ragdoll animations
+ - Retextured the Ash-Eater Neck
+ - Made the lightning bolt on the Storm Wolf Cape slightly reflective
+ - Fix the required crafting station level for Storm Wolf Cape
+ - Added Blood-thirsty Fenring miniboss to the Deep North
+ - Added Polar Fenring to Deep North
+ - Added Fenring Ambush raid
+ - Added Storm Fenring Trophy
+ - Added Polar Fenring Trophy
+ - Added Blood-thirsty Fenring Trophy
+ - Added Ice-breaker Lox Trophy
+ - Added Frozen Corpse Trophy
+ - Added Silver Golem Trophy
+ - Added Frost-brood Serpent Trophy
+ - Added Jotunn Trophy
+ - Added Ash-eater Neck trophy
+ - Added Burned Bones Trophy
+ - Added Swollen Body Trophy
+ - Added Frometal Warhammer
+ - Disabled Frost Giant Spawns
+
 v0.3.3 [Video Preview](https://youtu.be/hIiMWaIUEa0)
  - Updated the Fire-Breathing Drake and Thunder Drake
    - Added new textures
