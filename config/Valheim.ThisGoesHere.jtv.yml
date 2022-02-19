@@ -6,14 +6,3 @@ CopyFile:
   To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
 - From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/english.lang
   To: plugins/DasSauerkraut-Terraheim/english.lang
-DeleteFile:
-- config/RecipeCustomizer/BasicWeaponKit_DoD.json
-- config/RecipeCustomizer/CrudeWeaponKit_DoD.json
-- config/RecipeCustomizer/ExcellentWeaponKit_DoD.json
-- config/RecipeCustomizer/ExceptionalWeaponKit_DoD.json
-- config/RecipeCustomizer/ExtraordinaryWeaponKit_DoD.json
-- config/RecipeCustomizer/FrometalBar.json
-- config/RecipeCustomizer/GoodWeaponKit_Dod.json
-- config/RecipeCustomizer/GreatWeaponKit_Dod.json
-- config/RecipeCustomizer/HeavymeatlBar.json
-- config/RecipeCustomizer/SuperiorWeaponKit_Dod.json
