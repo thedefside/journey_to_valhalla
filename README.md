@@ -133,6 +133,12 @@ There are 8 new sets of armor.
  - Add more weapons and shields
 
 # Change log
+v0.3.5
+ - Updated the ChickenBoo config
+ - Adjust spawns in Deep North
+ - Changed the particle efect on the Frometal Warhammer to match the other Frometal items
+ - Removed the Fire Golem spawner from the Ashlands
+
 v0.3.4 [Video Preview](https://youtu.be/GVBEZP2Lfjc)
  - Fixed Thunder Drake and Fire-Breathing Drake ragdoll animations
  - Retextured the Ash-Eater Neck
