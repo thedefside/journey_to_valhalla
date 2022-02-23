@@ -123,6 +123,14 @@
             "fChance" : 0.5,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "ShieldIronBuckler",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
          }
       ]
    },

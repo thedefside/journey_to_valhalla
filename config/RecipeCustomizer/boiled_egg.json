@@ -1,0 +1,10 @@
+{
+    "name": "boiled_egg",
+    "craftingStation": "$piece_cauldron",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "raw_egg:1:0:False"
+    ]
+}

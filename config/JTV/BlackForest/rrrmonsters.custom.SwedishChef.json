@@ -91,7 +91,9 @@
       "fCircleTargetDuration" : 2,
       "fCircleTargetDistance" : 4,
       "aConsumeItems" : [
-         
+         "Resin",
+         "PineCone",
+         "FirCone"
       ],
       "fConsumeRange" : 2,
       "fConsumeSearchRange" : 5,
