@@ -96,7 +96,7 @@
       ],
       "fIdleEffectsInterval" : 10,
       "fIdleEffectsChance" : 0.25,
-      "sPathAgentType" : "Wolf",
+      "sPathAgentType" : "HumanoidBig",
       "fRandomCircleInterval" : 2,
       "fRandomMoveInterval" : 30,
       "fRandomMoveRange" : 10,

@@ -1,3 +1,13 @@
+v0.3.7
+ - Removed dependencies:
+   - RRRCore
+   - RRRMonsters
+   - RRRNpcs
+   - PopVillages
+   - Wildlife (moved to the rock pile modpack)
+ - Please disable or delete the removed dependencies until they are updated
+ - I replaced most of the RRR mobs with my own prefabs, which have been re-textured. They still need to have the drops/attacks/health/etc customized. Please be patient as this will take some time. If RRR is updated I will include them again, but continue to work on my own prefabs so I am not as dependant on RRR.
+
 v0.3.6
  - The Swedish Chef can now be tamed by feeding it resin, pinecones, or fircones
  - Add random salt spawns to the Deep North so you don't run out

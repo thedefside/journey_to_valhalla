@@ -60,6 +60,13 @@
          {
             "aSetItems":[
                "@1",
+               "ArmorPaddedCuirass",
+               "ArmorPaddedGreaves",
+               "CapeLinen"
+            ]
+         },
+         {
+            "aSetItems":[
                "@2",
                "ArmorPaddedCuirass",
                "ArmorPaddedGreaves",
@@ -103,25 +110,25 @@
                "fDamage":0,
                "fBlunt":0,
                "fSlash":0,
-               "fPierce":140,
+               "fPierce":80,
                "fChop":0,
                "fPickaxe":0,
-               "fFire":0,
+               "fFire":80,
                "fFrost":0,
                "fLightning":0,
                "fPoison":0,
                "fSpirit":0
             },
             "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":"bow_projectile",
+            "sAttackProjectileOverride":"bow_projectile_fire",
             "aStartEffects":null,
             "aHitEffects":null,
             "aTriggerEffects":null
          },
          {
-            "sOriginalPrefabName":"skeleton_bow",
-            "sTargetAnim":"",
-            "fAIAttackInterval":18,
+            "sOriginalPrefabName":"BowDraugrFang",
+            "sTargetAnim":"bow_fire",
+            "fAIAttackInterval":6,
             "bAIPrioritized":true,
             "dtAttackDamageOverride":{
                "fDamage":0,

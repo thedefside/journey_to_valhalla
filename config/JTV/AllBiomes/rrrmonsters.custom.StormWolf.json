@@ -148,7 +148,7 @@
       "aAlertedEffects" : [
          "sfx_wolf_alerted"
       ],
-      "sPathAgentType" : "Wolf",
+      "sPathAgentType" : "HumanoidBig",
       "fRandomCircleInterval" : 2,
       "fRandomMoveInterval" : 30,
       "fRandomMoveRange" : 10,
