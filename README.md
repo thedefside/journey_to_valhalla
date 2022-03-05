@@ -137,8 +137,9 @@ There are 8 new sets of armor.
  - Try to replace the NPCs (Dark Elves, Dvergrs)
 
 # Change log
-v0.3.9
- - Add RRR Dependencies back again
-
+v0.3.10
+ - Fix the recipes on the crafting stations
+ - Molluscan no longer avoids water
+ 
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

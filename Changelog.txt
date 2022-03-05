@@ -1,3 +1,7 @@
+v0.3.10
+ - Fix the recipes on the crafting stations
+ - Molluscan no longer avoids water
+ 
 v0.3.9
  - Add RRR Dependencies back again
  
