@@ -1,3 +1,6 @@
+v0.3.9
+ - Add RRR Dependencies back again
+ 
 v0.3.8
  - Add RRR dependencies back
  - Add Flametal Warhammer
