@@ -4,7 +4,6 @@ v0.3.8
  - No more double shot from the Archers
  - Created my own Custom Creatures for Swedish Chef, Obsidian Golem, and Molluscan
 
-
 v0.3.7
  - Removed dependencies:
    - RRRCore
