@@ -130,18 +130,18 @@ There are 8 new sets of armor.
  - None.
 
 # Roadmap
- - Add more weapons and shields
+ - Update the attacks/health/damage/drops of the Storm Enemies
+ - Deep North enemies
+ - Ashlands enemies
+ - Mistlands enemies
+ - Try to replace the NPCs (Dark Elves, Dvergrs)
 
 # Change log
-v0.3.6
- - The Swedish Chef can now be tamed by feeding it resin, pinecones, or fircones
- - Add random salt spawns to the Deep North
- - Moved the ChickenBoo egg recipes to the Cauldron
- - Lowered the sound effects on the Frometal Warhammer, drakes, Ash-eater neck, and Storm Wolf rug
- - Added Frometal Buckler shield
- - Changed the texture on the Frometal Shield and Frometal Tower Shield
- - Fixed the pink trail on the Frometal Warhammer
- - Ghost Warrior now has 50% of dropping an Iron Buckler
- - New Fulings won't start spawning in the Plains until after Yagluth is defeated
+v0.3.8
+ - Add RRR dependencies back
+ - Add Flametal Warhammer
+ - No more double shot from the Archers
+ - Created my own Custom Creatures for Swedish Chef, Obsidian Golem, and Molluscan
+
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

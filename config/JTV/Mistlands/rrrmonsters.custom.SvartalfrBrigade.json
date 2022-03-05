@@ -74,7 +74,6 @@
          {
             "aSetItems":[
                "@6",
-               "@7",
                "ArmorIronLegs",
                "SageRobeBlack",
                "CapeLinen"
@@ -97,7 +96,6 @@
          {
             "aSetItems":[
                "@6",
-               "@7",
                "HelmetTrollLeather",
                "ArmorIronLegs",
                "SageRobeBlack",
@@ -106,9 +104,9 @@
          },
          {
             "aSetItems":[
+               "@7",
                "@8",
                "@9",
-               "@10",
                "ArmorIronLegs",
                "SageRobeBlack",
                "CapeLinen"
@@ -260,37 +258,13 @@
          {
             "sOriginalPrefabName":"BowHuntsman",
             "sTargetAnim":"bow_fire",
-            "fAIAttackInterval":4,
+            "fAIAttackInterval":6,
             "bAIPrioritized":true,
             "dtAttackDamageOverride":{
                "fDamage":0,
                "fBlunt":0,
                "fSlash":0,
                "fPierce":120,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":"bow_projectile",
-            "aStartEffects":null,
-            "aHitEffects":null,
-            "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"BowHuntsman",
-            "sTargetAnim":"bow_fire",
-            "fAIAttackInterval":10,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":0,
-               "fSlash":140,
-               "fPierce":0,
                "fChop":0,
                "fPickaxe":0,
                "fFire":0,

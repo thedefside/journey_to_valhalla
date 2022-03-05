@@ -23,5 +23,10 @@
   "frometal_warhammer": "Frometal Warhammer",
   "frometal_warhammer_description": "A brutal piece of cold metal. It is said to have been blessed by a shaman to ward of evil spirits.",
   "frometal_buckler": "Frometal Buckler",
-  "frometal_buckler_description": "A shield made from Frometal."
+  "frometal_buckler_description": "A shield made from Frometal.",
+  "flametal_warhammer": "Flametal Warhammer",
+  "flametal_warhammer_description": "Jotunn's bane.",
+  "swedish_chef": "Swedish Chef",
+  "obsidian_golem": "Obsidian Golem",
+  "molluscan": "Molluscan"
 }
