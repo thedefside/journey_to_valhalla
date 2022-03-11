@@ -130,16 +130,16 @@ There are 8 new sets of armor.
  - None.
 
 # Roadmap
- - Update the attacks/health/damage/drops of the Storm Enemies
- - Deep North enemies
- - Ashlands enemies
- - Mistlands enemies
- - Try to replace the NPCs (Dark Elves, Dvergrs)
+- Add new drops to the Ashlands
 
 # Change log
-v0.3.10
- - Fix the recipes on the crafting stations
- - Molluscan no longer avoids water
+v0.4.0
+ - Resolve conflicts with Epic Valheim Addtions 1.6.0
+ - Add 'Hostile' NPCs from RRR as random spawns
+ - Ghost Warrior now drops bronze items
+ - 'Chilled' the Deep North out a bit
+ - Added Grig to Swamp
+ - Added new enemy to Ashlands
  
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

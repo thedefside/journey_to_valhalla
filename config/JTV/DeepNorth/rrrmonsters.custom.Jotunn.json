@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Jotunn",
+   "sOriginalPrefabName":"Jotunn_mm",
    "sNewPrefabName":"Jotunn",
    "Category_Appearance":{
       "vScale":{
@@ -59,7 +59,7 @@
       ],
       "aDeathEffects" : [
          "vfx_troll_death",
-         "Jotunn_ragdoll",
+         "Jotunn_ragdoll_mm",
          "sfx_troll_death"
       ],
       "aAdvancedCustomAttacks":[

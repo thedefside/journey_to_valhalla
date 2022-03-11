@@ -1,87 +1,115 @@
 {
-   "sOriginalPrefabName" : "GhostWarrior",
-   "sNewPrefabName" : "GhostWarrior",
+   "sOriginalPrefabName" : "BlobTar",
+   "sNewPrefabName" : "BlobFire",
    "Category_Appearance" : {
       "vScale" : {
-         "fX" : 1,
-         "fY" : 1,
-         "fZ" : 1
+         "fX" : 1.55,
+         "fY" : 1.55,
+         "fZ" : 1.55
       },
       "cTintColor" : null,
       "cTintItems" : null,
       "cBodySmoke" : null,
-      "cBodyFlames" : null
+      "cBodyFlames":{
+         "fRed":2.55,
+         "fGreen":0,
+         "fBlue":0
+      },
+      "sCustomTexture" : null
    },
    "Category_Character" : {
-      "sName" : "Ghost Warrior",
+      "sName" : "Skin of Evil",
       "sFaction" : "Undead",
       "bBoss" : false,
       "sBossEvent" : "",
-      "sDefeatSetGlobalKey" : "",
+      "sDefeatSetGlobalKey" : "defeated_blobfire",
       "fMoveSpeedMulti" : 1,
-      "bToleratesWater" : true,
-      "bToleratesFire" : false,
+      "bToleratesWater" : false,
+      "bToleratesFire" : true,
       "bToleratesSmoke" : true,
-      "fHealth" : 275,
+      "fHealth" : 400,
       "dDamageTaken" : {
-         "m_blunt" : "Resistant",
+         "m_blunt" : "Weak",
          "m_slash" : "Resistant",
          "m_pierce" : "Resistant",
          "m_chop" : "Ignore",
          "m_pickaxe" : "Ignore",
-         "m_fire" : "Weak",
+         "m_fire" : "Immune",
          "m_frost" : "Weak",
-         "m_lightning" : "Weak",
+         "m_lightning" : "Normal",
          "m_poison" : "Immune",
-         "m_spirit" : "Weak"
+         "m_spirit" : "Normal"
       }
    },
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : {
          "fDamage" : 0,
-         "fBlunt" : 0,
-         "fSlash" : 30,
+         "fBlunt" : 90,
+         "fSlash" : 0,
          "fPierce" : 0,
          "fChop" : 0,
          "fPickaxe" : 0,
-         "fFire" : 0,
-         "fFrost" : 60,
+         "fFire" : 30,
+         "fFrost" : 0,
          "fLightning" : 0,
-         "fPoison" : 0,
+         "fPoison" : 64,
          "fSpirit" : 0
       },
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-		"SkeletonSwordSilver@swing_longsword0",
-		"SkeletonSwordSilver@swing_longsword1",
-		"SkeletonSwordSilver@swing_longsword2",
-		"SkeletonSwordSilverSmite"          
+         "blobtar_attack"
       ],
       "aRandomWeapon" : [
          
       ],
       "aRandomArmor" : [
-         "ArmorIronLegs",
-         "ArmorIronChest",
-         "HelmetIron",
-         "CapeWolf"         
+         
       ],
       "aRandomShield" : [
-         "ShieldBronzeBuckler"         
+         
       ],
       "aaRandomSets" : [
          
-      ]
+      ],
+      "aHitEffects" : [
+         "vfx_blobtar_hit",
+         "sfx_blob_hit"
+      ],
+      "aDeathEffects" : [
+         "vfx_blobtar_death",
+         "sfx_blob_death"
+      ],
+      "aConsumeItemEffects" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : null
    },
    "Category_BaseAI" : {
       "fViewRange" : 30,
       "fViewAngle" : 90,
       "fHearRange" : 9999,
-      "sPathAgentType" : "HumanoidAvoidWater",
+      "aAlertedEffects" : [
+         "sfx_blob_alerted"
+      ],
+      "aIdleEffects" : [
+         "sfx_blobtar_idle"
+      ],
+      "fIdleEffectsInterval" : 10,
+      "fIdleEffectsChance" : 0.25,
+      "sPathAgentType" : "Humanoid",
       "fRandomCircleInterval" : 2,
-      "fRandomMoveInterval" : 20,
+      "fRandomMoveInterval" : 30,
       "fRandomMoveRange" : 10,
+      "bRandomFly" : false,
+      "fChanceToTakeoff" : 1,
+      "fChanceToLand" : 1,
+      "fGroundDuration" : 10,
+      "fAirDuration" : 10,
+      "fMaxLandAltitude" : 5,
+      "fFlyAltitudeMin" : 3,
+      "fFlyAltitudeMax" : 10,
+      "fTakeoffTime" : 5,
       "bAvoidFire" : false,
       "bAfraidOfFire" : false,
       "bAvoidWater" : true,
@@ -89,22 +117,30 @@
       "sDeathMessage" : ""
    },
    "Category_MonsterAI" : {
-      "fAlertRange" : 20,
-      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "fAlertRange" : 9999,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
       "bFleeIfNotAlerted" : false,
       "fFleeIfLowHealth" : 0,
       "bCirculateWhileCharging" : false,
       "bCirculateWhileChargingFlying" : false,
       "bEnableHuntPlayer" : false,
       "bAttackPlayerObjects" : true,
-      "bAttackPlayerObjectsWhenAlerted" : true,
-      "fInterceptTimeMax" : 2,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 0,
       "fInterceptTimeMin" : 0,
       "fMaxChaseDistance" : 0,
       "fMinAttackInterval" : 0,
       "fCircleTargetInterval" : 0,
-      "fCircleTargetDuration" : 2,
-      "fCircleTargetDistance" : 4,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
+      "aWakeupEffects" : [
+         
+      ],
+      "bAvoidLand" : false,
       "aConsumeItems" : [
          
       ],
@@ -117,20 +153,12 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "SwordBronze",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.5,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
-         },
-         {
-            "sPrefabName" : "ShieldBronzeBuckler",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.5,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : false
+            "sPrefabName":"Tar",
+            "iAmountMin":2,
+            "iAmountMax":4,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":true
          }
       ]
    },

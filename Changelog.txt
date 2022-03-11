@@ -1,3 +1,11 @@
+v0.4.0
+ - Resolve conflicts with Epic Valheim Addtions 1.6.0
+ - Add 'Hostile' NPCs from RRR as random spawns
+ - Ghost Warrior now drops bronze items
+ - 'Chilled' the Deep North out a bit
+ - Added Grig to Swamp
+ - Added new enemy to Ashlands
+
 v0.3.10
  - Fix the recipes on the crafting stations
  - Molluscan no longer avoids water
