@@ -406,7 +406,7 @@
       "fCircleTargetDuration":3,
       "fCircleTargetDistance":5,
       "aConsumeItems":[
-         
+         "NeckTailGrilled"
       ],
       "fConsumeRange":2,
       "fConsumeSearchRange":5,

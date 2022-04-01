@@ -1,3 +1,10 @@
+v1.0.0
+ - Remove Forgotten Biomes dependency
+ - Add JTV Biomes dependency
+ - Move RRR Hostiles T3-T6 up one tier
+ - Dvergrs now consume GrilledNeckTail
+ - Moved Grig to Black Forest and Ghost Warrior to Mountains
+
 v0.4.0
  - Resolve conflicts with Epic Valheim Addtions 1.6.0
  - Add 'Hostile' NPCs from RRR as random spawns

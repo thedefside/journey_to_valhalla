@@ -14,19 +14,18 @@ The goal of this set up is to simply complete the game without straying too far 
 
 # Installation
 Mod Manager (Preferred)
- 1. Install JTV and all dependencies
- 2. Start the game. This will copy all config files to the correct place.
- 3. Exit the game and re-start to reload the config changes.
+ 1. Install JTV
 
 Manual
  1. Download all dependencies first
  2. In your plugins folder, create a folder named 'DasSauerkraut-Terraheim. Place all the Terraheim files in there.
  3. Download JTV last and copy all files to the BepInEx folder
- 4. Copy the files from BepInEx/plugins/jtv_configs to the BepInEx/config folder
 
 # Incompatible Mods
+ - Forgotten Biomes
  - Monsternomicon (same prefab names)
- - DoD Biomes (conflicts with Forgotten Biomes)
+ - Epic Valheim Modpack
+ - DoD Biomes/DoD Monsters (conflicts with Forgotten Biomes)
  - Custom Weapon Stats (conflicts with Weapon Customizer)
  - Recipe Customization (conflicts with Recipe Customizer)
 
@@ -64,6 +63,7 @@ Black Forest:
 ```
 Swamp:
  - Add Molluscan (MonsterLabZ)
+ - Add Grig (RRR)
  - Add Rancid Remains
 ```
 ```
@@ -104,6 +104,7 @@ Deep North:
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire-breathing Drake (Monsternomicon)
  - Fire Golem (MonsterLabZ)
+ - Skin of Evil (JTV)
  - Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
 ```
@@ -133,13 +134,11 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v0.4.0
- - Resolve conflicts with Epic Valheim Addtions 1.6.0
- - Add 'Hostile' NPCs from RRR as random spawns
- - Ghost Warrior now drops bronze items
- - 'Chilled' the Deep North out a bit
- - Added Grig to Swamp
- - Added new enemy to Ashlands
- 
+v1.0.0
+ - Remove Forgotten Biomes dependency
+ - Add JTV Biomes dependency
+ - Move RRR Hostiles T3-T6 up one tier
+ - Dvergrs now consume GrilledNeckTail
+ - Moved Grig to Black Forest and Ghost Warrior to Mountains 
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)
