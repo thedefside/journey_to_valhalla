@@ -5,16 +5,17 @@ The goal of this set up is to simply complete the game without straying too far 
 [![Journey To Valhalla](https://img.youtube.com/vi/nzWcYK7BIyQ/0.jpg)](https://www.youtube.com/watch?v=nzWcYK7BIyQ)
 
 # Features
- - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, and some new weapons
+ - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, some enemy NPCs, and some new weapons
  - 2 New metals and 3 complete weapon sets for unfinished biomes
  - New foods and mats
  - Boss altars for Mistlands, Ashlands, and Deep North
  - 8 new armor sets each with special characteristics
- - Storm Wolves and Drakes that spawn during rain storms
+ - Storm enemies that spawn during rain storms
 
 # Installation
 Mod Manager (Preferred)
- 1. Install JTV
+ 1. Create a new profile (do not re-use a profile that has been used for other modpacks)
+ 2. Install JTV
 
 Manual
  1. Download all dependencies first
@@ -22,10 +23,10 @@ Manual
  3. Download JTV last and copy all files to the BepInEx folder
 
 # Incompatible Mods
- - Forgotten Biomes
+ - Forgotten Biomes (conflicts with JTV Biomes)
  - Monsternomicon (same prefab names)
  - Epic Valheim Modpack
- - DoD Biomes/DoD Monsters (conflicts with Forgotten Biomes)
+ - DoD Biomes/DoD Monsters (conflicts with JTV Biomes)
  - Custom Weapon Stats (conflicts with Weapon Customizer)
  - Recipe Customization (conflicts with Recipe Customizer)
 
@@ -54,32 +55,38 @@ Then run these commands:
 Meadows:
  - Add butterflies (MonsterLabZ)
  - Add Chickens (ChickenBoo)
+ - Add Hostile NPC Feral Madman (RRR) 
 ```
 ```
 Black Forest:
- - Add Ghost Warrior (MonsterLabZ)
- - Swedish Chef (JTV)
+ - Add Swedish Chef (JTV)
+ - Add Grig (RRR)
+ - Add Hostile NPC Gibbering Drifter (RRR)
 ```
 ```
 Swamp:
  - Add Molluscan (MonsterLabZ)
- - Add Grig (RRR)
  - Add Rancid Remains
+ - Add Hostile NPC Delirious Wanderer (RRR)
 ```
 ```
 Mountains:
  - Add Obsidian Golem (MonsterLabZ)
+ - Add Ghost Warrior (MonsterLabZ)
+ - Add Hostile NPC Raving Brigand (RRR)
 ```
 ```
 Plains:
  - Add Berserker random spawns
  - Add New Fulings (MonsterLabZ)
  - Add Groozer (JTV)
+ - Add Hostile NPC Deranged Recruit (RRR)
 ```
 ```
 Mistlands:
  - Dark Elves, Dark Elder, Dark Spiders, Darksquitos (Monsternomicon)
  - ThornWeaver (RRR)
+ - Add Hostile NPC Addled Deserter (RRR)
  - Froot (JTV)
  - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
  - Heavymetal ore deposits (HundardysValheimAdditions)
@@ -93,7 +100,6 @@ Deep North:
  - Dvergr NPC (Monsternomicon)
  - Frometal Ore deposits (HundardysValheimAdditions)
  - Makes iceberg destructable with new drop (HundardysValheimAdditions)
- - Frost Giant (MonsterLabZ)
  - Arctic Wolf (JTV)
  - Forgotten One miniboss (Monsternomicon)
  - Blood-thirsty Fenring miniboss (Monsternomicon)
@@ -103,9 +109,9 @@ Deep North:
 ```
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire-breathing Drake (Monsternomicon)
- - Fire Golem (MonsterLabZ)
  - Skin of Evil (JTV)
- - Damned One boss and Altar (HundardysValheimAdditions)
+ - Damned One miniboss (Monsternomicon)
+ - Blazing Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
 ```
 ```
@@ -134,11 +140,26 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.0.0
- - Remove Forgotten Biomes dependency
- - Add JTV Biomes dependency
- - Move RRR Hostiles T3-T6 up one tier
- - Dvergrs now consume GrilledNeckTail
- - Moved Grig to Black Forest and Ghost Warrior to Mountains 
+v1.0.1
+ - Remove remaining unused Forgotten Biomes files
+ - Fixed the bow attack on the 'Poison' version of the Burned Bones Archer
+ - Replace the flames on the Skin of Evil with black smoke
+ - Skin of Evil can no longer spawn with stars
+ - Fixed the texture and color of the Ash-eater Tadpole
+ - Added Ashlands miniboss (Damned One)
+ - Grig can no longer spawn in water
+ - Jotunn trophy is now accurately scaled to match the size of the Jotunn
+ - Lower the spawn rate of the Dark Elves and Spiders in the Mistlands
+ - Bats now drop Bloodbags instead of leather LeatherScraps
+ - All cave mobs respawn after 60 minutes
+ - Disabled most of the duplicate flametal items from Terraheim
+ - Lowered the brightness of the EVA Flametal items
+ - Fixed the destruction effects on the Salt deposits
+ - Fixed the trophies on the Trophy screen so they don't overlap
+ - Moved the Arctic Wolf Cape to the Cold Forge
+ - Lowered the AC for the Dragon Slayer and Nomad armor to balance it
+ - Add Grig Horn to the T1 Chaos Armor recipes
+ - Lower the damages and raised the durability drain of the Sage Staffs
+ - Update the recipes for Sages armors
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

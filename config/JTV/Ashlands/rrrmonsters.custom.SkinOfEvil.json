@@ -9,12 +9,12 @@
       },
       "cTintColor" : null,
       "cTintItems" : null,
-      "cBodySmoke" : null,
-      "cBodyFlames":{
+      "cBodySmoke" : {
          "fRed":2.55,
          "fGreen":0,
          "fBlue":0
       },
+      "cBodyFlames": null,
       "sCustomTexture" : null
    },
    "Category_Character" : {

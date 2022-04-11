@@ -359,7 +359,7 @@ dragonslayer's armor:
     helmet:
       item prefab name: ArmorDragonslayerHelmet
       required for set bonus: true
-      armor: 20
+      armor: 17
       armor per level: 2
       enable durability: true
       baseDurability: 1000
@@ -400,7 +400,7 @@ dragonslayer's armor:
     chest:
       item prefab name: ArmorDragonslayerChest
       required for set bonus: true
-      armor: 20
+      armor: 17
       armor per level: 2
       enable durability: true
       baseDurability: 1000
@@ -438,7 +438,7 @@ dragonslayer's armor:
     legs:
       item prefab name: ArmorDragonslayerLegs
       required for set bonus: true
-      armor: 20
+      armor: 17
       armor per level: 2
       enable durability: true
       baseDurability: 1000
@@ -667,7 +667,7 @@ nomad's armor:
     helmet:
       item prefab name: ArmorBlackmetalgarbHelmet
       required for set bonus: true
-      armor: 26
+      armor: 23
       armor per level: 2
       enable durability: true
       baseDurability: 1000
@@ -705,7 +705,7 @@ nomad's armor:
     chest:
       item prefab name: ArmorBlackmetalgarbChest
       required for set bonus: true
-      armor: 26
+      armor: 23
       armor per level: 2
       enable durability: true
       baseDurability: 1000
@@ -743,7 +743,7 @@ nomad's armor:
     legs:
       item prefab name: ArmorBlackmetalgarbLegs
       required for set bonus: true
-      armor: 26
+      armor: 23
       armor per level: 2
       enable durability: true
       baseDurability: 1000

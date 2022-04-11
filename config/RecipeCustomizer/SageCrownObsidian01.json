@@ -1,0 +1,13 @@
+{
+    "name": "SageCrownObsidian01",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "BlackMetal:10:5:False",
+        "Ruby:1:1:False",
+        "Obsidian:5:5:False",
+        "HeavymetalBar:0:1:False"
+    ]
+}

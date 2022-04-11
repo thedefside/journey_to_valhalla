@@ -1,5 +1,5 @@
 {
-   "sOriginalPrefabName":"Neck",
+   "sOriginalPrefabName":"AshNeck",
    "sNewPrefabName":"SmallAshNeck",
    "Category_Appearance":{
       "vScale":{
@@ -7,11 +7,7 @@
          "fY":1.5,
          "fZ":1.5
       },
-      "cTintColor":{
-         "fRed":1.70,
-         "fGreen":0.0,
-         "fBlue":0.0
-      },
+      "cTintColor":null,
       "cTintItems":null,
       "cBodySmoke":null,
       "cBodyFlames":{
@@ -72,6 +68,11 @@
                "@2"
             ]
          }
+      ],
+      "aDeathEffects": [
+         "sfx_neck_death",
+         "vfx_neck_death",
+         "AshNeck_ragdoll1"
       ],
       "aAdvancedCustomAttacks":[
          {

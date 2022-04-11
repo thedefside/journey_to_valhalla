@@ -1,0 +1,13 @@
+{
+    "name": "SageRobeGreen",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "LinenThread:10:5:False",
+        "TrollHide:30:10:False",
+        "GreydwarfEye:10:5:False",
+        "SpiderSilk:0:5:False"
+    ]
+}

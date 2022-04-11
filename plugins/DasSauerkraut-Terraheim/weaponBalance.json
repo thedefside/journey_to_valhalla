@@ -42,7 +42,7 @@
         ]
     },
     "AtgeirFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 0.10,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -199,7 +199,7 @@
         ]
     },
     "AxeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 0.50,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -388,7 +388,7 @@
         ]
     },
     "BattleaxeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 15,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -482,7 +482,7 @@
         ]
     },
     "BowFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 45,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -645,7 +645,7 @@
         ]
     },
     "GreatswordFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 65,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -746,7 +746,7 @@
         ]
     },
     "KnifeFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 2.0,
         "effectDur": 1,
         "effectThreshold": 1,
@@ -874,7 +874,7 @@
         ]
     },
     "SpearFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 20,
         "station": "piece_thorsforge",
         "amountCrafted": 1,
@@ -934,12 +934,12 @@
             },
             {
                 "item": "Flametal",
-                "amount": 30,
+                "amount": 20,
                 "perLevel": 5
             },
             {
                 "item": "SurtlingCore",
-                "amount": 30,
+                "amount": 10,
                 "perLevel": 5
             },
             {
@@ -1020,7 +1020,7 @@
         ]
     },
     "ShieldFireTower": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 4,
         "projProtection": 0.10,
         "station": "piece_thorsforge",
@@ -1240,7 +1240,7 @@
         "enabled": true
     },
     "MaceFire": {
-        "enabled": true,
+        "enabled": false,
         "effectVal": 8,
         "cooldownVal": 17,
         "station": "piece_thorsforge",

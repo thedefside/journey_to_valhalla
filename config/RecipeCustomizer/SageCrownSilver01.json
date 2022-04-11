@@ -1,0 +1,13 @@
+{
+    "name": "SageCrownSilver01",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "SilverNecklace:5:1:False",
+        "BlackMetal:5:1:False",
+        "Ruby:1:1:False",
+        "HeavymetalBar:0:1:False"
+    ]
+}

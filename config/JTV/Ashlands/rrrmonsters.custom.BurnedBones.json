@@ -126,7 +126,7 @@
             "aTriggerEffects":null
          },
          {
-            "sOriginalPrefabName":"BowDraugrFang",
+            "sOriginalPrefabName":"skeleton_bow",
             "sTargetAnim":"bow_fire",
             "fAIAttackInterval":6,
             "bAIPrioritized":true,
