@@ -1,0 +1,13 @@
+{
+    "name": "T1ChaosPlateLegs",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Bronze:15:3:True",
+        "TrollHide:5:5:True",
+        "LeatherScraps:4:0:True",
+        "RRR_GrigHorn:5:1:True"
+    ]
+}

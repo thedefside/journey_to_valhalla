@@ -140,26 +140,10 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.0.1
- - Remove remaining unused Forgotten Biomes files
- - Fixed the bow attack on the 'Poison' version of the Burned Bones Archer
- - Replace the flames on the Skin of Evil with black smoke
- - Skin of Evil can no longer spawn with stars
- - Fixed the texture and color of the Ash-eater Tadpole
- - Added Ashlands miniboss (Damned One)
- - Grig can no longer spawn in water
- - Jotunn trophy is now accurately scaled to match the size of the Jotunn
- - Lower the spawn rate of the Dark Elves and Spiders in the Mistlands
- - Bats now drop Bloodbags instead of leather LeatherScraps
- - All cave mobs respawn after 60 minutes
- - Disabled most of the duplicate flametal items from Terraheim
- - Lowered the brightness of the EVA Flametal items
- - Fixed the destruction effects on the Salt deposits
- - Fixed the trophies on the Trophy screen so they don't overlap
- - Moved the Arctic Wolf Cape to the Cold Forge
- - Lowered the AC for the Dragon Slayer and Nomad armor to balance it
- - Add Grig Horn to the T1 Chaos Armor recipes
- - Lower the damages and raised the durability drain of the Sage Staffs
- - Update the recipes for Sages armors
+v1.0.2
+ - Fixed 'Damned One' spawner
+ - Fix Sage Gold Crown recipes
+ - Fix Chaos Armor T1 recipes
+ - Disable Black Metal Pickaxe from Terraheim
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

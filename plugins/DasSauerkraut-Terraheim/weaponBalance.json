@@ -814,7 +814,7 @@
         ]
     },
     "PickaxeBlackmetal": {
-        "enabled": true,
+        "enabled": false,
         "station": "forge",
         "amountCrafted": 1,
         "damages": [

@@ -1,0 +1,12 @@
+{
+    "name": "T1ChaosPlateHelm",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Bronze:15:3:True",
+        "TrophyBoar:1:0:True",
+        "RRR_GrigHorn:5:1:True"
+    ]
+}

@@ -1,3 +1,9 @@
+v1.0.2
+ - Fixed 'Damned One' spawner
+ - Fix Sage Gold Crown recipes
+ - Fix Chaos Armor T1 recipes
+ - Disable Black Metal Pickaxe from Terraheim
+
 v1.0.1
  - Remove remaining unused Forgotten Biomes files
  - Fixed the bow attack on the 'Poison' version of the Burned Bones Archer

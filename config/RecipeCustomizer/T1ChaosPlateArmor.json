@@ -1,0 +1,13 @@
+{
+    "name": "T1ChaosPlateArmor",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Bronze:15:5:True",
+        "TrophyFrostTroll:1:0:True",
+        "LeatherScraps:9:0:True",
+        "RRR_GrigHorn:5:1:True"
+    ]
+}

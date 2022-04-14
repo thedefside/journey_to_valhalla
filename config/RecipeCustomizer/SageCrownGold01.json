@@ -7,7 +7,7 @@
     "reqs": [
         "BlackMetal:10:5:False",
         "Ruby:1:1:False",
-        "GoldIngot:5:1:False",
+        "Coins:200:50:False",
         "HeavymetalBar:0:1:False"
     ]
 }
