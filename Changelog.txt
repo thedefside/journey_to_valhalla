@@ -1,3 +1,9 @@
+v1.0.3
+ - Lowered the spawn chance for the Damned One
+ - Removed frost damage from the Flametal Warhammer
+ - Lowered the finally boss damages by 50% (he's probably still too OP)
+ - Removed Lightning Mead dependency until it's fixed
+
 v1.0.2
  - Fixed 'Damned One' spawner
  - Fix Sage Gold Crown recipes

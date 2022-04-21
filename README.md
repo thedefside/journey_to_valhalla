@@ -36,17 +36,7 @@ For help requests, suggestions, bug reports, or to just follow the development, 
 For existing worlds you must place the altars and vegvisirs by installing this mod: https://valheim.thunderstore.io/package/JereKuusela/Upgrade_World/
 Then run these commands:
 
-- `place_locations clear SvartalfrQueenAltar_New`
-- `start`
-- `place_locations clear JotunnAltar`
-- `start`
-- `place_locations clear BlazingDamnedOneAltar`
-- `start`
-- `place_locations clear Vegvisir_SvartalfrQueen`
-- `start`
-- `place_locations clear Vegvisir_Jotunn`
-- `start`
-- `place_locations clear Vegvisir_BlazingDamnedOne`
+- `upgrade EVA`
 - `start`
 
 
@@ -140,10 +130,10 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.0.2
- - Fixed 'Damned One' spawner
- - Fix Sage Gold Crown recipes
- - Fix Chaos Armor T1 recipes
- - Disable Black Metal Pickaxe from Terraheim
+v1.0.3
+ - Lowered the spawn chance for the Damned One
+ - Removed frost damage from the Flametal Warhammer
+ - Lowered the finally boss damages by 50% (he's probably still too OP)
+ - Removed Lightning Mead dependency until it's fixed
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

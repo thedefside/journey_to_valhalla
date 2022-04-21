@@ -1,0 +1,443 @@
+
+[
+    {
+        "BossPrefabName" : "SvartalfrQueen",
+        "Health"         : 2800,
+        "Attacks"        : [
+            {
+                "AttackName" : "SvartalfrQueenGreatSword",
+                "AttackAnimation" : "battleaxe_attack",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 4,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 0,
+                    "m_slash"  : 180,
+                    "m_pierce" : 0,
+                    "m_chop"   : 70,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 0,
+                    "m_frost"   : 50,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "SvartalfrQueenBow",
+                "AttackAnimation" : "bow_fire",
+                "AiAttackRange"   : 50,
+                "AiAttackRangeMin" : 3,
+                "AiAttackInterval" : 6,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 0,
+                    "m_slash"  : 0,
+                    "m_pierce" : 130,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 0,
+                    "m_frost"   : 50,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "SvartalfrQueen_rootspawn",
+                "AttackAnimation" : "throw_bomb",
+                "AiAttackRange"   : 30,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 25,
+                "Damages"          : null
+            },
+            {
+                "AttackName" : "SvarTentaRoot_attack",
+                "AttackAnimation" : null,
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 3,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 100,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 20,
+                    "m_pickaxe" : 20,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "SvartalfrQueenBowArrowStorm",
+                "AttackAnimation" : "bow_fire",
+                "AiAttackRange"   : 50,
+                "AiAttackRangeMin" : 3,
+                "AiAttackInterval" : 10,
+                "Damages"          : null
+            },
+            {
+                "AttackName" : "bow_projectile_svar",
+                "AttackAnimation" : null,
+                "AiAttackRange"   : 0,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 0,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 0,
+                    "m_slash"  : 0,
+                    "m_pierce" : 130,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 0,
+                    "m_frost"   : 50,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    },
+    {
+        "BossPrefabName" : "Jotunn",
+        "Health"         : 6000,
+        "Attacks"        : [
+            {
+                "AttackName" : "Jotunn_Groundslam",
+                "AttackAnimation" : "punch",
+                "AiAttackRange"   : 5,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 5,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 340,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 150,
+                    "m_pickaxe" : 150,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "Jotunn_Groundslam2",
+                "AttackAnimation" : "punch",
+                "AiAttackRange"   : 5,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 12,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 280,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 150,
+                    "m_pickaxe" : 150,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "Jotunn_Shoot",
+                "AttackAnimation" : "throw",
+                "AiAttackRange"   : 50,
+                "AiAttackRangeMin" : 15,
+                "AiAttackInterval" : 6,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 340,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 150,
+                    "m_pickaxe" : 150,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    },
+    {
+        "BossPrefabName" : "BlazingDamnedOne",
+        "Health"         : 8000,
+        "Attacks"        : [
+            {
+                "AttackName" : "BlazingDamnedOneMace",
+                "AttackAnimation" : "swing_axe2",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 4,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 120,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 100,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "BlazingDamnedOneMace2",
+                "AttackAnimation" : "battleaxe_attack1",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 4,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 110,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 80,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "BlazingDamnedOneMace3",
+                "AttackAnimation" : "jump_attack",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 20,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 60,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 50,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "BlazingDamnedOneMace4",
+                "AttackAnimation" : "swing_sledge",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 24,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 90,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 30,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "Blazing_Nova",
+                "AttackAnimation" : "cast2",
+                "AiAttackRange"   : 10,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 45,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 70,
+                    "m_slash"  : 0,
+                    "m_pierce" : 100,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 50,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "Blazing_Shoot",
+                "AttackAnimation" : "cast1",
+                "AiAttackRange"   : 50,
+                "AiAttackRangeMin" : 15,
+                "AiAttackInterval" : 6,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 170,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 75,
+                    "m_pickaxe" : 75,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "Blazing_Meteors",
+                "AttackAnimation" : "cast2",
+                "AiAttackRange"   : 30,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 60,
+                "Damages"          : null
+            },
+            {
+                "AttackName" : "projectile_meteor_blazing",
+                "AttackAnimation" : null,
+                "AiAttackRange"   : 0,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 0,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 150,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 25,
+                    "m_pickaxe" : 25,
+                    "m_fire"    : 100,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    },
+    {
+        "BossPrefabName" : "Golden_Greydwarf_Miniboss",
+        "Health"         : 650,
+        "Attacks"        : [
+            {
+                "AttackName" : "Greydwarf_elite_attack_gold",
+                "AttackAnimation" : "attack",
+                "AiAttackRange"   : 1.8,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 2,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 0,
+                    "m_slash"  : 60,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    },
+    {
+        "BossPrefabName" : "Golden_Troll_Miniboss",
+        "Health"         : 900,
+        "Attacks"        : [
+            {
+                "AttackName" : "troll_punch",
+                "AttackAnimation" : "punch",
+                "AiAttackRange"   : 4,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 4,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 60,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 100,
+                    "m_pickaxe" : 40,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "troll_groundslam",
+                "AttackAnimation" : "attack",
+                "AiAttackRange"   : 5,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 20,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 70,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 100,
+                    "m_pickaxe" : 40,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            },
+            {
+                "AttackName" : "troll_throw",
+                "AttackAnimation" : "throw",
+                "AiAttackRange"   : 20,
+                "AiAttackRangeMin" : 8,
+                "AiAttackInterval" : 10,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 50,
+                    "m_slash"  : 0,
+                    "m_pierce" : 0,
+                    "m_chop"   : 60,
+                    "m_pickaxe" : 40,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    },
+    {
+        "BossPrefabName" : "Golden_Wraith_Miniboss",
+        "Health"         : 1500,
+        "Attacks"        : [
+            {
+                "AttackName" : "wraith_melee_gold",
+                "AttackAnimation" : "attack",
+                "AiAttackRange"   : 1.8,
+                "AiAttackRangeMin" : 0,
+                "AiAttackInterval" : 2,
+                "Damages"          : {
+                    "m_damage" : 0,
+                    "m_blunt"  : 0,
+                    "m_slash"  : 120,
+                    "m_pierce" : 0,
+                    "m_chop"   : 0,
+                    "m_pickaxe" : 0,
+                    "m_fire"    : 0,
+                    "m_frost"   : 0,
+                    "m_lightning" : 0,
+                    "m_poison"    : 0,
+                    "m_spirit"    : 0
+                }
+            }
+        ]
+    }
+]
