@@ -20,13 +20,13 @@
       "sName":"The Damned One",
       "sFaction":"Undead",
       "bBoss":true,
-      "sBossEvent":"BurnedBonesRaid",
-      "sDefeatSetGlobalKey":"defeated_damnedone",
+      "sBossEvent":"DammedEncounter",
+      "sDefeatSetGlobalKey": null,
       "fMoveSpeedMulti":1,
       "bToleratesWater":true,
       "bToleratesFire":false,
       "bToleratesSmoke":true,
-      "fHealth":2500,
+      "fHealth":5000,
       "dDamageTaken":{
          "m_blunt":"Weak",
          "m_slash":"Normal",
@@ -51,10 +51,10 @@
          "@4",
          "@5",
          "@6",
-         "ArmorPaddedCuirass",
-         "ArmorPaddedGreaves",
-         "CapeLox",
-         "ShieldBlackmetalTower"
+         "ChaosPlateArmorBody",
+         "ChaosPlateLegs",
+         "CapeLinen",
+         "ShieldFlametalTower"
       ],
       "aRandomWeapon":[
          
@@ -258,7 +258,7 @@
       "bAvoidFire":false,
       "bAfraidOfFire":false,
       "bAvoidWater":true,
-      "sSpawnMessage":"",
+      "sSpawnMessage": "You're going to regret this...",
       "sDeathMessage":""
    },
    "Category_MonsterAI":{
@@ -289,38 +289,7 @@
    "Category_CharacterDrop":{
       "bReplaceOriginalDrops":true,
       "drDrops":[
-         {
-            "sPrefabName":"BurnedBonesTrophy",
-            "iAmountMin":1,
-            "iAmountMax":1,
-            "fChance":0.1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":false
-         },
-         {
-            "sPrefabName":"BurnedRemains",
-            "iAmountMin":1,
-            "iAmountMax":1,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":true
-         },
-         {
-            "sPrefabName":"Ooze",
-            "iAmountMin":1,
-            "iAmountMax":1,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":true
-         },
-         {
-            "sPrefabName":"Coal",
-            "iAmountMin":1,
-            "iAmountMax":2,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":true
-         }
+
       ]
    },
    "Category_Special":{

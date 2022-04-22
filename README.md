@@ -100,7 +100,6 @@ Deep North:
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire-breathing Drake (Monsternomicon)
  - Skin of Evil (JTV)
- - Damned One miniboss (Monsternomicon)
  - Blazing Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
 ```
@@ -130,10 +129,9 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.0.3
- - Lowered the spawn chance for the Damned One
- - Removed frost damage from the Flametal Warhammer
- - Lowered the finally boss damages by 50% (he's probably still too OP)
- - Removed Lightning Mead dependency until it's fixed
+v1.1.0
+ - Replace EVA bosses
+ - Update EVA Vegvisir/boss map pin names
+ - Update EVA Boss trophy names
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

@@ -3,9 +3,9 @@
    "sNewPrefabName":"BlazingDamnedOne",
    "Category_Appearance":{
       "vScale":{
-         "fX":1.2,
-         "fY":1.2,
-         "fZ":1.2
+         "fX":1.5,
+         "fY":1.5,
+         "fZ":1.5
       },
       "cTintColor":null,
       "cTintItems":null,
@@ -17,16 +17,16 @@
       }
    },
    "Category_Character":{
-      "sName":"The Damned One",
+      "sName":"Blazing Damned One",
       "sFaction":"Undead",
       "bBoss":true,
-      "sBossEvent":"BurnedBonesRaid",
+      "sBossEvent":"DammedEncounter",
       "sDefeatSetGlobalKey":"defeated_damnedone",
       "fMoveSpeedMulti":1,
       "bToleratesWater":true,
       "bToleratesFire":true,
       "bToleratesSmoke":true,
-      "fHealth":1500,
+      "fHealth":8000,
       "dDamageTaken":{
          "m_blunt":"Weak",
          "m_slash":"Normal",
@@ -50,11 +50,10 @@
          "@3",
          "@4",
          "@5",
-         "@6",
-         "ArmorPaddedCuirass",
-         "ArmorPaddedGreaves",
-         "CapeLox",
-         "ShieldBlackmetalTower"
+         "EliteChaosPlateArmor",
+         "EliteChaosPlateLegs",
+         "CapeLinen",
+         "ShieldFlametalTower"
       ],
       "aRandomWeapon":[
          
@@ -161,18 +160,18 @@
             "aTriggerEffects":null
          },
          {
-            "sOriginalPrefabName":"GoblinKing_Nova",
+            "sOriginalPrefabName":"Blazing_Shoot",
             "sTargetAnim":"cast2",
             "fAIAttackInterval":45,
             "bAIPrioritized":null,
             "dtAttackDamageOverride":{
                "fDamage":0,
-               "fBlunt":140,
+               "fBlunt":70,
                "fSlash":0,
                "fPierce":0,
                "fChop":0,
                "fPickaxe":0,
-               "fFire":0,
+               "fFire":70,
                "fFrost":0,
                "fLightning":0,
                "fPoison":0,
@@ -216,32 +215,6 @@
                "sfx_skeleton_mace_hit"
             ],
             "aTriggerEffects":null
-         },
-         {
-            "sOriginalPrefabName":"GoblinKing_Meteors",
-            "sTargetAnim":"cast2",
-            "fAIAttackInterval":60,
-            "bAIPrioritized":null,
-            "dtAttackDamageOverride":{
-               "fDamage":0,
-               "fBlunt":0,
-               "fSlash":0,
-               "fPierce":0,
-               "fChop":0,
-               "fPickaxe":0,
-               "fFire":0,
-               "fFrost":0,
-               "fLightning":0,
-               "fPoison":0,
-               "fSpirit":0
-            },
-            "fAttackDamageTotalOverride":null,
-            "sAttackProjectileOverride":null,
-            "aStartEffects":[
-               "sfx_skeleton_big_alerted"
-            ],
-            "aHitEffects":null,
-            "aTriggerEffects":null
          }
       ]
    },
@@ -256,8 +229,8 @@
       "bAvoidFire":false,
       "bAfraidOfFire":false,
       "bAvoidWater":true,
-      "sSpawnMessage":"",
-      "sDeathMessage":""
+      "sSpawnMessage":"Now you will feel my REAL wrath!",
+      "sDeathMessage":"You have earned your place in Valhalla!"
    },
    "Category_MonsterAI":{
       "fAlertRange":20,
@@ -302,7 +275,16 @@
             "fChance":1,
             "bOnePerPlayer":false,
             "bLevelMultiplier":true
+         },
+         {
+            "sPrefabName":"TrophyHelDemon",
+            "iAmountMin":1,
+            "iAmountMax":1,
+            "fChance":1,
+            "bOnePerPlayer":false,
+            "bLevelMultiplier":true
          }
+
       ]
    },
    "Category_Special":{

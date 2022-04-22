@@ -1,163 +1,226 @@
 {
-   "sOriginalPrefabName":"RRR_NPC",
-   "sNewPrefabName":"SvartalfrQueen",
-   "Category_Appearance":{
-      "vScale":{
-         "fX":1.1,
-         "fY":1.25,
-         "fZ":1.1
+   "sOriginalPrefabName": "RRR_NPC",
+   "sNewPrefabName": "SvartalfrQueen",
+   "Category_Appearance": {
+      "vScale": {
+         "fX": 1.5,
+         "fY": 1.65,
+         "fZ": 1.5
       },
-      "cTintColor":{
-         "fRed":2.55,
-         "fGreen":1.35,
-	      "fBlue":1.35
+      "cTintColor": {
+         "fRed": 2.55,
+         "fGreen": 1.35,
+         "fBlue": 1.35
       },
-      "cTintItems":null,
-      "cBodySmoke":null,
-      "cBodyFlames":null,
-      "sCustomTexture":null
+      "cTintItems": null,
+      "cBodySmoke": null,
+      "cBodyFlames": null,
+      "sCustomTexture": null
    },
-   "Category_Character":{
-      "sName":"The Mourning Queen",
-      "sFaction":"ForestMonsters",
-      "bBoss":true,
-      "sBossEvent":"SvartalfarCourt",
-      "sDefeatSetGlobalKey":"defeated_MourningQueen",
-      "fMoveSpeedMulti":1.3,
-      "bToleratesWater":true,
-      "bToleratesFire":false,
-      "bToleratesSmoke":false,
-      "fHealth":11000,
-      "dDamageTaken":{
-         "m_blunt":"Normal",
-         "m_slash":"Normal",
-         "m_pierce":"Normal",
-         "m_chop":"Immune",
-         "m_pickaxe":"Immune",
-         "m_fire":"Normal",
-         "m_frost":"Normal",
-         "m_lightning":"Normal",
-         "m_poison":"Normal",
-         "m_spirit":"Immune"
+   "Category_Character": {
+      "sName": "The Mourning Queen",
+      "sFaction": "ForestMonsters",
+      "bBoss": true,
+      "sBossEvent": "SvartalfarCourt",
+      "sDefeatSetGlobalKey": "defeated_MourningQueen",
+      "fMoveSpeedMulti": 1.3,
+      "bToleratesWater": true,
+      "bToleratesFire": false,
+      "bToleratesSmoke": false,
+      "fHealth": 11000,
+      "dDamageTaken": {
+         "m_blunt": "Normal",
+         "m_slash": "Normal",
+         "m_pierce": "Normal",
+         "m_chop": "Immune",
+         "m_pickaxe": "Immune",
+         "m_fire": "Normal",
+         "m_frost": "Normal",
+         "m_lightning": "Normal",
+         "m_poison": "Normal",
+         "m_spirit": "Immune"
       }
    },
-   "Category_Humanoid":{
-      "dtAttackDamageOverride" : null,
-      "fAttackDamageTotalOverride":null,
-      "sAttackProjectileOverride":null,
-      "aDefaultItems":[
-         "ArmorIronLegs",
+   "Category_Humanoid": {
+      "dtAttackDamageOverride": null,
+      "fAttackDamageTotalOverride": null,
+      "sAttackProjectileOverride": null,
+      "aDefaultItems": [
+         "SagePants",
          "SageRobeWhite",
-         "SageDarkStaff"
+         "@1",
+         "@2",
+         "@3"
       ],
-      "aRandomWeapon":[
-         
-      ],
-      "aRandomArmor":[
-      ],
-      "aRandomShield":[
-         
-      ],
-      "aaRandomSets":[
-         
-      ],
-      "aAdvancedCustomAttacks": null
-   },
-   "Category_BaseAI":{
-      "fViewRange":30,
-      "fViewAngle":90,
-      "fHearRange":9999,
-      "sPathAgentType":"Humanoid",
-      "fRandomCircleInterval":2,
-      "fRandomMoveInterval":30,
-      "fRandomMoveRange":3,
-      "bAvoidFire":false,
-      "bAfraidOfFire":false,
-      "bAvoidWater":true,
-      "sSpawnMessage":"The Mourning Queen has awakened",
-      "sDeathMessage":""
-   },
-   "Category_MonsterAI":{
-      "fAlertRange":20,
-      "bFleeIfHurtWhenTargetCantBeReached":true,
-      "bFleeIfNotAlerted":false,
-      "fFleeIfLowHealth":0.1,
-      "bCirculateWhileCharging":true,
-      "bCirculateWhileChargingFlying":false,
-      "bEnableHuntPlayer":false,
-      "bAttackPlayerObjects":true,
-      "bAttackPlayerObjectsWhenAlerted":true,
-      "fInterceptTimeMax":2,
-      "fInterceptTimeMin":0,
-      "fMaxChaseDistance":300,
-      "fMinAttackInterval":0,
-      "fCircleTargetInterval":10,
-      "fCircleTargetDuration":3,
-      "fCircleTargetDistance":10,
-      "aConsumeItems":[
-         
-      ],
-      "fConsumeRange":2,
-      "fConsumeSearchRange":5,
-      "fConsumeSearchInterval":10,
-      "fConsumeHeal":0
-   },
-   "Category_CharacterDrop":{
-      "bReplaceOriginalDrops":false,
-      "drDrops":[
+      "aRandomWeapon": [],
+      "aRandomArmor": [],
+      "aRandomShield": [],
+      "aaRandomSets": [],
+      "aAdvancedCustomAttacks": [
          {
-            "sPrefabName":"Amethyst",
-            "iAmountMin":5,
-            "iAmountMax":5,
-            "fChance":1,
-            "bOnePerPlayer":false,
-            "bLevelMultiplier":false
+            "sOriginalPrefabName": "SvartalfarQueenBow",
+            "sTargetAnim": "bow_fire",
+            "fAIAttackInterval": 6,
+            "bAIPrioritized": null,
+            "dtAttackDamageOverride": {
+               "fDamage": 0,
+               "fBlunt": 0,
+               "fSlash": 0,
+               "fPierce": 140,
+               "fChop": 0,
+               "fPickaxe": 0,
+               "fFire": 0,
+               "fFrost": 50,
+               "fLightning": 0,
+               "fPoison": 0,
+               "fSpirit": 0
+            },
+            "fAttackDamageTotalOverride": null,
+            "sAttackProjectileOverride": "bow_projectile_frost",
+            "aStartEffects": [
+               "vfx_crow_death"
+            ],
+            "aHitEffects": null,
+            "aTriggerEffects": null
+         },
+         {
+            "sOriginalPrefabName": "SvartalfarQueenBowArrowStorm",
+            "sTargetAnim": "bow_fire",
+            "fAIAttackInterval": 10,
+            "dtAttackDamageOverride": null
+         },
+         {
+            "sOriginalPrefabName":"dragon_claw_right",
+            "sTargetAnim":"mace_secondary",
+            "fAIAttackInterval":12,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":80,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "fx_gdking_rootspawn",
+               "sfx_unarmed_swing"
+            ],
+            "aHitEffects":[
+               "TentaRoot",
+               "vfx_gdking_stomp",
+               "sfx_gdking_stomp"
+            ],
+            "aTriggerEffects":null
          }
       ]
    },
-   "Category_Special":{
-      "bCanTame":false,
-      "bAlwaysTame":false,
-      "bCommandableWhenTame":false,
-      "bCanProcreateWhenTame":false,
-      "bSfxNoAlert":true,
-      "bSfxNoIdle":true,
-      "bSfxNoHit":true,
-      "bSfxNoDeath":true,
-      "bFxNoTame":true
+   "Category_BaseAI": {
+      "fViewRange": 30,
+      "fViewAngle": 90,
+      "fHearRange": 9999,
+      "sPathAgentType": "Humanoid",
+      "fRandomCircleInterval": 2,
+      "fRandomMoveInterval": 30,
+      "fRandomMoveRange": 3,
+      "bAvoidFire": false,
+      "bAfraidOfFire": false,
+      "bAvoidWater": true,
+      "sSpawnMessage": "The Mourning Queen has awakened",
+      "sDeathMessage": ""
    },
-   "Category_NpcOnly":{
-      "bIsFemale":true,
-      "bRandomGender":false,
-      "bNoBeardIfFemale":true,
-      "aBeardIds":[
-         
-      ],
-      "aHairIds":[
+   "Category_MonsterAI": {
+      "fAlertRange": 20,
+      "bFleeIfHurtWhenTargetCantBeReached": true,
+      "bFleeIfNotAlerted": false,
+      "fFleeIfLowHealth": 0.1,
+      "bCirculateWhileCharging": true,
+      "bCirculateWhileChargingFlying": false,
+      "bEnableHuntPlayer": false,
+      "bAttackPlayerObjects": true,
+      "bAttackPlayerObjectsWhenAlerted": true,
+      "fInterceptTimeMax": 2,
+      "fInterceptTimeMin": 0,
+      "fMaxChaseDistance": 300,
+      "fMinAttackInterval": 0,
+      "fCircleTargetInterval": 10,
+      "fCircleTargetDuration": 3,
+      "fCircleTargetDistance": 10,
+      "aConsumeItems": [],
+      "fConsumeRange": 2,
+      "fConsumeSearchRange": 5,
+      "fConsumeSearchInterval": 10,
+      "fConsumeHeal": 0
+   },
+   "Category_CharacterDrop": {
+      "bReplaceOriginalDrops": false,
+      "drDrops": [
+         {
+            "sPrefabName": "Amethyst",
+            "iAmountMin": 5,
+            "iAmountMax": 5,
+            "fChance": 1,
+            "bOnePerPlayer": false,
+            "bLevelMultiplier": false
+         },
+         {
+            "sPrefabName": "TrophySvartalfarQueen",
+            "iAmountMin": 1,
+            "iAmountMax": 1,
+            "fChance": 1,
+            "bOnePerPlayer": false,
+            "bLevelMultiplier": false
+         }
+      ]
+   },
+   "Category_Special": {
+      "bCanTame": false,
+      "bAlwaysTame": false,
+      "bCommandableWhenTame": false,
+      "bCanProcreateWhenTame": false,
+      "bSfxNoAlert": true,
+      "bSfxNoIdle": true,
+      "bSfxNoHit": true,
+      "bSfxNoDeath": true,
+      "bFxNoTame": true
+   },
+   "Category_NpcOnly": {
+      "bIsFemale": true,
+      "bRandomGender": false,
+      "bNoBeardIfFemale": true,
+      "aBeardIds": [],
+      "aHairIds": [
          "Hair13"
       ],
-      "cSkinColorMin":{
-         "fRed":0.25,
-         "fGreen":0.25,
-         "fBlue":0.25
+      "cSkinColorMin": {
+         "fRed": 0.25,
+         "fGreen": 0.25,
+         "fBlue": 0.25
       },
-      "cSkinColorMax":{
-         "fRed":0.20,
-         "fGreen":0.20,
-         "fBlue":0.20
+      "cSkinColorMax": {
+         "fRed": 0.20,
+         "fGreen": 0.20,
+         "fBlue": 0.20
       },
-      "cHairColorMin":{
-         "fRed":2.40,
-         "fGreen":2.40,
-         "fBlue":2.40
+      "cHairColorMin": {
+         "fRed": 2.40,
+         "fGreen": 2.40,
+         "fBlue": 2.40
       },
-      "cHairColorMax":{
-         "fRed":2.45,
-         "fGreen":2.45,
-         "fBlue":2.45
+      "cHairColorMax": {
+         "fRed": 2.45,
+         "fGreen": 2.45,
+         "fBlue": 2.45
       },
-      "fHairValueMin":0.7,
-      "fHairValueMax":0.9
+      "fHairValueMin": 0.7,
+      "fHairValueMax": 0.9
    },
-   "sConfigFormatVersion":"0.2.0"
+   "sConfigFormatVersion": "0.2.0"
 }
