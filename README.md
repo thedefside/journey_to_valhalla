@@ -100,7 +100,7 @@ Deep North:
 Ashlands:
  - Burned Bones, Elder Surtling, Ash Neck, Swollen Body, and Fire-breathing Drake (Monsternomicon)
  - Skin of Evil (JTV)
- - Blazing Damned One boss and Altar (HundardysValheimAdditions)
+ - Damned One boss and Altar (HundardysValheimAdditions)
  - New Crafting Table: Thor's Forge
 ```
 ```
@@ -131,11 +131,8 @@ There are 10 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.1.1
- - Update all dependencies
- - Set faction of all Bosses/Minibosses to 'Boss'
- - Update Jude's Equipment config
- - Dark Spiders no longer hunt players
- - Disable Mother Darkspider world spawner (it's now an event only)
+v1.1.2
+ - New bosses cannot be staggered
+ - Frometal Bow no longer does poison damage when upgraded
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

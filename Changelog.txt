@@ -1,3 +1,7 @@
+v1.1.2
+ - New bosses cannot be staggered
+ - Frometal Bow no longer does poison damage when upgraded
+
 v1.1.1
  - Update all dependencies
  - Set faction of all Bosses/Minibosses to 'Boss'

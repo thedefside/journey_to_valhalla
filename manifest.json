@@ -1,11 +1,11 @@
 {
     "name": "Journey_To_Valhalla",
-    "version_number": "1.1.1",
+    "version_number": "1.1.2",
     "website_url": "https://github.com/thedefside/journey_to_valhalla",
     "description": "Provides a vanilla-like progression through the remaining biomes, including new resources, enemies, weapons, armor, and bosses.",
     "dependencies": [
         "thedefside-jtv_biomes-0.0.1",
-        "MonsterLabZ-MonsterLabZ-2.1.0",
+        "MonsterLabZ-MonsterLabZ-2.2.0",
         "GoldenJude-Blacksmiths_tools-2.0.2",
         "AeehyehssReeper-ChaosArmor-9.0.6",
         "Huntardys-EpicValheimsAdditions-1.8.0",
