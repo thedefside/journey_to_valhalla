@@ -1,3 +1,10 @@
+v1.1.1
+ - Update all dependencies
+ - Set faction of all Bosses/Minibosses to 'Boss'
+ - Update Jude's Equipment config
+ - Dark Spiders no longer hunt players
+ - Disable Mother Darkspider world spawner (it's now an event only)
+
 v1.1.0
  - Replace EVA bosses
  - Update EVA Vegvisir/boss map pin names

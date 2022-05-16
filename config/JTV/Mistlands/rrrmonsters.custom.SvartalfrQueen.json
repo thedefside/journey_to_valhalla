@@ -19,7 +19,7 @@
    },
    "Category_Character": {
       "sName": "The Mourning Queen",
-      "sFaction": "ForestMonsters",
+      "sFaction": "Boss",
       "bBoss": true,
       "sBossEvent": "SvartalfarCourt",
       "sDefeatSetGlobalKey": "defeated_MourningQueen",

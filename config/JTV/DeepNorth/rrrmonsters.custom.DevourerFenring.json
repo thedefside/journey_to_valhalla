@@ -14,7 +14,7 @@
    },
    "Category_Character":{
       "sName":"Blood-thirsty Fenring",
-      "sFaction":"MountainMonsters",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"",
       "sDefeatSetGlobalKey":"defeated_devourerfenring",

@@ -1,3 +1,161 @@
+noble's armor:
+  set effect:
+    health regen modifier: 5
+    stamina regen modifier: 5
+    run stamina drain modifier: -5
+    jump stamina drain modifier: 0
+    carry weight modifier: 0
+    skill modifier:
+      skill: None
+      modifier: 0
+    damage modifiers:
+      Blunt: none
+      Slash: none
+      Pierce: none
+      Chop: none
+      Fire: none
+      Frost: none
+      Lightning: none
+      Poison: none
+      Spirit: none
+  items:
+    helmet:
+      item prefab name: ArmorNobleHelmet
+      required for set bonus: true
+      armor: 1
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 5
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: 0
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: piece_workbench
+        minimum station level: 1
+        requirements:
+        - item: LeatherScraps
+          amount: 5
+          amount per level: 1
+        - item: DeerHide
+          amount: 2
+          amount per level: 1
+    chest:
+      item prefab name: ArmorNobleChest
+      required for set bonus: true
+      armor: 1
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 5
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: 0
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: piece_workbench
+        minimum station level: 1
+        requirements:
+        - item: LeatherScraps
+          amount: 5
+          amount per level: 1
+        - item: DeerHide
+          amount: 2
+          amount per level: 1
+    legs:
+      item prefab name: ArmorNobleLegs
+      required for set bonus: true
+      armor: 1
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 5
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: 0
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: piece_workbench
+        minimum station level: 1
+        requirements:
+        - item: LeatherScraps
+          amount: 5
+          amount per level: 1
+        - item: DeerHide
+          amount: 2
+          amount per level: 1
+    cape:
+      item prefab name: ArmorNobleCape
+      required for set bonus: false
+      armor: 1
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 1
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: 0
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: piece_workbench
+        minimum station level: 1
+        requirements:
+        - item: LeatherScraps
+          amount: 5
+          amount per level: 1
 barbarian's armor:
   set effect:
     health regen modifier: 0
@@ -171,6 +329,138 @@ barbarian's armor:
         - item: WolfPelt
           amount: 5
           amount per level: 3
+warrior's armor:
+  set effect:
+    health regen modifier: 10
+    stamina regen modifier: 0
+    run stamina drain modifier: 0
+    jump stamina drain modifier: 0
+    carry weight modifier: 0
+    skill modifier:
+      skill: Polearms
+      modifier: 15
+    damage modifiers:
+      Blunt: none
+      Slash: Resistant
+      Pierce: none
+      Chop: none
+      Fire: none
+      Frost: none
+      Lightning: none
+      Poison: none
+      Spirit: none
+  items:
+    helmet:
+      item prefab name: ArmorWarriorHelmet
+      required for set bonus: true
+      armor: 6
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 15
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: 0
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: forge
+        minimum station level: 1
+        requirements:
+        - item: Bronze
+          amount: 5
+          amount per level: 3
+        - item: DeerHide
+          amount: 3
+          amount per level: 1
+    chest:
+      item prefab name: ArmorWarriorChest
+      required for set bonus: true
+      armor: 6
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 15
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: -5
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: forge
+        minimum station level: 1
+        requirements:
+        - item: Bronze
+          amount: 5
+          amount per level: 3
+        - item: DeerHide
+          amount: 3
+          amount per level: 1
+        - item: Stone
+          amount: 20
+          amount per level: 0
+        - item: Raspberry
+          amount: 20
+          amount per level: 0
+    legs:
+      item prefab name: ArmorWarriorLegs
+      required for set bonus: true
+      armor: 6
+      armor per level: 2
+      enable durability: true
+      baseDurability: 1000
+      durability per level: 200
+      repairable: true
+      destroy when broken: false
+      weight: 15
+      teleportable: true
+      maximum upgrade level: 4
+      movement speed modifier: -5
+      damage modifiers:
+        Blunt: none
+        Slash: none
+        Pierce: none
+        Chop: none
+        Fire: none
+        Frost: none
+        Lightning: none
+        Poison: none
+        Spirit: none
+      recipe:
+        enabled: true
+        station: forge
+        minimum station level: 1
+        requirements:
+        - item: Bronze
+          amount: 5
+          amount per level: 3
+        - item: DeerHide
+          amount: 3
+          amount per level: 1
 plate armor:
   set effect:
     health regen modifier: 10

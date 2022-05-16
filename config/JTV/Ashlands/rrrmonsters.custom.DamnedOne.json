@@ -18,7 +18,7 @@
    },
    "Category_Character":{
       "sName":"The Damned One",
-      "sFaction":"Undead",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"DammedEncounter",
       "sDefeatSetGlobalKey": null,

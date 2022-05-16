@@ -2,14 +2,14 @@
 The goal of this set up is to simply complete the game without straying too far from vanilla. It is based off of monsternomicon, with weapons from Huntardy's Valheim Additions, and some new exclusive items and foods.
 
 # Click the image for a short video preview
-[![Journey To Valhalla](https://img.youtube.com/vi/nzWcYK7BIyQ/0.jpg)](https://www.youtube.com/watch?v=nzWcYK7BIyQ)
+[![Journey To Valhalla](https://img.youtube.com/vi/_GIE1Z5R2Ew/0.jpg)](https://www.youtube.com/watch?v=_GIE1Z5R2Ew)
 
 # Features
  - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, some enemy NPCs, and some new weapons
  - 2 New metals and 3 complete weapon sets for unfinished biomes
  - New foods and mats
  - Boss altars for Mistlands, Ashlands, and Deep North
- - 8 new armor sets each with special characteristics
+ - 10 new armor sets each with special characteristics
  - Storm enemies that spawn during rain storms
 
 # Installation
@@ -109,8 +109,10 @@ Ocean:
  ```
 
 # Armor
-There are 8 new sets of armor.
+There are 10 new sets of armor.
 ```
+ - Noble Armor: Meadows
+ - Warrior's Armor: Black Forest
  - Plate Armor: Mistlands
  - Dragon Slayer Armor: Mountains
  - Ashlands Armor: Ashlands
@@ -129,9 +131,11 @@ There are 8 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.1.0
- - Replace EVA bosses
- - Update EVA Vegvisir/boss map pin names
- - Update EVA Boss trophy names
+v1.1.1
+ - Update all dependencies
+ - Set faction of all Bosses/Minibosses to 'Boss'
+ - Update Jude's Equipment config
+ - Dark Spiders no longer hunt players
+ - Disable Mother Darkspider world spawner (it's now an event only)
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

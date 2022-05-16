@@ -14,7 +14,7 @@
    },
    "Category_Character":{
       "sName":"Mother DarkSpider",
-      "sFaction":"ForestMonsters",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"SpiderHatchery",
       "sDefeatSetGlobalKey":"killed_motherdarkspider",

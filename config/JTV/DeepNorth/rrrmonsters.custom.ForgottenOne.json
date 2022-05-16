@@ -19,7 +19,7 @@
    },
    "Category_Character":{
       "sName":"The Forgotten One",
-      "sFaction":"Undead",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"FrozenCorpseRaid",
       "sDefeatSetGlobalKey":"defeated_forgottenone",

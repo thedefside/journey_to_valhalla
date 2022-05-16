@@ -18,7 +18,7 @@
    },
    "Category_Character":{
       "sName":"Storm Fenring",
-      "sFaction":"MountainMonsters",
+      "sFaction":"Boss",
       "bBoss":true,
       "sBossEvent":"StormFenringEncounter",
       "sDefeatSetGlobalKey":"defeated_stormfenring",

@@ -38,6 +38,6 @@
     "firePerLevel": 0.0,
     "frostPerLevel": 3.0,
     "lightningPerLevel": 0.0,
-    "poisonPerLevel": 5.0,
+    "poisonPerLevel": 0.0,
     "spiritPerLevel": 0.0
 }

@@ -1,4 +1,12 @@
 English:
+  ArmorNobleHelmet: Fur hat
+  ArmorNobleHelmet_description: Fashionable hat with fur lining
+  ArmorNobleChest: Noble's banner garb
+  ArmorNobleChest_description: A garb stitched together from banners torn from your burial chamber, a good alternative to roaming Valheim bare
+  ArmorNobleLegs: Noble's pants
+  ArmorNobleLegs_description: Worn, loose pants from a past life where one could afford to feast more often
+  ArmorNobleCape: Vegvisir cape
+  ArmorNobleCape_description: Cape fashioned from a vegvisir banner
   ArmorBarbarianBronzeHelmetJD: Barbarian's helmet
   ArmorBarbarianBronzeHelmetJD_description: Helmet made from a bronze alloy
   ArmorBarbarianBronzeChestJD: Barbarian's armor
@@ -7,6 +15,12 @@ English:
   ArmorBarbarianBronzeLegsJD_description: Thick hide wrapped around one's waist, fastened with a fashionable bronze belt
   ArmorBarbarianCapeJD: Barbarian's fur cape
   ArmorBarbarianCapeJD_description: Thick, short cape made from fur. Covers ones back when his drunk raidmates can't.
+  ArmorWarriorHelmet: Warrior's helmet
+  ArmorWarriorHelmet_description: Chainmail wrapping around the neck provides good protection
+  ArmorWarriorChest: Warrior's hauberk
+  ArmorWarriorChest_description: Long vest made from linked chains
+  ArmorWarriorLegs: Warrior's boots
+  ArmorWarriorLegs_description: Multi-layered pants keep it's wearer warm and protected
   ArmorPlateIronHelmetJD: Sturdy helmet
   ArmorPlateIronHelmetJD_description: A sturdy helmet with a leather neckguard
   ArmorPlateIronChestJD: Plate mail
