@@ -131,8 +131,7 @@ There are 10 new sets of armor.
 - Add new drops to the Ashlands
 
 # Change log
-v1.1.2
- - New bosses cannot be staggered
- - Frometal Bow no longer does poison damage when upgraded
+v1.1.3
+ - Fixed compatibility with the MonsterLabZ 2.4.1
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

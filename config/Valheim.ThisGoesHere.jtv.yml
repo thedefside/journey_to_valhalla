@@ -6,3 +6,5 @@ CopyFile:
   To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
 - From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/english.lang
   To: plugins/DasSauerkraut-Terraheim/english.lang
+DeleteFile:
+- config/JTV/Mountains/rrrmonsters.custom.ObsidianGolem_JTV.json
