@@ -4,9 +4,14 @@ The goal of this set up is to simply complete the game without straying too far 
 # Click the image for a short video preview
 [![Journey To Valhalla](https://img.youtube.com/vi/_GIE1Z5R2Ew/0.jpg)](https://www.youtube.com/watch?v=_GIE1Z5R2Ew)
 
+# Mistlands Update
+ - You'll need to uninstall Terraheim
+ - Heavy metal Weapons will be lost due to being disabled in EVA
+ - More work needs to be done to balance everything again
+
 # Features
  - The first 5 biomes are largely untouched. 1 or 2 enemies were added per biome, some friendly NPCs, some enemy NPCs, and some new weapons
- - 2 New metals and 3 complete weapon sets for unfinished biomes
+ - 1 New metal and 2 complete weapon sets for unfinished biomes
  - New foods and mats
  - Boss altars for Mistlands, Ashlands, and Deep North
  - 10 new armor sets each with special characteristics
@@ -26,7 +31,6 @@ Manual
  - Forgotten Biomes (conflicts with JTV Biomes)
  - Monsternomicon (same prefab names)
  - Epic Valheim Modpack
- - DoD Biomes/DoD Monsters (conflicts with JTV Biomes)
  - Custom Weapon Stats (conflicts with Weapon Customizer)
  - Recipe Customization (conflicts with Recipe Customizer)
 
@@ -73,18 +77,6 @@ Plains:
  - Add Hostile NPC Deranged Recruit (RRR)
 ```
 ```
-Mistlands:
- - Dark Elves, Dark Elder, Dark Spiders, Darksquitos (Monsternomicon)
- - ThornWeaver (RRR)
- - Add Hostile NPC Addled Deserter (RRR)
- - Froot (JTV)
- - Makes ancient root destructable with new wood drop (HundardysValheimAdditions)
- - Heavymetal ore deposits (HundardysValheimAdditions)
- - Mother Darkspider miniboss (Monsternomicon)
- - The Mourning Queen boss and altar (HundardysValheimAdditions)
- - New crafting table: Dark Forge
-```
-```
 Deep North:
  - Frozen Corpses, Frost Serpents, Boreal Spirits, Polar Lox, Silver Golem, Polar Fenring (Monsternomicon)
  - Dvergr NPC (Monsternomicon)
@@ -105,7 +97,7 @@ Ashlands:
 ```
 ```
 Ocean:
-  - Add Kraken (Disabled) (MonsterLabZ)
+  - Add Kraken (MonsterLabZ)
  ```
 
 # Armor
@@ -122,16 +114,14 @@ There are 10 new sets of armor.
  - Serpent Armor: Deep North
  - Chaos Warrior Armor: Black Forest/Mountain/Mistlands/Ashlands
 ```
-***Terraheim armor changes are disabled
 
-# Known issues
- - None.
-
-# Roadmap
-- Add new drops to the Ashlands
 
 # Change log
-v1.1.3
- - Fixed compatibility with the MonsterLabZ 2.4.1
+v1.1.4
+ - Removed Terraheim
+ - Removed Heavy Metal Weapons
+ - Disabled Mislands spawns and events
+ - Updated Armor Recipes
+ - The Dark Forge is now the Cold Forge
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

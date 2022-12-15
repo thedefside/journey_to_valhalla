@@ -1,10 +1,30 @@
-PrintComment: Copying JTV configs...
-CopyFile:
-- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/balance.json
-  To: plugins/DasSauerkraut-Terraheim/balance.json
-- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/weaponBalance.json
-  To: plugins/DasSauerkraut-Terraheim/weaponBalance.json
-- From: plugins/thedefside-Journey_To_Valhalla/DasSauerkraut-Terraheim/english.lang
-  To: plugins/DasSauerkraut-Terraheim/english.lang
+PrintComment: Deleting old JTV configs...
+
 DeleteFile:
-- config/JTV/Mountains/rrrmonsters.custom.ObsidianGolem_JTV.json
+- config/RecipeCustomizer/AtgeirHeavymetal.json
+- config/RecipeCustomizer/AxeHeavymetal.json
+- config/RecipeCustomizer/BattleaxeHeavymetal.json
+- config/RecipeCustomizer/BowHeavymetal.json
+- config/RecipeCustomizer/CursedEffigy.json
+- config/RecipeCustomizer/GreatswordHeavymetal.json
+- config/RecipeCustomizer/KnifeHeavymetal.json
+- config/RecipeCustomizer/MaceHeavymetal.json
+- config/RecipeCustomizer/PickaxeHeavymetal.json
+- config/RecipeCustomizer/ShieldHeavymetal.json
+- config/RecipeCustomizer/ShieldHeavymetalTower.json
+- config/RecipeCustomizer/SledgeHeavymetal.json
+- config/RecipeCustomizer/SpearHeavymetal.json
+- config/RecipeCustomizer/SwordHeavymetal.json
+- config/WeaponCustomizer/AtgeirHeavymetal.json
+- config/WeaponCustomizer/AxeHeavymetal.json
+- config/WeaponCustomizer/BattleaxeHeavymetal.json
+- config/WeaponCustomizer/BowHeavymetal.json
+- config/WeaponCustomizer/GreatswordHeavymetal.json
+- config/WeaponCustomizer/KnifeHeavymetal.json
+- config/WeaponCustomizer/MaceHeavymetal.json
+- config/WeaponCustomizer/PickaxeHeavymetal.json
+- config/WeaponCustomizer/ShieldHeavymetal.json
+- config/WeaponCustomizer/SledgeHeavymetal.json
+- config/WeaponCustomizer/SpearHeavymetal.json
+- config/WeaponCustomizer/SwordHeavymetal.json
+
