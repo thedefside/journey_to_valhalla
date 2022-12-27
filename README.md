@@ -23,9 +23,12 @@ Mod Manager (Preferred)
  2. Install JTV
 
 Manual
- 1. Download all dependencies first
- 2. In your plugins folder, create a folder named 'DasSauerkraut-Terraheim. Place all the Terraheim files in there.
+ 1. Download and install all dependencies first
  3. Download JTV last and copy all files to the BepInEx folder
+
+Server
+ 1. Install in your client (either with r2 or manual)
+ 2. Copy the entire Bepinex folder from your client to the root of the server
 
 # Incompatible Mods
  - Forgotten Biomes (conflicts with JTV Biomes)
@@ -48,7 +51,6 @@ Then run these commands:
 ```
 Meadows:
  - Add butterflies (MonsterLabZ)
- - Add Chickens (ChickenBoo)
  - Add Hostile NPC Feral Madman (RRR) 
 ```
 ```
@@ -117,11 +119,7 @@ There are 10 new sets of armor.
 
 
 # Change log
-v1.1.4
- - Removed Terraheim
- - Removed Heavy Metal Weapons
- - Disabled Mislands spawns and events
- - Updated Armor Recipes
- - The Dark Forge is now the Cold Forge
+v1.1.6
+ - With a heavy heart, I've removed ChickenBoo. Godspeed my sombrero wearing friends!
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)
