@@ -119,7 +119,7 @@ There are 10 new sets of armor.
 
 
 # Change log
-v1.1.6
- - With a heavy heart, I've removed ChickenBoo. Godspeed my sombrero wearing friends!
+v1.1.7
+ - Fix the crafting stations for the Jude's Equipment armors
 
 [Full Changlog](https://github.com/thedefside/journey_to_valhalla/blob/master/Changelog.txt)

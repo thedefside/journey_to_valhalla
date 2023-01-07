@@ -203,7 +203,7 @@ barbarian's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: LoxPelt
@@ -241,7 +241,7 @@ barbarian's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: LoxPelt
@@ -279,7 +279,7 @@ barbarian's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: LoxPelt
@@ -317,7 +317,7 @@ barbarian's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: DeerHide
@@ -508,7 +508,7 @@ plate armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: Carapace
@@ -543,7 +543,7 @@ plate armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: Carapace
@@ -578,7 +578,7 @@ plate armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: Carapace
@@ -613,7 +613,7 @@ plate armor:
         Spirit: none
       recipe:
         enabled: true
-        station: piece_alchemystation
+        station: blackforge
         minimum station level: 1
         requirements:
         - item: TrophyBoar
@@ -810,7 +810,7 @@ wanderer's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: ScaleHide
@@ -848,7 +848,7 @@ wanderer's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: ScaleHide
@@ -886,7 +886,7 @@ wanderer's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: ScaleHide
@@ -924,7 +924,7 @@ wanderer's armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: Flax
@@ -1115,7 +1115,7 @@ serpent armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: FrometalBar
@@ -1156,7 +1156,7 @@ serpent armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: FrometalBar
@@ -1197,7 +1197,7 @@ serpent armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: FrometalBar
@@ -1238,7 +1238,7 @@ serpent armor:
         Spirit: none
       recipe:
         enabled: true
-        station: reforger
+        station: piece_alchemystation
         minimum station level: 1
         requirements:
         - item: Silver

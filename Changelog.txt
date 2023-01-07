@@ -1,3 +1,6 @@
+v1.1.7
+ - Fix the crafting stations for the Jude's Equipment armors
+
 v1.1.6
  - With a heavy heart, I've removed ChickenBoo. Godspeed my sombrero wearing friends!
 
